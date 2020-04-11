@@ -1,178 +1,178 @@
-id	rubro	nombre	telefono	wp	direccion	envios	whatapp	contacto	geotag	asignado	
-1	Pollerías	Don Gallo	 435-0972		Av. Camino del Perú 120	si	no	google		Carolina	
-15	Comidas	Naturina	415-4644			si	no	sofia			
-20	Farmacias	Farmacia Galenica	425-0348		Av. Aconquija 2177	no-atiende	no	google		Carolina	Farmacia Farmacia Galenica
-21	Farmacias	Farmacia Del Pueblo	425-1040		Av. Aconquija 1336	no-atiende	no	google		Carolina	Farmacia Farmacia Del Pueblo
-22	Farmacias	Farmacia Lima	425-2022		Venezuela 68	no-atiende	no	google		Hernan	Farmacia Farmacia Lima
-23	Farmacias	Farmacia América VI	435-6481		Av. Aconquija 283	no-atiende	no	google		Hernan	Farmacia Farmacia América VI
-31	Carnicerías	Finca San Ramon	230-7030		Bascary 291	si	no	roxana	-26.810941, -65.287040		
-33	Pollerías	El Buen Pollo	300-9163		Paraguay 757	no-atiende	no	google		Susana	
-34	Helados	Wollen swiss ice cream	301-9446			si	no	luciana			
-37	Pollerías	Tres Mas	307-1666		Patricias Argentinas 1247	no-atiende	no	google		Valeria	
-38	Veterinarias	El Pucara	307-2614		Av. Solano Vera 950	no-atiende	no	google		Sofia	
-39	Veterinarias	Dra. Cecilia Masi Elizalde	318-7211		Martín Fierro 151	no-atiende	no	google		Valeria	
-42	Carnicerías	Ezequiel	348-9899		Batalla de Tucumán 1371	no-atiende	no	google		Valeria	
-44	Verdulerías	La familia	353-4293		Av. Aconquija 2322	si	no	luz			
-45	Librerías	Origami CKC	354-3002		Pringles 1192	no-atiende	no	google		Marcelo	
-46	Verdulerías	Pedro Veglia verduras para Countries	361-1943			si	no	sofia			
-48	Pollerías	Lo de Milo	402-8983		Bolivia 534	no-atiende	no	google		Marcelo	
-49	Comidas	Billy Bob Burges	405-0704			si	no	sofia			
-50	Peluquería	Club Capelli	464-7103		Av. Aconquija y Lobo de la vega	si	no	roxana			
-52	Veterinarias	San Miguel	423-3673		Av. Mate de Luna 3448	no-atiende	no	google		Valeria	
-53	Librerías	Mercería Molina	425-0188		Av. Solano Vega 141	no-atiende	no	google		Luciana	
-54	Panaderías	Riquisima	425-0198		Av. Solano Vera 950	no	no	google		Susana	
-55	Verdulerías	Gustavo	425-0256		Av. Aconquija 1389	no-atiende	no	google		Roxana	
-56	Comidas	La Pizzada	425-0303		Av. Aconquija 1513	si	no	sofia			
-57	Farmacias	Farmacia Del estero	435-3024		Av. Aconquija 810	si	no	google		Luciana	Farmacia Farmacia Del estero
-58	Veterinarias	Mundo Mascota	425-0882		Diego de Villarroel 1890	si	no	google		Susana	
-59	Farmacias	Farmacia Del Inca	435-2039		Av. Camino del Perú 212	no-atiende	no	google		Marcelo	Farmacia Farmacia Del Inca
-60	Farmacias	Farmacia La Botica	431-5065		Cariola 42	no-atiende	no	google		Pia	Farmacia Farmacia La Botica
-61	Verdulerías	El Gaucho	425-1121		Av. Aconquija 2030	no-atiende	no	google	-26.812373, -65.299649	Luciana	
-62	Farmacias	Farmacia Del Pueblo	425-1040		Av. Aconquija 1812	no-atiende	no	google		Roxana	Farmacia Farmacia Del Pueblo
-63	Veterinarias	Dr. Marcelo Vázquez	425-1689		Remedios de Escalada 1587	no-atiende	no	google		Carolina	
-64	Librerías	El Portal	425-1972		Mendoza 104	no	no	google		Luciana	
-65	Carnicerías	Pepito	425-1975		Av. Solano Vera 500	si	no	google		Susana	
-66	Veterinarias	Dr. Schwint	425-1988		Av. Solano Vera 526	si	no	google		Pia	
-67	Farmacias	Farmacia Yerba Buena	435-4183		Fray Mamerto Esquiú 20	no	no	google		Roxana	Farmacia Farmacia Yerba Buena
-68	Carnicerías	La Fleming	425-2074		Av. Aconquija 2384	no-atiende	no	google		Roxana	
-69	Farmacias	Farmacia La Unión	425-4730		Av. Aconquija 1931	no-atiende	no	google		Sofia	Farmacia Farmacia La Unión
-70	Librerías	Camelot	425-2882		Florida Sur 24	no-atiende	no	google		Valeria	
-71	Carnicerías	Aconquija	425-3135		Av. Aconquija 2275	si	no	google	-26.811268, -65.303602	Alejandro	
-73	Verdulerías	Aconquija	425-3135		Av. Aconquija 2275	si	no	google	-26.811268, -65.303602	Alejandro	
-74	Comidas	Empanadas La Leñita	425-3375		Av. Aconquija 1731	si	no	luciana			
-75	Farmacias	Farmacia Berny	435-4680		Pedro de Villalba 498	no-atiende	no	google		Sofia	Farmacia Farmacia Berny
-76	Panaderías	Del Valle	425-3824		Av. Aconquija 2156	no-atiende	no	google		Pia	
-77	Farmacias	Farmacia Plazoleta	425-1370		Av. Aconquija 2099	no-atiende	no	google		Susana	Farmacia Farmacia Plazoleta
-78	Veterinarias	Aconquija	425-4959		Av. Aconquija 2264	si	no	google		Roxana	
-79	Pollerías	Ra Ha	425-5081		Darwin 826	no-atiende	no	google		Roxana	
-80	Verdulerías	Juancito	425-5547		Av. Solano Vera 1000	no-atiende	no	google		Pia	
-81	Carnicerías	Don Polo	425-6296		Av. Solano Vega 62	no	no	google		Sofia	
-82	Pollerías	Don Polo	425-6296		Av. Solano Vega 62	no	no	google		Hernan	
-83	Librerías	Maru	425-6383		Av. Aconquija 1799	no-atiende	no	google		Pia	
-84	Pollerías	Mi Pollo	425-6471		Lobo de la Vega 84	si	no	google		Sofia	
-85	Pollerías	Marka	425-6577		Av. Solano Vera 554	si	no	google		Luciana	
-86	Verdulerías	Acevedo	425-7484		Av. Solano Vega 250	no-atiende	no	google		Marcelo	
-87	Verdulerías	Ramoncito	425-8498		Av. Aconquija 2377	no-atiende	no	google		Susana	
-88	Carnicerías	Daniel	425-8670		Av. Solano Vera 410	si	no	luciana	-26.818971, -65.303937		
-89	Carnicerías	Macacha	425-9057		Darwin 87	no-atiende	no	google		Carolina	
-90	Panaderías	Villecco	425-9500		Av. Aconquija 1341	no	no	google		Luciana	
-91	Veterinarias	Yungas	425-9604		Av. Solano Vera	no-atiende	no	google		Marcelo	
-92	Librerías	Yenny	431-5002		Av. Fermín Cariola 42  Local 1191	no-atiende	no	google		Sofia	
-93	Carnicerías	El Gaucho	431-5059		Don Bosco 4412	si	no	google		Hernan	
-94	Farmacias	Farmacia Virgen de la Caridad	435-3974		Perú 780	no-atiende	no	google		Susana	Farmacia Farmacia Virgen de la Caridad
-95	Verdulerías	Súper Carnes Bandera	431-6201		Av. Solano Vera 546	si	no	google		Carolina	
-96	Pollerías	A Todo Pollo	431-7115		Av. Perón 25	no	no	google		Susana	
-97	Carnicerías	San Jose	434-3645		Suipacha 1452	no-atiende	no	google		Pia	
-98	Pollerías	El Tano	434-4784		Colombia 3386	no-atiende	no	google		Pia	
-99	Librerías	Graciela	435-0436		Pringles 770	no-atiende	no	google		Susana	
-100	Farmacias	Farmacia Zarzosa	425-2859		Av. Aconquija 2170	si	no	google		Valeria	Farmacia Farmacia Zarzosa
-101	Librerías	Paez Lopez Silvia Beatriz	435-1068		Honduras 463	no-atiende	no	google		Carolina	
-102	Verdulerías	Los Fresnos Frutas y Verduras	435-1326		Av. Perón 150	no	no	google		Valeria	
-103	Veterinarias	Centro Veterinario Yerba Buena	435-1476		Av. Aconquija 281	si	no	google		Sofia	
-104	Farmacias	Farmacia Alvez	435-0614		Salas y Valdez 243	no-atiende	no	google		Valeria	Farmacia Farmacia Alvez
-105	Verdulerías	Ruben	435-2131		Perú 804	no-atiende	no	google		Luciana	
-106	Panaderías	Sabores Nuestros	435-2307		Av. Aconquija 285	no-atiende	no	google		Roxana	
-107	Veterinarias	El-Kadi	435-2566		Salas y Valdez 195	no-atiende	no	google		Hernan	
-108	Carnicerías	Don Polo	435-2678		Av. Perón 120	no	no	google		Carolina	
-109	Pollerías	Don Polo	435-2678		Av. Perón 120	no	no	google		Sofia	
-110	Panaderías	Casapan	435-2685		Av. Aconquija 142	no-atiende	no	google		Marcelo	
-111	Panaderías	La Merced	435-2685		Pringles 1248	no	no	google		Carolina	
-112	Librerías	SIL-MAR	435-2848		Los Ceibos 626	si	no	google		Hernan	
-114	Librerías	Zavalia	435-3515		Zavala 535	no	no	google		Roxana	
-115	Carnicerías	La Carlota	435-3535		Av. Aconquija 120	si	no	google		Hernan	
-116	Carnicerías	Aconquija 	435-3971		Salas y Valdez 376	si	no	luciana	-26.814863, -65.270017		
-117	Verdulerías	Aconquija 	435-3971		Salas y Valdez 376	si	no	luciana	-26.814863, -65.270017		
-120	Pollerías	Chicken House	435-4551		Salas y Valdez 11	si	no	google		Carolina	
-122	Verdulerías	Masmud	435-5785		Salas y Valdez 13	si	no	google		Pia	
-123	Veterinarias	La Chacha	435-5816		Av. Perón 146	si	no	google		Susana	
-124	Veterinarias	Coquena	435-5963		Av. Mate de Luna 4395	si	no	google		Carolina	
-125	Pollerías	La Granja del Tati	435-6295		Zavalía 568	no-atiende	no	google		Hernan	
-126	Panaderías	El Mundo	435-6444		Av. Aconquija 801 4107	no	no	google		Sofia	
-127	Farmacias	Farmacia Marcos Paz	425-3599		Ruben Dario 180	si	no	roxana			Farmacia Farmacia Marcos Paz
-128	Farmacias	Farmacia San Gabriel	435-6971		Fanzolato 100	si	no	sofia			Farmacia Farmacia San Gabriel
-129	Pollerías	Carnave	435-7500		Av. Aconquija 85	no-atiende	no	google		Valeria	
-130	Carnicerías	100% Cerdo	435-7613		Av. Aconquija 2297	si	no	google	-26.811182, -65.304131	Alejandro	
-131	Panaderías	El Sol Tucumano	435-7800		Chile 150	no-atiende	no	google		Valeria	
-133	Panaderías	Cosas Ricas	439-6717		Galería Quara  Camino de Sirga 1452	no	no	google		Carolina	
-134	Verdulerías	Pringles	446-6281		Pringles 1228	no-atiende	no	google		Marcelo	
-135	Librerías	Del Paseo Francés	446-9286		Av. Aconquija 1620	no-atiende	no	google		Pia	
-136	Bebidas	Greenbeer	450-7658		Av. Perón 2500	si	no	sofia			
-138	Veterinarias	Brangus	455-8138		Av. Perón 80	si	no	google		Luciana	
-139	Comidas	Pizza 8	462-8560		Av. Aconquija 2129	si	no	sofia			
-141	Almacenes	El Mercadito & Delivery	466-3294		Camino de Sirga 1452	si	no	luciana			
-144	Carnicerías	Finca San Ramon	485-2343		Solano Vera 102	si	no	roxana	-26.813889, -65.301845		
-145	Almacenes	El Mercadito	485-2348		Av. Aconquija 2054	si	no	luciana			
-146	Carnicerías	Corroto Hijo	485-2369		Av. Aconquija 1978	no-atiende	no	google		Marcelo	
-147	Veterinarias	Club Can	485-6021		Av. Perón 1700	no	no	google		Hernan	
-148	Panaderías	El Buen Sabor	488-5901		Lobo de la Vega 701	no-atiende	no	google		Hernan	
-151	Verdulerías	San Expedito	511-7163		Nicolás Avellaneda 3	si	no	google		Hernan	
-152	Carnicerías	Fidensa	524-7760		San Martin 750	si	no	luciana	-26.822129, -65.293278		
-153	Carnicerías	El Negro	524-8161		Gral. Lamadrid 1031 4107	no-atiende	no	google		Luciana	
-155	Verdulerías	Anahí	539-9795		Av. Aconquija 2155	no-atiende	no	google		Sofia	
-158	Carnicerías	Cabaña Juramento	557-3755		Lobo de la Vega 1222	no-atiende	no	google		Marcelo	
-159	Carnicerías	La vaca club	562-3896 		Av. Aconquija 1629	si	no	google		Luciana	
-160	Almacenes	Mi Super	566-5967			si	no	luz			
-161	Helados	Grido	574-9939		Av. Aconquija 153	si	no	Luz			
-163	Comidas	Nutrifood	583-5424			si	no	Luz			
-169	Librerías	LesBlon	615-0111		Av. Aconquija 2018	no-atiende	no	google		Roxana	
-171	Veterinarias	Dr Gustavo Valdez	637-6690		Av. Solano Vera 53	no-atiende	no	google		Roxana	
-172	Librerías	Lo de Eve	638-5339		Av. Solano Vega 390	no-atiende	no	google		Marcelo	
-173	Limpieza	3B distribuidora	655-4720			si	no	luciana			
-176	Bebidas	Drink Delivery	687-2537		La pampa 1881	si	no	luz			
-178	Fiambres	Don Jamon	435-3048		Av. Aconquija 118	si	no				
-179	Fiambres	Colonia Caroya	425-3607		Av. Solano Vera 18	si	no				
-181	Computación	Ututo	232-7668		Av. Aconquija 2010	si	no				
-2	Almacenes	Panetto		647-8491		si	si	sofia			
-3	Almacenes	Super Tatito		565-4785	Av. Aconquija 1978	si	si	http://tatito.com.ar/			
-4	Almacenes	El Mercadito & Delivery		466-3294	Solano Vera 761	si	si	luciana			
-5	Bebidas	Piaf		663-3783	Av. Perón 1800	si	si	sofia			
-7	Bebidas	Boqueria Tucuman		697-7329	Av. Perón 2500	si	si	luciana	-26.800747, -65.303113		
-8	Carnicerías	La Negrita		520-1010	Lobo de la Vega 340	si	si	sofia			
-9	Carnicerías	Cresta Negra		302-7043	Av. Camino del peru 50	si	si	roxana	-26.817684, -65.264586		
-10	Carnicerías	Fidensa		332-0152	Lobo de la Vega 1358	si	si	luciana	-26.802310, -65.292986		
-11	Carnicerías	Finca San Ramon		342-5538	Maderuelo 900	si	si	roxana	-26.802831, -65.299021		
-12	Carnicerías	Cuatrise		576-1636		si	si	sofia			
-13	Carnicerías	El abasto Mercado de carnes		598-4807	Av. Aconquija 2496	si	si	roxana	-26.810958, -65.307113		
-14	Carnicerías	La Perón		602-2576	Av. Perón 210	si	si	google		Carolina	
-16	Comidas	Pura vida Mae		630-8678	San Lorenzo 147	si	si	sofia			
-17	Comidas	La treinta y uno		466-1954	Av. Aconquija 1071	si	si	luciana			
-18	Comidas	Gastronomia Ferullo		606-5352		si	si	luciana			
-19	Computación	Electro.nic		561-2401		si	si	Luz			
-24	Golosinas	Dulci Nard		409-1213		si	si	Luz			
-25	Golosinas	La golosineria		438-8938		si	si	roxana			
-26	Helados	Stick		532-2220		si	si	luciana			
-27	Librerías	Florida		354-8986	Florida 40	no	si	roxana			
-28	Librerías	La Solanita		530-9283	Av. Solano Vera 540	si	si	luciana			
-29	Librerías	Tienda de Arte		510-6349	Av. Aconquija 1273	si	si	google		Alejandro	
-30	Librerías	El Lapacho - Copistería		547-0025	Av. Aconquija 2196	si	si	google		Alejandro	
-32	Limpieza	Servicio Integral de Limpieza		572-0361		si	si	luciana			
-35	Limpieza	Articulos de limpieza		569-2709		no	si	luciana			
-36	Panaderías	Albertus		345-5668	Av. Perón 165	no	si	google		Alejandro	
-40	Panaderías	Albertus		401-8337	Av. Perón 1500	si	si	sofia			
-41	Panaderías	Albertus		604-3789	Av. Aconquija 889	si	si	sofia			
-43	Pastas	Avanti		668-0086	Solano Vera esq Mendozaa Local 5	si	si	luciana			
-51	Pollerías	Drugstore y Polleria JOA		548-3721	Lobo de la Vega 300	si	si	sofia			
-113	Fiambres	Distribuidora Candelaria		565-1195		si	si	hernan			
-118	Farmacias	Farmacia Los Alisos		4671685	Av. Aconquija 2491	no	si	roxana			
-119	Fiambres	JRB		5651195	Mexico 3186	si	si	luciana			
-121	Farmacias	Su Farm		683-8347	Av. Perón 1900	si	si	luciana			
-132	Pollerías	Mi Sofi		352-3176	Saavedra Lamas 900	si	si	google		Alejandro	
-137	Pollerías	La Polleria		413-1614	Av. Solano Vera 990	si	si	google		Alejandro	
-140	Pollerías	San Expedito		511-7163	Nicolás Avellaneda 3	si	si	google		Alejandro	
-143	Pollerías	Granja Fico		680-7500	Lobo de la Vega 19	si	si	google		Alejandro	
-149	Semillerías	El Molino		300-7209		si	si	luciana			
-150	Servicios	Paolo (Piletas)		319-6969		si	si	sofia			
-154	Servicios	Cesar Sarmiento (Enfermero)		474-0843		si	si	pia			
-156	Servicios	Alberto (Piletas)		545-4014		si	si	sofia			
-157	Servicios	German (Cerrajero)		628-1385		si	si	sofia			
-162	Servicios	Marcos Dibenedeto (Piletas)		670-3706		si	si	luciana			
-164	Tintorerías	Secco Presto		628-7381	Lobo de la Vega 350	si	si	marcelo		Marcelo	
-165	Verdulerías	Nicolás Bennasar		442-6999		si	si	sofia			
-166	Verdulerías	Tomas		463-3445	Av. Perón 139	si	si	sofia			
-167	Verdulerías	La Boutique de la Verdura		302-0686	Mendoza 108	si	si	google		Alejandro	
-168	Verdulerías	Cajones de Verdura a domicilio		405-5990		si	si	luciana			
-170	Verdulerías	Cebil		662-5023		si	si	luciana			
-174	Veterinarias	Puro Pelo		413-2263	Av. Aconquija 2491	si	si	google		Alejandro	
-175	Veterinarias	Quara		669-7088	Gral. José de San Martín 1350	si	si	google		Alejandro	
-177	Veterinarias	Cerro Tienda de Mascotas		679-4922	Universo 27	si	si	luciana			
-180	Computación	Flash Games		414-1610	Catamarca 410	si	si				
+id	rubro	nombre	telefono	whatsapp	direccion	envios	contacto	asignado	controlado
+1	Almacenes	El Mercadito	485-2348		Av. Aconquija 2054	si	luciana		si
+2	Almacenes	El Mercadito & Delivery	466-3294		Camino de Sirga 1452	si	luciana		si
+3	Almacenes	El Mercadito & Delivery		466-3294	Solano Vera 761	si	luciana		si
+4	Almacenes	Mi Super	566-5967			si	luz		si
+5	Almacenes	Panetto		647-8491		si	sofia		si
+6	Almacenes	Super Tatito		565-4785	Av. Aconquija 1978	si	http://tatito.com.ar/		si
+7	Bebidas	Boqueria Tucuman		697-7329	Av. Perón 2500	si	luciana		si
+8	Bebidas	Drink Delivery	687-2537		La pampa 1881	si	luz		si
+9	Bebidas	Greenbeer	450-7658		Av. Perón 2500	si	sofia		si
+10	Bebidas	Piaf		663-3783	Av. Perón 1800	si	sofia		si
+11	Carnicerías	100% Cerdo	435-7613		Av. Aconquija 2297	si	google	Alejandro	si
+12	Carnicerías	Aconquija	425-3135		Av. Aconquija 2275	si	google	Alejandro	si
+13	Carnicerías	Aconquija 	435-3971		Salas y Valdez 376	si	luciana		si
+14	Carnicerías	Cabaña Juramento	557-3755		Lobo de la Vega 1222	no-atiende	google	Marcelo	si
+15	Carnicerías	Corroto Hijo	485-2369		Av. Aconquija 1978	no-atiende	google	Marcelo	si
+16	Carnicerías	Cresta Negra		302-7043	Av. Camino del peru 50	si	roxana		si
+17	Carnicerías	Cuatrise		576-1636		si	sofia		si
+18	Carnicerías	Daniel	425-8670		Av. Solano Vera 410	si	luciana		si
+19	Carnicerías	Don Polo	425-6296		Av. Solano Vega 62	no	google	Sofia	si
+20	Carnicerías	Don Polo	435-2678		Av. Perón 120	no	google	Carolina	si
+21	Carnicerías	El abasto Mercado de carnes		598-4807	Av. Aconquija 2496	si	roxana		si
+22	Carnicerías	El Gaucho	431-5059		Don Bosco 4412	si	google	Hernan	si
+23	Carnicerías	El Negro	524-8161		Gral. Lamadrid 1031 4107	no-atiende	google	Luciana	si
+24	Carnicerías	Ezequiel	348-9899		Batalla de Tucumán 1371	no-atiende	google	Valeria	si
+25	Carnicerías	Fidensa	524-7760		San Martin 750	si	luciana		si
+26	Carnicerías	Fidensa		332-0152	Lobo de la Vega 1358	si	luciana		si
+27	Carnicerías	Finca San Ramon	230-7030		Bascary 291	si	roxana		si
+28	Carnicerías	Finca San Ramon	485-2343		Solano Vera 102	si	roxana		si
+29	Carnicerías	Finca San Ramon		342-5538	Maderuelo 900	si	roxana		si
+30	Carnicerías	La Carlota	435-3535		Av. Aconquija 120	si	google	Hernan	si
+31	Carnicerías	La Fleming	425-2074		Av. Aconquija 2384	no-atiende	google	Roxana	si
+32	Carnicerías	La Negrita		520-1010	Lobo de la Vega 340	si	sofia		si
+33	Carnicerías	La Perón		602-2576	Av. Perón 210	si	google	Carolina	si
+34	Carnicerías	La vaca club	562-3896 		Av. Aconquija 1629	si	google	Luciana	si
+35	Carnicerías	Macacha	425-9057		Darwin 87	no-atiende	google	Carolina	si
+36	Carnicerías	Pepito	425-1975		Av. Solano Vera 500	si	google	Susana	si
+37	Carnicerías	San Jose	434-3645		Suipacha 1452	no-atiende	google	Pia	si
+38	Comidas	Billy Bob Burges	405-0704			si	sofia		si
+39	Comidas	Empanadas La Leñita	425-3375		Av. Aconquija 1731	si	luciana		si
+40	Comidas	Gastronomia Ferullo		606-5352		si	luciana		si
+41	Comidas	La Pizzada	425-0303		Av. Aconquija 1513	si	sofia		si
+42	Comidas	La treinta y uno		466-1954	Av. Aconquija 1071	si	luciana		si
+43	Comidas	Naturina	415-4644			si	sofia		si
+44	Comidas	Nutrifood	583-5424			si	Luz		si
+45	Comidas	Pizza 8	462-8560		Av. Aconquija 2129	si	sofia		si
+46	Comidas	Pura vida Mae		630-8678	San Lorenzo 147	si	sofia		si
+47	Computación	Electro.nic		561-2401		si	Luz		si
+48	Computación	Flash Games		414-1610	Catamarca 410	si			si
+49	Computación	Ututo	232-7668		Av. Aconquija 2010	si			si
+50	Farmacias	Farmacia Alvez	435-0614		Salas y Valdez 243	no-atiende	google	Valeria	si
+51	Farmacias	Farmacia América VI	435-6481		Av. Aconquija 283	no-atiende	google	Hernan	si
+52	Farmacias	Farmacia Berny	435-4680		Pedro de Villalba 498	no-atiende	google	Sofia	si
+53	Farmacias	Farmacia Del estero	435-3024		Av. Aconquija 810	si	google	Luciana	si
+54	Farmacias	Farmacia Del Inca	435-2039		Av. Camino del Perú 212	no-atiende	google	Marcelo	si
+55	Farmacias	Farmacia Del Pueblo	425-1040		Av. Aconquija 1336	no-atiende	google	Carolina	si
+56	Farmacias	Farmacia Del Pueblo	425-1040		Av. Aconquija 1812	no-atiende	google	Roxana	si
+57	Farmacias	Farmacia Galenica	425-0348		Av. Aconquija 2177	no-atiende	google	Carolina	si
+58	Farmacias	Farmacia La Botica	431-5065		Cariola 42	no-atiende	google	Pia	si
+59	Farmacias	Farmacia La Unión	425-4730		Av. Aconquija 1931	no-atiende	google	Sofia	si
+60	Farmacias	Farmacia Lima	425-2022		Venezuela 68	no-atiende	google	Hernan	si
+61	Farmacias	Farmacia Los Alisos		4671685	Av. Aconquija 2491	no	roxana		si
+62	Farmacias	Farmacia Marcos Paz	425-3599		Ruben Dario 180	si	roxana		si
+63	Farmacias	Farmacia Plazoleta	425-1370		Av. Aconquija 2099	no-atiende	google	Susana	si
+64	Farmacias	Farmacia San Gabriel	435-6971		Fanzolato 100	si	sofia		si
+65	Farmacias	Farmacia Su Farm		683-8347	Av. Perón 1900	si	luciana		si
+66	Farmacias	Farmacia Virgen de la Caridad	435-3974		Perú 780	no-atiende	google	Susana	si
+67	Farmacias	Farmacia Yerba Buena	435-4183		Fray Mamerto Esquiú 20	no	google	Roxana	si
+68	Farmacias	Farmacia Zarzosa	425-2859		Av. Aconquija 2170	si	google	Valeria	si
+69	Fiambres	Colonia Caroya	425-3607		Av. Solano Vera 18	si			si
+70	Fiambres	Distribuidora Candelaria		565-1195		si	hernan		si
+71	Fiambres	Distribuidora JRB		5651195	Mexico 3186	si	luciana		si
+72	Fiambres	Don Jamon	435-3048		Av. Aconquija 118	si			si
+73	Golosinas	Dulci Nard		409-1213		si	Luz		si
+74	Golosinas	La golosineria		438-8938		si	roxana		si
+75	Helados	Grido	574-9939		Av. Aconquija 153	si	Luz		si
+76	Helados	Stick		532-2220		si	luciana		si
+77	Helados	Wollen swiss ice cream	301-9446			si	luciana		si
+78	Librerías	Camelot	425-2882		Florida Sur 24	no-atiende	google	Valeria	si
+79	Librerías	Del Paseo Francés	446-9286		Av. Aconquija 1620	no-atiende	google	Pia	si
+80	Librerías	El Lapacho - Copistería		547-0025	Av. Aconquija 2196	si	google	Alejandro	si
+81	Librerías	El Portal	425-1972		Mendoza 104	no	google	Luciana	si
+82	Librerías	Florida		354-8986	Florida 40	no	roxana		si
+83	Librerías	Graciela	435-0436		Pringles 770	no-atiende	google	Susana	si
+84	Librerías	La Solanita		530-9283	Av. Solano Vera 540	si	luciana		si
+85	Librerías	LesBlon	615-0111		Av. Aconquija 2018	no-atiende	google	Roxana	si
+86	Librerías	Lo de Eve	638-5339		Av. Solano Vega 390	no-atiende	google	Marcelo	si
+87	Librerías	Maru	425-6383		Av. Aconquija 1799	no-atiende	google	Pia	si
+88	Librerías	Mercería Molina	425-0188		Av. Solano Vega 141	no-atiende	google	Luciana	si
+89	Librerías	Origami CKC	354-3002		Pringles 1192	no-atiende	google	Marcelo	si
+90	Librerías	Paez Lopez Silvia Beatriz	435-1068		Honduras 463	no-atiende	google	Carolina	si
+91	Librerías	SIL-MAR	435-2848		Los Ceibos 626	si	google	Hernan	si
+92	Librerías	Tienda de Arte		510-6349	Av. Aconquija 1273	si	google	Alejandro	si
+93	Librerías	Yenny	431-5002		Av. Fermín Cariola 42  Local 1191	no-atiende	google	Sofia	si
+94	Librerías	Zavalia	435-3515		Zavala 535	no	google	Roxana	si
+95	Limpieza	3B distribuidora	655-4720			si	luciana		si
+96	Limpieza	Articulos de limpieza		569-2709		no	luciana		si
+97	Limpieza	Servicio Integral de Limpieza		572-0361		si	luciana		si
+98	Panaderías	Albertus		345-5668	Av. Perón 165	no	google	Alejandro	si
+99	Panaderías	Albertus		401-8337	Av. Perón 1500	si	sofia		si
+100	Panaderías	Albertus		604-3789	Av. Aconquija 889	si	sofia		si
+101	Panaderías	Casapan	435-2685		Av. Aconquija 142	no-atiende	google	Marcelo	si
+102	Panaderías	Cosas Ricas	439-6717		Galería Quara  Camino de Sirga 1452	no	google	Carolina	si
+103	Panaderías	Del Valle	425-3824		Av. Aconquija 2156	no-atiende	google	Pia	si
+104	Panaderías	El Buen Sabor	488-5901		Lobo de la Vega 701	no-atiende	google	Hernan	si
+105	Panaderías	El Mundo	435-6444		Av. Aconquija 801 4107	no	google	Sofia	si
+106	Panaderías	El Sol Tucumano	435-7800		Chile 150	no-atiende	google	Valeria	si
+107	Panaderías	La Merced	435-2685		Pringles 1248	no	google	Carolina	si
+108	Panaderías	Riquisima	425-0198		Av. Solano Vera 950	no	google	Susana	si
+109	Panaderías	Sabores Nuestros	435-2307		Av. Aconquija 285	no-atiende	google	Roxana	si
+110	Panaderías	Villecco	425-9500		Av. Aconquija 1341	no	google	Luciana	si
+111	Pastas	Avanti		668-0086	Solano Vera esq Mendozaa Local 5	si	luciana		si
+112	Peluquería	Club Capelli	464-7103		Av. Aconquija y Lobo de la vega	si	roxana		si
+113	Pollerías	A Todo Pollo	431-7115		Av. Perón 25	no	google	Susana	si
+114	Pollerías	Carnave	435-7500		Av. Aconquija 85	no-atiende	google	Valeria	si
+115	Pollerías	Chicken House	435-4551		Salas y Valdez 11	si	google	Carolina	si
+116	Pollerías	Don Gallo	 435-0972		Av. Camino del Perú 120	si	google	Carolina	si
+117	Pollerías	Don Polo	425-6296		Av. Solano Vega 62	no	google	Hernan	si
+118	Pollerías	Don Polo	435-2678		Av. Perón 120	no	google	Sofia	si
+119	Pollerías	Drugstore y Polleria JOA		548-3721	Lobo de la Vega 300	si	sofia		si
+120	Pollerías	El Buen Pollo	300-9163		Paraguay 757	no-atiende	google	Susana	si
+121	Pollerías	El Tano	434-4784		Colombia 3386	no-atiende	google	Pia	si
+122	Pollerías	Granja Fico		680-7500	Lobo de la Vega 19	si	google	Alejandro	si
+123	Pollerías	La Granja del Tati	435-6295		Zavalía 568	no-atiende	google	Hernan	si
+124	Pollerías	La Polleria		413-1614	Av. Solano Vera 990	si	google	Alejandro	si
+125	Pollerías	Lo de Milo	402-8983		Bolivia 534	no-atiende	google	Marcelo	si
+126	Pollerías	Marka	425-6577		Av. Solano Vera 554	si	google	Luciana	si
+127	Pollerías	Mi Pollo	425-6471		Lobo de la Vega 84	si	google	Sofia	si
+128	Pollerías	Mi Sofi		352-3176	Saavedra Lamas 900	si	google	Alejandro	si
+129	Pollerías	Ra Ha	425-5081		Darwin 826	no-atiende	google	Roxana	si
+130	Pollerías	San Expedito		511-7163	Nicolás Avellaneda 3	si	google	Alejandro	si
+131	Pollerías	Tres Mas	307-1666		Patricias Argentinas 1247	no-atiende	google	Valeria	si
+132	Semillerías	El Molino		300-7209		si	luciana		si
+133	Servicios	Alberto (Piletas)		545-4014		si	sofia		si
+134	Servicios	Cesar Sarmiento (Enfermero)		474-0843		si	pia		si
+135	Servicios	German (Cerrajero)		628-1385		si	sofia		si
+136	Servicios	Marcos Dibenedeto (Piletas)		670-3706		si	luciana		si
+137	Servicios	Paolo (Piletas)		319-6969		si	sofia		si
+138	Tintorerías	Secco Presto		628-7381	Lobo de la Vega 350	si	marcelo	Marcelo	si
+139	Verdulerías	Acevedo	425-7484		Av. Solano Vega 250	no-atiende	google	Marcelo	si
+140	Verdulerías	Aconquija	425-3135		Av. Aconquija 2275	si	google	Alejandro	si
+141	Verdulerías	Aconquija 	435-3971		Salas y Valdez 376	si	luciana		si
+142	Verdulerías	Anahí	539-9795		Av. Aconquija 2155	no-atiende	google	Sofia	si
+143	Verdulerías	Cajones de Verdura a domicilio		405-5990		si	luciana		si
+144	Verdulerías	Cebil		662-5023		si	luciana		si
+145	Verdulerías	El Gaucho	425-1121		Av. Aconquija 2030	no-atiende	google	Luciana	si
+146	Verdulerías	Gustavo	425-0256		Av. Aconquija 1389	no-atiende	google	Roxana	si
+147	Verdulerías	Juancito	425-5547		Av. Solano Vera 1000	no-atiende	google	Pia	si
+148	Verdulerías	La Boutique de la Verdura		302-0686	Mendoza 108	si	google	Alejandro	si
+149	Verdulerías	La familia	353-4293		Av. Aconquija 2322	si	luz		si
+150	Verdulerías	Los Fresnos Frutas y Verduras	435-1326		Av. Perón 150	no	google	Valeria	si
+151	Verdulerías	Masmud	435-5785		Salas y Valdez 13	si	google	Pia	si
+152	Verdulerías	Nicolás Bennasar		442-6999		si	sofia		si
+153	Verdulerías	Pedro Veglia verduras para Countries	361-1943			si	sofia		si
+154	Verdulerías	Pringles	446-6281		Pringles 1228	no-atiende	google	Marcelo	si
+155	Verdulerías	Ramoncito	425-8498		Av. Aconquija 2377	no-atiende	google	Susana	si
+156	Verdulerías	Ruben	435-2131		Perú 804	no-atiende	google	Luciana	si
+157	Verdulerías	San Expedito	511-7163		Nicolás Avellaneda 3	si	google	Hernan	si
+158	Verdulerías	Súper Carnes Bandera	431-6201		Av. Solano Vera 546	si	google	Carolina	si
+159	Verdulerías	Tomas		463-3445	Av. Perón 139	si	sofia		si
+160	Veterinarias	Aconquija	425-4959		Av. Aconquija 2264	si	google	Roxana	si
+161	Veterinarias	Brangus	455-8138		Av. Perón 80	si	google	Luciana	si
+162	Veterinarias	Centro Veterinario Yerba Buena	435-1476		Av. Aconquija 281	si	google	Sofia	si
+163	Veterinarias	Cerro Tienda de Mascotas		679-4922	Universo 27	si	luciana		si
+164	Veterinarias	Club Can	485-6021		Av. Perón 1700	no	google	Hernan	si
+165	Veterinarias	Coquena	435-5963		Av. Mate de Luna 4395	si	google	Carolina	si
+166	Veterinarias	Dr Gustavo Valdez	637-6690		Av. Solano Vera 53	no-atiende	google	Roxana	si
+167	Veterinarias	Dr. Marcelo Vázquez	425-1689		Remedios de Escalada 1587	no-atiende	google	Carolina	si
+168	Veterinarias	Dr. Schwint	425-1988		Av. Solano Vera 526	si	google	Pia	si
+169	Veterinarias	Dra. Cecilia Masi Elizalde	318-7211		Martín Fierro 151	no-atiende	google	Valeria	si
+170	Veterinarias	El Pucara	307-2614		Av. Solano Vera 950	no-atiende	google	Sofia	si
+171	Veterinarias	El-Kadi	435-2566		Salas y Valdez 195	no-atiende	google	Hernan	si
+172	Veterinarias	La Chacha	435-5816		Av. Perón 146	si	google	Susana	si
+173	Veterinarias	Mundo Mascota	425-0882		Diego de Villarroel 1890	si	google	Susana	si
+174	Veterinarias	Puro Pelo		413-2263	Av. Aconquija 2491	si	google	Alejandro	si
+175	Veterinarias	Quara		669-7088	Gral. José de San Martín 1350	si	google	Alejandro	si
+176	Veterinarias	San Miguel	423-3673		Av. Mate de Luna 3448	no-atiende	google	Valeria	si
+177	Veterinarias	Yungas	425-9604		Av. Solano Vera	no-atiende	google	Marcelo	si
