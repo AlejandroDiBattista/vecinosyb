@@ -8,8 +8,8 @@ categories: [Almacenes, Bebidas, Carnicerías, Comidas, Computación, Farmacias,
         <h1>Directorio Virtual de Comercios de Yerba Buena</h1>
 
 		<ul>
-		  {% for post in site.categories %}
-		    <li>{{ post }}</li>
+		  {% for category in site.categories %}
+		    <li>{{ category[0] }}</li>
 		  {% endfor %}
 		</ul>
     </body>
