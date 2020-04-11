@@ -4,7 +4,7 @@ id	rubro	nombre	telefono	whatsapp	direccion	envios	contacto	asignado	controlado
 3	Almacenes	El Mercadito & Delivery		466-3294	Solano Vera 761	si	luciana		si
 4	Almacenes	Mi Super	566-5967			si	luz		si
 5	Almacenes	Panetto		647-8491		si	sofia		si
-6	Almacenes	Super Tatito		565-4785	Av. Aconquija 1978	si	http://tatito.com.ar/		si
+6	Almacenes	Super Tatito	4258046		Av. Aconquija 1978	si	http://tatito.com.ar/		si
 7	Bebidas	Boqueria Tucuman		697-7329	Av. Perón 2500	si	luciana		si
 8	Bebidas	Drink Delivery	687-2537		La pampa 1881	si	luz		si
 9	Bebidas	Greenbeer	450-7658		Av. Perón 2500	si	sofia		si
@@ -176,3 +176,10 @@ id	rubro	nombre	telefono	whatsapp	direccion	envios	contacto	asignado	controlado
 175	Veterinarias	Quara		669-7088	Gral. José de San Martín 1350	si	google	Alejandro	si
 176	Veterinarias	San Miguel	423-3673		Av. Mate de Luna 3448	no-atiende	google	Valeria	si
 177	Veterinarias	Yungas	425-9604		Av. Solano Vera	no-atiende	google	Marcelo	si
+178	Almacenes	Deseo Concedido		537-6744	Av. Solano Vera 199	no	roxana		si
+179									
+									
+									
+									
+									
+178	Almacenes	Deseo Concedido		537-6744	Av. Solano Vera 199	si			no

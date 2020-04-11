@@ -552,8 +552,19 @@
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1978",
+            "telefono": "4258046",
+            "whatsapp": ""
+          }
+        ],
+        "direcciones": 1
+      },
+      {
+        "nombre": "DESEO CONCEDIDO",
+        "sucursales": [
+          {
+            "domicilio": "Av. Solano Vera 199",
             "telefono": "",
-            "whatsapp": "565-4785"
+            "whatsapp": "537-6744"
           }
         ],
         "direcciones": 1

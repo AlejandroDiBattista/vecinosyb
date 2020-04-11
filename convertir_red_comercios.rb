@@ -100,8 +100,10 @@ for rubro in comercios
 	for comercio in rubro.comercios
 		if true 
 			salida << "- #{comercio.nombre.b}"
-			wp = comercio.sucursales.map{|x|x.whatsapp}.select{|x|x.size > 0}.map{|x|"wp: #{x}"}
-			tl = comercio.sucursales.map(&:telefono).select{|x|x.size > 0}.map{|x|"tl: #{x}"}
+			# wp = comercio.sucursales.map{|x|x.whatsapp}.select{|x|x.size > 0}.map{|x|"wp: #{x}"}
+			# tl = comercio.sucursales.map(&:telefono).select{|x|x.size > 0}.map{|x|"tl: #{x}"}
+			wp = comercio.sucursales.map{|x|x.whatsapp}.select{|x|x.size > 0}.map{|x|"🤳#{x}"}
+			tl = comercio.sucursales.map(&:telefono).select{|x|x.size > 0}.map{|x|"☎️#{x}"}
 			aux = (wp+tl).first(3)
 			salida << "  #{aux.join(' ').m}" 
 			# p salida.last if wp.size > 1 || tl.size > 1 || wp.size + tl.size > 2 
@@ -128,7 +130,10 @@ salida << ""
 salida << "Lista creada por 'Vecinos de Yerba Buena'"
 salida << "Para agregar un comercio o recibir actualizaciones comunícate a wa.me/543814416851"
 salida 
-puts salida.join("\n")
+
+# puts salida.join("\n")
+categorias = datos.map(&:rubro).uniq.sort
+puts "[#{categorias.join(", ")}]"
 # puts 
 
 # datos = open('C:/Users/Algacom/Desktop/Datos/datos.tsv')
