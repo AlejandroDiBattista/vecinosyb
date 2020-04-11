@@ -2,29 +2,6 @@ require "erb"
 require "open-uri"
 require "json"
 
-Origen = 'C:/Users/Algacom/Desktop/Datos/*.txt'
-def generar_listado
-	puts lista=Dir[Origen]
-
-	lista = lista.select{|x|x["panaderi"]}
-	salida = []
-	i = 0
-	# lista = lista.select{|x|x[/polle/]}
-	datos = lista.map do |origen|
-		nombre = origen.split('/').last.split(".").first
-		nombre = nombre.capitalize
-		lineas = open(origen).readlines.each_slice(4).map{|x|x[0..2].to_a.map(&:chomp)}
-		lineas = lineas.map{|x| x.map{|y| y.gsub(",", " ")}}
-		puts
-		puts nombre
-		lineas = lineas.sort_by{|x|x[1]}
-		lineas.each{|x|x[1] = x[1].gsub("Av ", "Av. ")}
-		lineas.each{|x| puts " #{i+=1}) %-60s, %-50s, %-20s" % x}
-		lineas.each{|comercio,direccion, telefono,_| salida << "#{comercio},#{nombre},#{telefono},#{direccion}" }
-	end
-	puts salida
-end
-
 def normalizar(texto, pre="", pos="")
 	texto = texto.strip#.gsub("-", "")
 	texto == "" ? "" : "#{pre}#{texto}#{pos}"
@@ -67,7 +44,6 @@ class String
 	end
 
 	def wa
-		# "#{self}   [wa.me/54381#{self.gsub("-","")}]"
 		"wa.me/54381#{self.gsub("-","")}"
 	end
 
@@ -76,7 +52,7 @@ end
 campos = [:id, :rubro, :nombre, :telefono, :wp, :direccion, :envios, :whatapp, :contacto, :geotag, :asignado]
 orden  = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambrerías", "Pastas", "Comidas",  "Golosinas", "Helados", "Librerías",  "Computación",  "Limpieza", "Tintorerías", "Peluquería", "Semillerías", "Veterinarias", "Bebidas", "Servicios"]
 
-datos = open('C:/Users/Algacom/Desktop/Datos/datos.tsv')
+datos = open('datos.tsv')
 			.readlines[1..-1]
 			.map{|x| x.split("\t").map(&:chomp) }
 			.map{|x| campos.zip(x).to_h }
@@ -103,8 +79,6 @@ comercios = datos.group_by{|d|d.rubro}.map do |rubro, comercios|
 end.sort_by{|x| orden.index(x.rubro) || 99}
 
 
-pp comercios.to_json
-# C:\Users\Algacom\Documents\GitHub\digestodigital\code
 open("vecinos.json","w+"){|f| f.write(JSON.pretty_generate(comercios))}
 
 return
