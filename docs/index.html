@@ -1,15 +1,13 @@
 ---
-categories: [Almacenes, Bebidas, Carnicerías, Comidas, Computación, Farmacias, Fiambres, Golosinas, Helados, Librerías, Limpieza, Panaderías, Pastas, Peluquería, Pollerías, Semillerías, Servicios, Tintorerías, Verdulerías, Veterinarias]
-
+rubros: [Almacenes, Bebidas, Carnicerías, Comidas, Computación, Farmacias, Fiambres, Golosinas, Helados, Librerías, Limpieza, Panaderías, Pastas, Peluquería, Pollerías, Semillerías, Servicios, Tintorerías, Verdulerías, Veterinarias]
 ---
 
 <html>
     <body>
-        <h1>Directorio Virtual de Comercios de Yerba Buena</h1>
-
+        <h1>Directorio Virtual de Comercios de Yerba Buena v0.2</h1>
 		<ul>
-		  {% for category in site.categories %}
-		    <li>{{ category[0] }}</li>
+		  {% for rubro in rubros %}
+		    <li>{{ rubro }}</li>
 		  {% endfor %}
 		</ul>
     </body>
