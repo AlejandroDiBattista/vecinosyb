@@ -132,9 +132,9 @@ salida << "Lista creada por 'Vecinos de Yerba Buena'"
 salida << "Para agregar un comercio o recibir actualizaciones comunícate a wa.me/543814416851"
 salida 
 
-# puts salida.join("\n")
+puts salida.join("\n")
 categorias = datos.map(&:rubro).uniq.sort
-puts "[#{categorias.join(", ")}]"
+# puts "[#{categorias.join(", ")}]"
 # puts 
 
 # datos = open('C:/Users/Algacom/Desktop/Datos/datos.tsv')
