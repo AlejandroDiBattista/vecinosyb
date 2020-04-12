@@ -1,10 +1,10 @@
 ---
-rubros: [Almacenes, Bebidas, Carnicerías, Comidas, Computación, Farmacias, Fiambres, Golosinas, Helados, Librerías, Limpieza, Panaderías, Pastas, Peluquería, Pollerías, Semillerías, Servicios, Tintorerías, Verdulerías, Veterinarias]
+titulo: Vecinos de Yerba Buena
 ---
 
 <html>
     <body>
-        <h1>Directorio Virtual de Comercios de Yerba Buena v0.6</h1>
+        <h1>{{ page.titulo }} v0.7</h1>
 		{% for rubro in site.data.comercios %}
 		  	<h2>{{rubro.rubro}}</h2>
 		  	{% for comercio in rubro.comercios %}
