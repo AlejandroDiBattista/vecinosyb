@@ -5,10 +5,13 @@ rubros: [Almacenes, Bebidas, Carnicerías, Comidas, Computación, Farmacias, Fia
 <html>
     <body>
         <h1>Directorio Virtual de Comercios de Yerba Buena v0.4</h1>
-		<ul>
-		  {% for rubro in site.data.rubros %}
-		    <li>{{ rubro }}</li>
-		  {% endfor %}
-		</ul>
-    </body>
+		{% for rubro in site.data.comercios %}
+		  	<h2>{{rubro.rubro}}</h2>
+		  	<lu>
+		  		{% for comercio in rubro.comercio %}
+		    		<li>{{ comercio.nombre }}</li>
+		  		{% endfor %}
+			</ul>
+		{% endfor %}
+	</body>
 </html>

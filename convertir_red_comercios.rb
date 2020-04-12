@@ -82,7 +82,8 @@ comercios = datos.group_by{|d|d.rubro}.map do |rubro, comercios|
 end.sort_by{|x| orden.index(x.rubro) || 99}
 
 # pp comercios
-open("vecinos.json","w+"){|f| f.write(JSON.pretty_generate(comercios))}
+p Dir.pwd
+open("docs/_data/comercios.json","w+"){|f| f.write(JSON.pretty_generate(comercios))}
 
 
 salida = []
