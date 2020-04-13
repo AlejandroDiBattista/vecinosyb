@@ -52,14 +52,16 @@ class String
 	end
 end
 
-campos = [:id, :rubro, :nombre, :telefono, :whatsapp, :direccion, :envios, :contacto, :asignado, :controlado]
-orden  = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambrerías", "Pastas", "Comidas",  "Golosinas", "Helados", "Librerías",  "Computación",  "Limpieza", "Tintorerías", "Peluquería", "Semillerías", "Veterinarias", "Bebidas", "Servicios"]
+campos = [:id,:rubro,:nombre,:telefono,:whatsapp,:direccion,:localidad,:envios,:contacto,:asignado,:controlado]
+# campos = [:id, :rubro, :nombre, :telefono, :whatsapp, :direccion, :envios, :contacto, :asignado, :controlado]
+orden  = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Bares & Restaurantes", "Golosinas", "Helados", "Librerías", "Bazar",  "Tecnología",  "Limpieza", "Tintorerías", "Indumentaria & Zapatería", "Belleza", "Semillerías", "Veterinarias", "Pinturerías & Ferreteria", "Bebidas", "Servicios"]
 
 datos = open('datos.tsv')
 			.readlines[1..-1]
 			.map{|x| x.split("\t").map(&:chomp) }
 			.map{|x| campos.zip(x).to_h }
-			.select{|x| x.envios == "si" }
+			.select{|x|x.rubro && x.rubro.strip.size > 0 }
+			# .select{|x| x.envios["si"] }
 
 
 comercios = datos.group_by{|d|d.rubro}.map do |rubro, comercios|
@@ -85,6 +87,13 @@ end.sort_by{|x| orden.index(x.rubro) || 99}
 p Dir.pwd
 open("docs/_data/comercios.json","w+"){|f| f.write(JSON.pretty_generate(comercios))}
 
+p datos.map(&:envios).uniq.sort 
+rub = datos.map(&:rubro).uniq.sort 
+p rub - orden
+p orden - rub
+cr = rub.map{|r| [r, datos.count{|x|x.rubro==r}]}
+pp cr
+return 
 
 salida = []
 salida << "⭐*Yerba Buena - Envio a domicilio*⭐"

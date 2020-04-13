@@ -1,0 +1,24 @@
+---
+layout: default
+title: Home
+titulo: Vecinos de Yerba Buena
+---
+
+
+		<div>
+			{% for rubro in site.data.comercios %}
+			  	<h2>{{rubro.rubro}}</h2>
+			  	{% for comercio in rubro.comercios %}
+		    		<h3>{{ comercio.nombre }}</h3>
+		    		<ul>
+		    		{% for sucursal in comercio.sucursales %}
+		    			<li>
+		    				<b>{{ sucursal.domicilio }}</b>
+		    				<p>tl: {{ sucursal.telefono }}</p>
+		    				<p>wp: {{ sucursal.whatsapp }}</p>
+		    			</li>
+			  		{% endfor %}
+			  		</ul>
+		  		{% endfor %}
+			{% endfor %}
+		</div>

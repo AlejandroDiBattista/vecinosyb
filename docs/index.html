@@ -1,28 +1,49 @@
 ---
-titulo: Vecinos de Yerba Buena
+layout: default
+title: Home
 ---
-<!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" href="/css/main.css">
-	</head>
+<section class="hero">
+	<div class="small-container">
+		<h2>Directorio Virtual de Comercios</h2>
+		<p class="sub-text">los siguientes comercios de <strong>Yerba Buena</strong>hacen envios a domicilio.</p>
+	</div>
+</section>
 
-    <body>
-        <h1>{{ page.titulo }} v0.13</h1>
-		{% for rubro in site.data.comercios %}
-		  	<h2>{{rubro.rubro}}</h2>
-		  	{% for comercio in rubro.comercios %}
-	    		<h3>{{ comercio.nombre }}</h3>
-	    		<ul>
-	    		{% for sucursal in comercio.sucursales %}
-	    			<li>
-	    				<b>{{ sucursal.domicilio }}</b>
-	    				<p>tl: {{ sucursal.telefono }}</p>
-	    				<p>wp: {{ sucursal.whatsapp }}</p>
-	    			</li>
-		  		{% endfor %}
-		  		</ul>
-	  		{% endfor %}
-		{% endfor %}
-	</body>
-</html>
+<div class="container">
+	<p class="post-hero center-text spacing">Bakery<strong>Store</strong> is known for our fresh bread, delicious cupcakes and chocolatey cookies.</p>
+</div>
+<div class="container">
+	<div class="columns spacing">
+		<div class="column half">
+			<img src="/images/bread.jpg" width="430" alt="Bread">
+		</div>
+		<div class="column half">
+			<h3>Fresh Bread</h3>
+			<p>Our bread is baked fresh every morning.</p>
+		</div>
+	</div>
+	<div class="columns spacing">
+		<div class="column half">
+			<h3>Delicious Cupcakes</h3>
+			<p>The best cupcakes in San Francisco.</p>
+		</div>
+		<div class="column half">
+			<img src="/images/cupcake.jpg" width="430" alt="cupcake">
+		</div>
+	</div>
+	<div class="columns spacing">
+		<div class="column half">
+			<img src="/images/cookie.jpg" width="430" alt="cookie">
+		</div>
+		<div class="column half">
+			<h3>Chocolatey cookies</h3>
+			<p>Served with a glass of milk.</p>
+		</div>
+	</div>
+
+	<form action="/search.html" method="get">
+		<label for="search_box">Search</label>
+		<input type="text" id="search_box" name="query">
+		<input type="submit" value="search">
+	</form>
+</div>
