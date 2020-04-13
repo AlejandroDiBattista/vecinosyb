@@ -194,7 +194,6 @@ if modo == :largo
 	salida << ""
 	salida << "Intendente: Mariano Campero"
 	salida << "Compártela con tus amigos 😉"
-	salida << ""
 else	
 	salida << "⭐DIRECTORIO VIRTUAL DE COMERCIOS⭐"
 	salida << "Estimado vecino, estos negocios amigos te llevan los productos para que no tengas que salir de casa"
@@ -209,7 +208,6 @@ end
 for rubro in comercios
 	salida << ""
 	salida << "🔖 _*#{rubro.rubro.upcase}*_" #" 📍" #"👈🏻"
-	salida << ""
 
 	for comercio in rubro.comercios
 		if true 
@@ -220,6 +218,7 @@ for rubro in comercios
 			tl = comercio.sucursales.map(&:telefono).select{|x|x.size > 0}.map{|x|"t:#{x}"}
 			aux = (wp+tl).first(3)
 			salida << "  #{aux.join(' ').m}" 
+			salida << ""
 			# p salida.last if wp.size > 1 || tl.size > 1 || wp.size + tl.size > 2 
 
 		elsif false && comercio.sucursales.size == 1 
@@ -240,7 +239,9 @@ for rubro in comercios
 
 	end
 end
-if modo == :largo 
+if modo == :corto 
+	salida << ""
+	salida << "Visitá www.vecinosyb.com"
 else
 	salida << ""
 	salida << "Directorio elaborado por el equipo del Concejal Marcelo Rojas"
