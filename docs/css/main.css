@@ -4,6 +4,7 @@
 	--tono: 210;
 	--lumi: 30%;
 };
+
 body { 
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
@@ -52,13 +53,21 @@ a {
 header {
 	padding: 8px;
 	margin: 0;
-	display: grid;
-	grid-template-columns: 500px 1fr;
-
 	background-color: hsl(var(--tono), var(--lumi), 40%);
 	color: white;
+
+	display: grid;
+	grid-template-columns: 500px 1fr;
+	grid-template-rows: 150px;
 }
 
+/*@media (min-width: 500px) {
+  header {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 150px 25px;
+}
+*/
 header h1 {
 	font-size: 40px;
 	font-weight: 900;
@@ -79,9 +88,15 @@ header p {
 
 header article {
 	font-size: 24px;
-	font-weight: 400;
+	font-weight: 300;
 	margin: 0;
-	padding: 0 0 0 0 ;
+	padding: 0;
+	color: hsl(var(--tono), var(--lumi), 90%);
+}
+
+header article b {
+	color: hsl(var(--tono), var(--lumi), 70%);
+
 }
 
 /*Menu */
