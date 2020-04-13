@@ -19,12 +19,9 @@ html, body, div, h1, h2, h3, p, main, header, footer {
 /* layout */
 #page {
 	display: grid;
-	/*grid-template-columns: 240px auto;*/
-	
 	grid-template-columns: auto 240px;
-	
-	grid-template-rows: minmax(160px, auto) auto 30px;
-	grid-gap: 10px;
+	grid-template-rows: minmax(160px, auto) auto 32px;
+	grid-gap: 8px;
 }
 
 header {
@@ -109,9 +106,9 @@ nav {
 
 nav h1 {
 	margin: 0;
-	padding: 0;
 	color: hsl(var(--tono), var(--lumi), 20%);
 	font-weight: 600;
+	padding-top: 4px 0 0 8px;
 }
 
 nav a, header a {
@@ -121,7 +118,7 @@ nav a, header a {
 }
 
 nav div {
-	padding: 4px;
+	padding: 4px 2px;
 }
 
 nav a i {
