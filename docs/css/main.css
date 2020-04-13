@@ -19,7 +19,10 @@ html, body, div, h1, h2, h3, p, main, header, footer {
 /* layout */
 #page {
 	display: grid;
-	grid-template-columns: 240px auto;
+	/*grid-template-columns: 240px auto;*/
+	
+	grid-template-columns: auto 240px;
+	
 	grid-template-rows: minmax(160px, auto) auto 30px;
 	grid-gap: 10px;
 }
@@ -30,17 +33,17 @@ header {
 }
 
 nav {
-  grid-column: 1 / 1;
+  grid-column: 2 / 2;
   grid-row: 2 / 3;
 }
 
 main {
-  grid-column: 2 / 2;
+  grid-column: 1 / 1;
   grid-row: 2 / 2;
 }
 
 footer {
-  grid-column: 2 / 3;
+  grid-column: 2 / 2;
   grid-row: 3 / 3;
 }
 
