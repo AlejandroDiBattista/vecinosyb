@@ -3,7 +3,8 @@ body {
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
-	background-color: hsl(167, 35%, 95%);
+	/*background-color: hsl(167, 35%, 95%);*/
+	background: #BADED6;
 }
 
 html, body, div, h1, h2, h3, p, main, header, footer {
@@ -34,7 +35,7 @@ main {
 }
 
 footer {
-  grid-column: 1 / 2;
+  grid-column: 2 / 3;
   grid-row: 3 / 3;
 }
 
@@ -102,26 +103,27 @@ nav a i {
 .cuerpo > .titulo {
 	font-size: 32px;
 	font-weight: 500;
-	color: hsl(167, 35%, 30%);
+	color: hsl(167, 35%, 60%);
 	margin: 4px 0px 4px 8px;
 }
 
 .comercios {
 	display: grid;
   	align-items: top;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 	margin-bottom: 16px
 }
 
 .comercio {
 	box-sizing: border-box;
-	box-shadow: 0 0 1px gray;
-	border-radius: 4px;
-
-	margin: 4px;
+	
+	margin: 6px;
 	padding: 8px;
 	min-height: 120px;
-	background-color: white;
+	
+	border-radius: 10px;
+	background: #BADED6;
+	box-shadow: 4px 4px 8px #a4c3bc, -4px -4px 8px #d0f9f0;
 }
 
 .comercio > .titulo {
@@ -137,13 +139,15 @@ nav a i {
 
 .wp, .tl { 
 	font-size: 16px;
-	margin: 4px;
+	color: black; 
+    padding-left: 20px;    
 }
 
-.wp {
-	color: green; 
-}
 
 .tl { 
-	color: red; 
+	background: url(../images/telefono-48.png)  0px 2px / 16px 16px  no-repeat;
+}
+
+.wp { 
+	background: url(../images/whatsapp-48.png)  0px 2px / 16px 16px  no-repeat;
 }

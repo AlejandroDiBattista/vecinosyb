@@ -42,10 +42,10 @@ title: Home
 											{{ sucursal.domicilio }}
 										</div>
 										{% if sucursal.telefono != "" %}	
-											<span class="tl">{{ sucursal.telefono }}</span>	
+											<a class="tl" href="{{ sucursal.call }}">{{ sucursal.telefono }}</a>
 										{% endif %}
 										{% if sucursal.whatsapp != "" %}	
-											<span class="wp">{{ sucursal.whatsapp }}</span>	
+											<a class="wp" href="{{ sucursal.send }}">{{ sucursal.whatsapp }}</a>
 										{% endif %}
 									</div>
 								{% endfor %}

@@ -34,6 +34,12 @@ class NilClass
 	def limpiar
 		""
 	end
+	def wa
+		""
+	end
+	def tl
+		""
+	end
 end
 
 class String
@@ -56,7 +62,13 @@ class String
 	end
 
 	def wa
-		"wa.me/54381#{self.gsub("-","")}"
+		return "" if size < 7
+		"https://wa.me/54381#{gsub("-","")}"
+	end
+
+	def tl
+		return "" if size < 7
+		"tel:+381#{gsub("-","")}"
 	end
 
 	def pad(len=30)
@@ -156,6 +168,8 @@ comercios = datos.group_by{|d|d.rubro}.map do |rubro, comercios|
 					 	domicilio: s.direccion,
 					 	telefono:  s.telefono.tel,
 					 	whatsapp:  s.whatsapp.tel,
+					 	call: s.telefono.tl,
+					 	send: s.whatsapp.wa 
 					}
 				end.sort_by{|d| d.domicilio.size > 0 ? d.domicilio : "zzzz" },
 				direcciones: sucursales.count{|s|s.direccion.strip.size > 0 }
