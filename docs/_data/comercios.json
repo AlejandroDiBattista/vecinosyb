@@ -1,260 +1,261 @@
 [
   {
+    "id": 6,
     "rubro": "Farmacias",
     "comercios": [
       {
-        "nombre": "Farmacia ALVEZ",
+        "nombre": "Farmacia Alvez",
         "sucursales": [
           {
             "domicilio": "Salas y Valdez 243",
-            "telefono": "435-0614",
+            "telefono": "(381) 435-0614",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia AMÉRICA VI",
+        "nombre": "Farmacia América VI",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 283",
-            "telefono": "435-6481",
+            "telefono": "(381) 435-6481",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia BERNY",
+        "nombre": "Farmacia Berny",
         "sucursales": [
           {
             "domicilio": "Pedro de Villalba 498",
-            "telefono": "435-4680",
+            "telefono": "(381) 435-4680",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia DEL ESTERO",
+        "nombre": "Farmacia Del estero",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 810",
-            "telefono": "435-3024",
+            "telefono": "(381) 435-3024",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia DEL INCA",
+        "nombre": "Farmacia Del Inca",
         "sucursales": [
           {
             "domicilio": "Av. Camino del Perú 212",
-            "telefono": "435-2039",
+            "telefono": "(381) 435-2039",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia DEL PUEBLO",
+        "nombre": "Farmacia Del Pueblo",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1336",
-            "telefono": "425-1040",
+            "telefono": "(381) 425-1040",
             "whatsapp": ""
           },
           {
             "domicilio": "Av. Aconquija 1812",
-            "telefono": "425-1040",
+            "telefono": "(381) 425-1040",
             "whatsapp": ""
           }
         ],
         "direcciones": 2
       },
       {
-        "nombre": "Farmacia GALENICA",
+        "nombre": "Farmacia Galenica",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2177",
-            "telefono": "425-0348",
+            "telefono": "(381) 425-0348",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia LA BOTICA",
+        "nombre": "Farmacia La Botica",
         "sucursales": [
           {
             "domicilio": "Cariola 42",
-            "telefono": "431-5065",
+            "telefono": "(381) 431-5065",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia LA UNIÓN",
+        "nombre": "Farmacia La Unión",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1931",
-            "telefono": "425-4730",
+            "telefono": "(381) 425-4730",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia LIMA",
+        "nombre": "Farmacia Lima",
         "sucursales": [
           {
             "domicilio": "Venezuela 68",
-            "telefono": "425-2022",
+            "telefono": "(381) 425-2022",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia LOS ALISOS",
+        "nombre": "Farmacia Los Alisos",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2491",
             "telefono": "",
-            "whatsapp": "467-1685"
+            "whatsapp": "(381) 467-1685"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia MARCOS PAZ",
+        "nombre": "Farmacia Marcos Paz",
         "sucursales": [
           {
             "domicilio": "Ruben Dario 180",
-            "telefono": "425-3599",
+            "telefono": "(381) 425-3599",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia PLAZOLETA",
+        "nombre": "Farmacia Plazoleta",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2099",
-            "telefono": "425-1370",
+            "telefono": "(381) 425-1370",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia SAN GABRIEL",
+        "nombre": "Farmacia San Gabriel",
         "sucursales": [
           {
             "domicilio": "Fanzolato 100",
-            "telefono": "435-6971",
+            "telefono": "(381) 435-6971",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia SU FARM",
+        "nombre": "Farmacia Su Farm",
         "sucursales": [
           {
             "domicilio": "Av. Perón 1900",
             "telefono": "",
-            "whatsapp": "683-8347"
+            "whatsapp": "(381) 683-8347"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia VIRGEN DE LA CARIDAD",
+        "nombre": "Farmacia Virgen de la Caridad",
         "sucursales": [
           {
             "domicilio": "Perú 780",
-            "telefono": "435-3974",
+            "telefono": "(381) 435-3974",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia YERBA BUENA",
+        "nombre": "Farmacia Yerba Buena",
         "sucursales": [
           {
             "domicilio": "Fray Mamerto Esquiú 20",
-            "telefono": "435-4183",
+            "telefono": "(381) 435-4183",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Farmacia ZARZOSA",
+        "nombre": "Farmacia Zarzosa",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2170",
-            "telefono": "425-2859",
+            "telefono": "(381) 425-2859",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL CORTE",
+        "nombre": "El Corte",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 1100",
             "telefono": "",
-            "whatsapp": "403-9778"
+            "whatsapp": "(381) 403-9778"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CALCAGNO",
+        "nombre": "Calcagno",
         "sucursales": [
           {
             "domicilio": "Lamadrid 1031",
             "telefono": "",
-            "whatsapp": "590-5917"
+            "whatsapp": "(381) 590-5917"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CRISTO REY",
+        "nombre": "Cristo Rey",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 810",
-            "telefono": "435-3024",
+            "telefono": "(381) 435-3024",
             "whatsapp": ""
           },
           {
-            "domicilio": "Av. Perón 1750 - Cityplace - Local 8 ",
-            "telefono": "485-8034",
+            "domicilio": "Av. Perón 1750 - Cityplace - Local 8",
+            "telefono": "(381) 485-8034",
             "whatsapp": ""
           },
           {
             "domicilio": "Av. Roca y Av. Alfredo Guzmán",
-            "telefono": "453-3824",
+            "telefono": "(381) 453-3824",
             "whatsapp": ""
           }
         ],
         "direcciones": 3
       },
       {
-        "nombre": "PLAZOLETA",
+        "nombre": "Plazoleta",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2099",
-            "telefono": "425-6840 / 425-1370",
-            "whatsapp": "403-6264"
+            "telefono": "(381) 425-6840",
+            "whatsapp": "(381) 403-6264"
           }
         ],
         "direcciones": 1
@@ -262,309 +263,304 @@
     ]
   },
   {
+    "id": 3,
     "rubro": "Carnicerías",
     "comercios": [
       {
-        "nombre": "100% CERDO",
+        "nombre": "100% Cerdo",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2297",
-            "telefono": "435-7613",
+            "telefono": "(381) 435-7613",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "ACONQUIJA",
+        "nombre": "Aconquija",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2275",
-            "telefono": "425-3135",
+            "telefono": "(381) 425-3135",
             "whatsapp": ""
-          }
-        ],
-        "direcciones": 1
-      },
-      {
-        "nombre": "ACONQUIJA ",
-        "sucursales": [
+          },
           {
             "domicilio": "Salas y Valdez 376",
-            "telefono": "435-3971",
+            "telefono": "(381) 435-3971",
             "whatsapp": ""
           }
         ],
-        "direcciones": 1
+        "direcciones": 2
       },
       {
-        "nombre": "CABAÑA JURAMENTO",
+        "nombre": "Cabaña Juramento",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 1222",
-            "telefono": "557-3755",
+            "telefono": "(381) 557-3755",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CORROTO HIJO",
+        "nombre": "Corroto Hijo",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1978",
-            "telefono": "485-2369",
+            "telefono": "(381) 485-2369",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CRESTA NEGRA",
+        "nombre": "Cresta Negra",
         "sucursales": [
           {
             "domicilio": "Av. Camino del peru 50",
             "telefono": "",
-            "whatsapp": "302-7043"
+            "whatsapp": "(381) 302-7043"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CUATRISE",
+        "nombre": "Cuatrise",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "576-1636"
+            "whatsapp": "(381) 576-1636"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "DANIEL",
+        "nombre": "Daniel",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 410",
-            "telefono": "425-8670",
+            "telefono": "(381) 425-8670",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DON POLO",
+        "nombre": "Don Polo",
         "sucursales": [
           {
             "domicilio": "Av. Perón 120",
-            "telefono": "435-2678",
+            "telefono": "(381) 435-2678",
             "whatsapp": ""
           },
           {
             "domicilio": "Av. Solano Vega 62",
-            "telefono": "425-6296",
+            "telefono": "(381) 425-6296",
             "whatsapp": ""
           }
         ],
         "direcciones": 2
       },
       {
-        "nombre": "EL ABASTO MERCADO DE CARNES",
+        "nombre": "El abasto Mercado de carnes",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2496",
             "telefono": "",
-            "whatsapp": "598-4807"
+            "whatsapp": "(381) 598-4807"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL GAUCHO",
+        "nombre": "El Gaucho",
         "sucursales": [
           {
             "domicilio": "Don Bosco 4412",
-            "telefono": "431-5059",
+            "telefono": "(381) 431-5059",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL NEGRO",
+        "nombre": "El Negro",
         "sucursales": [
           {
             "domicilio": "Lamadrid 1031",
-            "telefono": "524-8161",
+            "telefono": "(381) 524-8161",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EZEQUIEL",
+        "nombre": "Ezequiel",
         "sucursales": [
           {
             "domicilio": "Batalla de Tucumán 1371",
-            "telefono": "348-9899",
+            "telefono": "(381) 348-9899",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "FIDENSA",
+        "nombre": "Fidensa",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 1358",
             "telefono": "",
-            "whatsapp": "332-0152"
+            "whatsapp": "(381) 332-0152"
           },
           {
             "domicilio": "San Martin 750",
-            "telefono": "524-7760",
+            "telefono": "(381) 524-7760",
             "whatsapp": ""
           }
         ],
         "direcciones": 2
       },
       {
-        "nombre": "FINCA SAN RAMON",
+        "nombre": "Finca San Ramon",
         "sucursales": [
           {
             "domicilio": "Bascary 291",
-            "telefono": "230-7030",
+            "telefono": "(381) 230-7030",
             "whatsapp": ""
           },
           {
             "domicilio": "Maderuelo 900",
             "telefono": "",
-            "whatsapp": "342-5538"
+            "whatsapp": "(381) 342-5538"
           },
           {
             "domicilio": "Solano Vera 102",
-            "telefono": "485-2343",
+            "telefono": "(381) 485-2343",
             "whatsapp": ""
           }
         ],
         "direcciones": 3
       },
       {
-        "nombre": "LA CARLOTA",
+        "nombre": "La Carlota",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 120",
-            "telefono": "435-3535",
+            "telefono": "(381) 435-3535",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA FLEMING",
+        "nombre": "La Fleming",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2384",
-            "telefono": "425-2074",
+            "telefono": "(381) 425-2074",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA NEGRITA",
+        "nombre": "La Negrita",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 340",
             "telefono": "",
-            "whatsapp": "520-1010"
+            "whatsapp": "(381) 520-1010"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA PERÓN",
+        "nombre": "La Perón",
         "sucursales": [
           {
             "domicilio": "Av. Perón 210",
             "telefono": "",
-            "whatsapp": "602-2576"
+            "whatsapp": "(381) 602-2576"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA VACA CLUB",
+        "nombre": "La vaca club",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1629",
-            "telefono": "562-3896",
+            "telefono": "(381) 562-3896",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MACACHA",
+        "nombre": "Macacha",
         "sucursales": [
           {
             "domicilio": "Darwin 87",
-            "telefono": "425-9057",
+            "telefono": "(381) 425-9057",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "PEPITO",
+        "nombre": "Pepito",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 500",
-            "telefono": "425-1975",
+            "telefono": "(381) 425-1975",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "SAN JOSE",
+        "nombre": "San Jose",
         "sucursales": [
           {
             "domicilio": "Suipacha 1452",
-            "telefono": "434-3645",
+            "telefono": "(381) 434-3645",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MEDIA RES",
+        "nombre": "Media Res",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 84",
             "telefono": "",
-            "whatsapp": "367-4742"
+            "whatsapp": "(381) 367-4742"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "ANGELITA",
+        "nombre": "Angelita",
         "sucursales": [
           {
             "domicilio": "Federico Rossi 210",
             "telefono": "",
-            "whatsapp": "641-8973"
+            "whatsapp": "(381) 641-8973"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "SUPER CARNES BANDERA",
+        "nombre": "Super Carnes Bandera",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 546",
-            "telefono": "431-6201",
+            "telefono": "(381) 431-6201",
             "whatsapp": ""
           }
         ],
@@ -573,240 +569,241 @@
     ]
   },
   {
+    "id": 15,
     "rubro": "Pollerías",
     "comercios": [
       {
-        "nombre": "A TODO POLLO",
+        "nombre": "A Todo Pollo",
         "sucursales": [
           {
             "domicilio": "Av. Perón 25",
-            "telefono": "431-7115",
+            "telefono": "(381) 431-7115",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CARNAVE",
+        "nombre": "Carnave",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 85",
-            "telefono": "435-7500",
+            "telefono": "(381) 435-7500",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CHICKEN HOUSE",
+        "nombre": "Chicken House",
         "sucursales": [
           {
             "domicilio": "Salas y Valdez 11",
-            "telefono": "435-4551",
+            "telefono": "(381) 435-4551",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DON GALLO",
+        "nombre": "Don Gallo",
         "sucursales": [
           {
             "domicilio": "Av. Camino del Perú 120",
-            "telefono": "435-0972",
+            "telefono": "(381) 435-0972",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DON POLO",
+        "nombre": "Don Polo",
         "sucursales": [
           {
             "domicilio": "Av. Perón 120",
-            "telefono": "435-2678",
+            "telefono": "(381) 435-2678",
             "whatsapp": ""
           },
           {
             "domicilio": "Av. Solano Vega 62",
-            "telefono": "425-6296",
+            "telefono": "(381) 425-6296",
             "whatsapp": ""
           }
         ],
         "direcciones": 2
       },
       {
-        "nombre": "DRUGSTORE Y POLLERIA JOA",
+        "nombre": "Drugstore y Polleria JOA",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 300",
             "telefono": "",
-            "whatsapp": "548-3721"
+            "whatsapp": "(381) 548-3721"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL BUEN POLLO",
+        "nombre": "El Buen Pollo",
         "sucursales": [
           {
             "domicilio": "Paraguay 757",
-            "telefono": "300-9163",
+            "telefono": "(381) 300-9163",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL TANO",
+        "nombre": "El Tano",
         "sucursales": [
           {
             "domicilio": "Colombia 3386",
-            "telefono": "434-4784",
+            "telefono": "(381) 434-4784",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "GRANJA FICO",
+        "nombre": "Granja Fico",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 19",
             "telefono": "",
-            "whatsapp": "680-7500"
+            "whatsapp": "(381) 680-7500"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA GRANJA DEL TATI",
+        "nombre": "La Granja del Tati",
         "sucursales": [
           {
             "domicilio": "Zavalía 568",
-            "telefono": "435-6295",
+            "telefono": "(381) 435-6295",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA POLLERIA",
+        "nombre": "La Polleria",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 990",
             "telefono": "",
-            "whatsapp": "413-1614"
+            "whatsapp": "(381) 413-1614"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LO DE MILO",
+        "nombre": "Lo de Milo",
         "sucursales": [
           {
             "domicilio": "Bolivia 534",
-            "telefono": "402-8983",
+            "telefono": "(381) 402-8983",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MARKA",
+        "nombre": "Marka",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 554",
-            "telefono": "425-6577",
+            "telefono": "(381) 425-6577",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MI POLLO",
+        "nombre": "Mi Pollo",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 84",
-            "telefono": "425-6471",
+            "telefono": "(381) 425-6471",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MI SOFI",
+        "nombre": "Mi Sofi",
         "sucursales": [
           {
             "domicilio": "Saavedra Lamas 900",
             "telefono": "",
-            "whatsapp": "352-3176"
+            "whatsapp": "(381) 352-3176"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "RA HA",
+        "nombre": "Ra Ha",
         "sucursales": [
           {
             "domicilio": "Darwin 826",
-            "telefono": "425-5081",
+            "telefono": "(381) 425-5081",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "SAN EXPEDITO",
+        "nombre": "San Expedito",
         "sucursales": [
           {
             "domicilio": "Nicolás Avellaneda 3",
             "telefono": "",
-            "whatsapp": "511-7163"
+            "whatsapp": "(381) 511-7163"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "TRES MAS",
+        "nombre": "Tres Mas",
         "sucursales": [
           {
             "domicilio": "Patricias Argentinas 1247",
-            "telefono": "307-1666",
+            "telefono": "(381) 307-1666",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "GRANJA SOLANA",
+        "nombre": "Granja Solana",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 1000",
             "telefono": "",
-            "whatsapp": "647-0889"
+            "whatsapp": "(381) 647-0889"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "K'ANKA BOUTIQUE DE POLLOS",
+        "nombre": "K'anka Boutique de Pollos",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "396-5027"
+            "whatsapp": "(381) 396-5027"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "GRANJA DEL CERRO",
+        "nombre": "Granja del Cerro",
         "sucursales": [
           {
             "domicilio": "San Martín 750",
             "telefono": "",
-            "whatsapp": "418-9178"
+            "whatsapp": "(381) 418-9178"
           }
         ],
         "direcciones": 1
@@ -814,257 +811,252 @@
     ]
   },
   {
+    "id": 19,
     "rubro": "Verdulerías",
     "comercios": [
       {
-        "nombre": "ACEVEDO",
+        "nombre": "Acevedo",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vega 250",
-            "telefono": "425-7484",
+            "telefono": "(381) 425-7484",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "ACONQUIJA",
+        "nombre": "Aconquija",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2275",
-            "telefono": "425-3135",
+            "telefono": "(381) 425-3135",
             "whatsapp": ""
-          }
-        ],
-        "direcciones": 1
-      },
-      {
-        "nombre": "ACONQUIJA ",
-        "sucursales": [
+          },
           {
             "domicilio": "Salas y Valdez 376",
-            "telefono": "435-3971",
+            "telefono": "(381) 435-3971",
             "whatsapp": ""
           }
         ],
-        "direcciones": 1
+        "direcciones": 2
       },
       {
-        "nombre": "ANAHÍ",
+        "nombre": "Anahí",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2155",
-            "telefono": "539-9795",
+            "telefono": "(381) 539-9795",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CAJONES DE VERDURA A DOMICILIO",
+        "nombre": "Cajones de Verdura a domicilio",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "405-5990"
+            "whatsapp": "(381) 405-5990"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "CEBIL",
+        "nombre": "Cebil",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "662-5023"
+            "whatsapp": "(381) 662-5023"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "EL GAUCHO",
+        "nombre": "El Gaucho",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2030",
-            "telefono": "425-1121",
+            "telefono": "(381) 425-1121",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "GUSTAVO",
+        "nombre": "Gustavo",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1389",
-            "telefono": "425-0256",
+            "telefono": "(381) 425-0256",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "JUANCITO",
+        "nombre": "Juancito",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 1000",
-            "telefono": "425-5547",
+            "telefono": "(381) 425-5547",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA BOUTIQUE DE LA VERDURA",
+        "nombre": "La Boutique de la Verdura",
         "sucursales": [
           {
             "domicilio": "Mendoza 108",
             "telefono": "",
-            "whatsapp": "302-0686"
+            "whatsapp": "(381) 302-0686"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA FAMILIA",
+        "nombre": "La Familia",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2322",
-            "telefono": "353-4293",
+            "telefono": "(381) 353-4293",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LOS FRESNOS FRUTAS Y VERDURAS",
+        "nombre": "Los Fresnos Frutas y Verduras",
         "sucursales": [
           {
             "domicilio": "Av. Perón 150",
-            "telefono": "435-1326",
+            "telefono": "(381) 435-1326",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MASMUD",
+        "nombre": "Masmud",
         "sucursales": [
           {
             "domicilio": "Salas y Valdez 13",
-            "telefono": "435-5785",
+            "telefono": "(381) 435-5785",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "NICOLÁS BENNASAR",
+        "nombre": "Nicolás Bennasar",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "442-6999"
+            "whatsapp": "(381) 442-6999"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "PEDRO VEGLIA VERDURAS PARA COUNTRIES",
+        "nombre": "Pedro Veglia verduras para Countries",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "361-1943",
+            "telefono": "(381) 361-1943",
             "whatsapp": ""
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "PRINGLES",
+        "nombre": "Pringles",
         "sucursales": [
           {
             "domicilio": "Pringles 1228",
-            "telefono": "446-6281",
+            "telefono": "(381) 446-6281",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "RAMONCITO",
+        "nombre": "Ramoncito",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2377",
-            "telefono": "425-8498",
+            "telefono": "(381) 425-8498",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "RUBEN",
+        "nombre": "Ruben",
         "sucursales": [
           {
             "domicilio": "Perú 804",
-            "telefono": "435-2131",
+            "telefono": "(381) 435-2131",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "SAN EXPEDITO",
+        "nombre": "San Expedito",
         "sucursales": [
           {
             "domicilio": "Nicolás Avellaneda 3",
-            "telefono": "511-7163",
+            "telefono": "(381) 511-7163",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "SÚPER CARNES BANDERA",
+        "nombre": "Súper Carnes Bandera",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 546",
-            "telefono": "431-6201",
+            "telefono": "(381) 431-6201",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "TOMAS",
+        "nombre": "Tomas",
         "sucursales": [
           {
             "domicilio": "Av. Perón 139",
             "telefono": "",
-            "whatsapp": "463-3445"
+            "whatsapp": "(381) 463-3445"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "B&B FRUTAS Y VERDURAS",
+        "nombre": "B&B Frutas y Verduras",
         "sucursales": [
           {
             "domicilio": "Paraguay 408",
             "telefono": "",
-            "whatsapp": "572-7846"
+            "whatsapp": "(381) 572-7846"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "FRU-VER",
+        "nombre": "Fru-Ver",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 350 - Local 2",
-            "telefono": "425-5414",
-            "whatsapp": "583-3345"
+            "telefono": "(381) 425-5414",
+            "whatsapp": "(381) 583-3345"
           }
         ],
         "direcciones": 1
@@ -1072,244 +1064,245 @@
     ]
   },
   {
+    "id": 12,
     "rubro": "Panaderías",
     "comercios": [
       {
-        "nombre": "ALBERTUS",
+        "nombre": "Albertus",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 889",
             "telefono": "",
-            "whatsapp": "604-3789"
+            "whatsapp": "(381) 604-3789"
           },
           {
             "domicilio": "Av. Perón 1500",
             "telefono": "",
-            "whatsapp": "401-8337"
+            "whatsapp": "(381) 401-8337"
           },
           {
             "domicilio": "Av. Perón 165",
             "telefono": "",
-            "whatsapp": "345-5668"
+            "whatsapp": "(381) 345-5668"
           }
         ],
         "direcciones": 3
       },
       {
-        "nombre": "CASAPAN",
+        "nombre": "Casapan",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 142",
-            "telefono": "435-2685",
+            "telefono": "(381) 435-2685",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "COSAS RICAS",
+        "nombre": "Cosas Ricas",
         "sucursales": [
           {
             "domicilio": "Camino de Sirga 1452 - Galería Quara",
-            "telefono": "439-6717",
+            "telefono": "(381) 439-6717",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DEL VALLE",
+        "nombre": "Del Valle",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2156",
-            "telefono": "425-3824",
+            "telefono": "(381) 425-3824",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL BUEN SABOR",
+        "nombre": "El Buen Sabor",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 701",
-            "telefono": "488-5901",
+            "telefono": "(381) 488-5901",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL MUNDO",
+        "nombre": "El Mundo",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 801 4107",
-            "telefono": "435-6444",
+            "telefono": "(381) 435-6444",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL SOL TUCUMANO",
+        "nombre": "El Sol Tucumano",
         "sucursales": [
           {
             "domicilio": "Chile 150",
-            "telefono": "435-7800",
+            "telefono": "(381) 435-7800",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA MERCED",
+        "nombre": "La Merced",
         "sucursales": [
           {
             "domicilio": "Pringles 1248",
-            "telefono": "435-2685",
+            "telefono": "(381) 435-2685",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "RIQUISIMA",
+        "nombre": "Riquisima",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 950",
-            "telefono": "425-0198",
+            "telefono": "(381) 425-0198",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "SABORES NUESTROS",
+        "nombre": "Sabores Nuestros",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 285",
-            "telefono": "435-2307",
+            "telefono": "(381) 435-2307",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "VILLECCO",
+        "nombre": "Villecco",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1341",
-            "telefono": "425-9500",
+            "telefono": "(381) 425-9500",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MIMÍ",
+        "nombre": "Mimí",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "581-1302"
+            "whatsapp": "(381) 581-1302"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "DOLCE LA PASTELERÍA",
+        "nombre": "Dolce La Pastelería",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "336-2009"
+            "whatsapp": "(381) 336-2009"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "PASTELERÍA SABORES NUESTROS",
+        "nombre": "Pastelería Sabores Nuestros",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 285",
             "telefono": "",
-            "whatsapp": "456-7022"
+            "whatsapp": "(381) 456-7022"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DON GENUARIO",
+        "nombre": "Don Genuario",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera y Mendoza",
-            "telefono": "431-6366",
+            "telefono": "(381) 431-6366",
             "whatsapp": ""
           },
           {
             "domicilio": "Lobo de la Vega 205",
-            "telefono": "425-6624",
+            "telefono": "(381) 425-6624",
             "whatsapp": ""
           },
           {
             "domicilio": "Zabalía 596",
-            "telefono": "435-3078",
+            "telefono": "(381) 435-3078",
             "whatsapp": ""
           }
         ],
         "direcciones": 3
       },
       {
-        "nombre": "REPOSTERÍA Y COTILLÓN",
+        "nombre": "Repostería y Cotillón",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 285",
             "telefono": "",
-            "whatsapp": "467-6978 / 352-8938"
+            "whatsapp": "(381) 467-6978"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "ANA MENENDEZ TORTAS",
+        "nombre": "Ana Menendez Tortas",
         "sucursales": [
           {
             "domicilio": "Florida Sur 28",
             "telefono": "",
-            "whatsapp": "645-3914"
+            "whatsapp": "(381) 645-3914"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "PANIFICACIÓN ABDALA",
+        "nombre": "Panificación Abdala",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2297",
-            "telefono": "425-2155",
-            "whatsapp": "356-0981"
+            "telefono": "(381) 425-2155",
+            "whatsapp": "(381) 356-0981"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CREMONA PEACH",
+        "nombre": "Cremona Peach",
         "sucursales": [
           {
             "domicilio": "Ecuador 247",
             "telefono": "",
-            "whatsapp": "550-7591"
+            "whatsapp": "(381) 550-7591"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "ALTA FIESTA",
+        "nombre": "Alta Fiesta",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2081",
             "telefono": "",
-            "whatsapp": "467-6978 / 352-8938"
+            "whatsapp": "(381) 467-6978"
           }
         ],
         "direcciones": 1
@@ -1317,152 +1310,153 @@
     ]
   },
   {
+    "id": 1,
     "rubro": "Almacenes",
     "comercios": [
       {
-        "nombre": "EL MERCADITO",
+        "nombre": "El Mercadito",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2054",
-            "telefono": "485-2348",
+            "telefono": "(381) 485-2348",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL MERCADITO & DELIVERY",
+        "nombre": "El Mercadito & Delivery",
         "sucursales": [
           {
             "domicilio": "Camino de Sirga 1452",
-            "telefono": "466-3294",
+            "telefono": "(381) 466-3294",
             "whatsapp": ""
           },
           {
             "domicilio": "Solano Vera 761",
             "telefono": "",
-            "whatsapp": "466-3294"
+            "whatsapp": "(381) 466-3294"
           }
         ],
         "direcciones": 2
       },
       {
-        "nombre": "MI SUPER",
+        "nombre": "Mi Super",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "566-5967",
+            "telefono": "(381) 566-5967",
             "whatsapp": ""
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "PANETTO",
+        "nombre": "Panetto",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 1098",
             "telefono": "",
-            "whatsapp": "647-8491"
+            "whatsapp": "(381) 647-8491"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "SUPER TATITO",
+        "nombre": "Super Tatito",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1978",
-            "telefono": "425-8046",
+            "telefono": "(381) 425-8046",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DESEO CONCEDIDO",
+        "nombre": "Deseo Concedido",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 199",
             "telefono": "",
-            "whatsapp": "537-6744"
+            "whatsapp": "(381) 537-6744"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LEANDRO ROBIN DISTRIBUIDOR LACTEO",
+        "nombre": "Leandro Robin Distribuidor lacteo",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "523-5661"
+            "whatsapp": "(381) 523-5661"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "MINIMAERKET MOZART",
+        "nombre": "MiniMaerket Mozart",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 1099",
             "telefono": "",
-            "whatsapp": "300-7729"
+            "whatsapp": "(381) 300-7729"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "RINCÓN LACTEO",
+        "nombre": "Rincón Lacteo",
         "sucursales": [
           {
             "domicilio": "Darwin 820",
             "telefono": "",
-            "whatsapp": "442-9559"
+            "whatsapp": "(381) 442-9559"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "FRU-VER",
+        "nombre": "Fru-Ver",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 350 - Local 2",
-            "telefono": "425-5414",
-            "whatsapp": "583-3345"
+            "telefono": "(381) 425-5414",
+            "whatsapp": "(381) 583-3345"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "SUPER FIESTA",
+        "nombre": "Super Fiesta",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 100",
             "telefono": "",
-            "whatsapp": "405-2709"
+            "whatsapp": "(381) 405-2709"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "Distribuidora VIA GASTRONÓMICA",
+        "nombre": "Distribuidora Via Gastronómica",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "488-0782"
+            "whatsapp": "(381) 488-0782"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "EQUIPA TU FIESTA",
+        "nombre": "Equipa Tu Fiesta",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 89 - Shopping - Local 199",
-            "telefono": "577-7808",
-            "whatsapp": "541-8280"
+            "telefono": "(381) 577-7808",
+            "whatsapp": "(381) 541-8280"
           }
         ],
         "direcciones": 1
@@ -1470,15 +1464,16 @@
     ]
   },
   {
+    "id": 7,
     "rubro": "Fiambres",
     "comercios": [
       {
-        "nombre": "Distribuidora CANDELARIA",
+        "nombre": "Distribuidora Candelaria",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "565-1195"
+            "whatsapp": "(381) 565-1195"
           }
         ],
         "direcciones": 0
@@ -1489,61 +1484,61 @@
           {
             "domicilio": "Mexico 3186",
             "telefono": "",
-            "whatsapp": "565-1195"
+            "whatsapp": "(381) 565-1195"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DON JAMON",
+        "nombre": "Don Jamon",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 118",
-            "telefono": "435-3048",
+            "telefono": "(381) 435-3048",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "PANETTO",
+        "nombre": "Panetto",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 1098",
             "telefono": "",
-            "whatsapp": "647-8491"
+            "whatsapp": "(381) 647-8491"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "RINCÓN LÁCTEO",
+        "nombre": "Rincón Lácteo",
         "sucursales": [
           {
             "domicilio": "Darwin 820",
             "telefono": "",
-            "whatsapp": "442-9559"
+            "whatsapp": "(381) 442-9559"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA TREINTA Y UNO",
+        "nombre": "La treinta y uno",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1071",
-            "telefono": "425-7311",
-            "whatsapp": "466-1954"
+            "telefono": "(381) 425-7311",
+            "whatsapp": "(381) 466-1954"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "COLONIA CAROYA",
+        "nombre": "Colonia Caroya",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 18",
-            "telefono": "425-3607",
+            "telefono": "(381) 425-3607",
             "whatsapp": ""
           }
         ],
@@ -1552,37 +1547,38 @@
     ]
   },
   {
+    "id": 13,
     "rubro": "Pastas",
     "comercios": [
       {
-        "nombre": "DELI PASTAS",
+        "nombre": "Deli Pastas",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2197",
             "telefono": "",
-            "whatsapp": "692-5811"
+            "whatsapp": "(381) 692-5811"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA CASA DE LAS PASTAS",
+        "nombre": "La Casa de Las Pastas",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2283",
-            "telefono": "425-6368",
+            "telefono": "(381) 425-6368",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "AVANTI",
+        "nombre": "Avanti",
         "sucursales": [
           {
             "domicilio": "Solano Vera 936 - Local 5",
             "telefono": "",
-            "whatsapp": "668-0086"
+            "whatsapp": "(381) 668-0086"
           }
         ],
         "direcciones": 1
@@ -1590,48 +1586,49 @@
     ]
   },
   {
+    "id": 22,
     "rubro": "Sandwichería",
     "comercios": [
       {
-        "nombre": "KIKE",
+        "nombre": "Kike",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1896",
-            "telefono": "400-7166",
-            "whatsapp": "464-4387"
+            "telefono": "(381) 400-7166",
+            "whatsapp": "(381) 464-4387"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CHEGUSAN",
+        "nombre": "Chegusan",
         "sucursales": [
           {
             "domicilio": "Camino del Perú 100",
             "telefono": "",
-            "whatsapp": "486-2065"
+            "whatsapp": "(381) 486-2065"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL SALVADOR ",
+        "nombre": "El Salvador",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "431-5433"
+            "whatsapp": "(381) 431-5433"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "PEPE",
+        "nombre": "Pepe",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2064",
-            "telefono": "425-8170",
-            "whatsapp": "659-5555"
+            "telefono": "(381) 425-8170",
+            "whatsapp": "(381) 659-5555"
           }
         ],
         "direcciones": 1
@@ -1639,433 +1636,434 @@
     ]
   },
   {
+    "id": 4,
     "rubro": "Comidas",
     "comercios": [
       {
-        "nombre": "BILLY BOB BURGES",
+        "nombre": "Billy Bob Burges",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "405-0704",
+            "telefono": "(381) 405-0704",
             "whatsapp": ""
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "EMPANADAS LA LEÑITA",
+        "nombre": "Empanadas La Leñita",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1731",
-            "telefono": "425-3375",
+            "telefono": "(381) 425-3375",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "GASTRONOMIA FERULLO",
+        "nombre": "Gastronomia Ferullo",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "606-5352"
+            "whatsapp": "(381) 606-5352"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "LA PIZZADA",
+        "nombre": "La Pizzada",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1513",
-            "telefono": "425-0303",
+            "telefono": "(381) 425-0303",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA TREINTA Y UNO",
+        "nombre": "La treinta y uno",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1071",
-            "telefono": "425-7311",
-            "whatsapp": "466-1954"
+            "telefono": "(381) 425-7311",
+            "whatsapp": "(381) 466-1954"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "NATURINA",
+        "nombre": "Naturina",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "415-4644",
+            "telefono": "(381) 415-4644",
             "whatsapp": ""
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "NUTRIFOOD",
+        "nombre": "Nutrifood",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "583-5424",
+            "telefono": "(381) 583-5424",
             "whatsapp": ""
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "PIZZA 8",
+        "nombre": "Pizza 8",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2129",
-            "telefono": "462-8560",
+            "telefono": "(381) 462-8560",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "PURA VIDA MAE",
+        "nombre": "Pura vida Mae",
         "sucursales": [
           {
             "domicilio": "San Lorenzo 147",
             "telefono": "",
-            "whatsapp": "630-8678"
+            "whatsapp": "(381) 630-8678"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA MEJOR ",
+        "nombre": "La Mejor",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1900",
             "telefono": "",
-            "whatsapp": "614-4067"
+            "whatsapp": "(381) 614-4067"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL PAISA EMPANADAS",
+        "nombre": "El Paisa Empanadas",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega y Perú",
             "telefono": "",
-            "whatsapp": "392-6065"
+            "whatsapp": "(381) 392-6065"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA ABUELA ELENA",
+        "nombre": "La Abuela Elena",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 299",
-            "telefono": "435-3578",
-            "whatsapp": "529-9093"
+            "telefono": "(381) 435-3578",
+            "whatsapp": "(381) 529-9093"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LOS HORNOS",
+        "nombre": "Los Hornos",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2419",
-            "telefono": "425-0301",
+            "telefono": "(381) 425-0301",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LO DE CORDERO",
+        "nombre": "Lo de Cordero",
         "sucursales": [
           {
             "domicilio": "Pje. Santiago del Estero 1494",
             "telefono": "",
-            "whatsapp": "425-2359"
+            "whatsapp": "(381) 425-2359"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA TRANQUERA EMPANADAS",
+        "nombre": "La Tranquera Empanadas",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "425-1273",
-            "whatsapp": "638-9451"
+            "telefono": "(381) 425-1273",
+            "whatsapp": "(381) 638-9451"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "EL CRISTO II",
+        "nombre": "El Cristo II",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "434-7606",
-            "whatsapp": "684-4565"
+            "telefono": "(381) 434-7606",
+            "whatsapp": "(381) 684-4565"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "EL CRISTO",
+        "nombre": "El Cristo",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 4",
-            "telefono": "435-7576",
-            "whatsapp": "527-4442"
+            "telefono": "(381) 435-7576",
+            "whatsapp": "(381) 527-4442"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "TONETTI",
+        "nombre": "Tonetti",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "317-3811",
-            "whatsapp": "524-6573"
+            "telefono": "(381) 317-3811",
+            "whatsapp": "(381) 524-6573"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "DA GUSTO",
+        "nombre": "Da Gusto",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2163",
-            "telefono": "425-8185",
+            "telefono": "(381) 425-8185",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "BOQUERÍA TUCUMÁN",
+        "nombre": "Boquería Tucumán",
         "sucursales": [
           {
             "domicilio": "Av. Perón 2500",
             "telefono": "",
-            "whatsapp": "697-7329"
+            "whatsapp": "(381) 697-7329"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "GASTRONOMIA VALKIRIA",
+        "nombre": "Gastronomia Valkiria",
         "sucursales": [
           {
             "domicilio": "Camino de Sirga 1400 - Galería Quara - Local 19",
             "telefono": "",
-            "whatsapp": "662-8203"
+            "whatsapp": "(381) 662-8203"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "PARRILLADA LOS HERMANOS",
+        "nombre": "Parrillada Los Hermanos",
         "sucursales": [
           {
             "domicilio": "Av. Perón 2900",
             "telefono": "",
-            "whatsapp": "561-6941"
+            "whatsapp": "(381) 561-6941"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LAS BRASAS PARRILLADA",
+        "nombre": "Las Brasas Parrillada",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1569",
-            "telefono": "425-6020",
+            "telefono": "(381) 425-6020",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL MESÓN DEL PATO",
+        "nombre": "El Mesón del Pato",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2423",
-            "telefono": "425-0004",
+            "telefono": "(381) 425-0004",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DON RAMÓN",
+        "nombre": "Don Ramón",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 118",
-            "telefono": "435-3048",
+            "telefono": "(381) 435-3048",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "KM 12",
+        "nombre": "Km 12",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 3050",
             "telefono": "",
-            "whatsapp": "634-1716"
+            "whatsapp": "(381) 634-1716"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "BONNEVILLE BAR",
+        "nombre": "Bonneville Bar",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 904",
             "telefono": "",
-            "whatsapp": "624-4200"
+            "whatsapp": "(381) 624-4200"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "PIAF",
+        "nombre": "Piaf",
         "sucursales": [
           {
             "domicilio": "Av. Perón 1800",
             "telefono": "",
-            "whatsapp": "663-3783"
+            "whatsapp": "(381) 663-3783"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CUATRO QUESOS",
+        "nombre": "Cuatro Quesos",
         "sucursales": [
           {
             "domicilio": "Las Acacias 89",
-            "telefono": "431-7175",
+            "telefono": "(381) 431-7175",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LO DE SALU",
+        "nombre": "Lo de Salu",
         "sucursales": [
           {
             "domicilio": "Pedro de Villalba 242",
             "telefono": "",
-            "whatsapp": "539-4193"
+            "whatsapp": "(381) 539-4193"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA BOQUEIRA",
+        "nombre": "La Boqueira",
         "sucursales": [
           {
             "domicilio": "Av. Perón 2500",
             "telefono": "",
-            "whatsapp": "697-7329"
+            "whatsapp": "(381) 697-7329"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "JIMMY WILLY",
+        "nombre": "Jimmy Willy",
         "sucursales": [
           {
             "domicilio": "Av. Perón 139",
-            "telefono": "425-8290",
+            "telefono": "(381) 425-8290",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "TUS CONGELADOS",
+        "nombre": "Tus Congelados",
         "sucursales": [
           {
             "domicilio": "Country La Pedemonta",
             "telefono": "",
-            "whatsapp": "579-3297"
+            "whatsapp": "(381) 579-3297"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "QUICKEN SPIEDO & FOOD",
+        "nombre": "Quicken Spiedo & Food",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 160",
             "telefono": "",
-            "whatsapp": "517-4509"
+            "whatsapp": "(381) 517-4509"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "HELLER",
+        "nombre": "Heller",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "435-6683",
-            "whatsapp": "502-6948 / 479-6776"
+            "telefono": "(381) 435-6683",
+            "whatsapp": "(381) 502-6948"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "EL PARADOR",
+        "nombre": "El Parador",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "435-3930 / 435-4391",
-            "whatsapp": "505-5383"
+            "telefono": "(381) 435-3930",
+            "whatsapp": "(381) 505-5383"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "ALIMENTOS SALUDABLES",
+        "nombre": "Alimentos Saludables",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "448-4203"
+            "whatsapp": "(381) 448-4203"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "QUATES",
+        "nombre": "Quates",
         "sucursales": [
           {
             "domicilio": "Av. Perón 1500",
-            "telefono": "485-6111",
-            "whatsapp": "523-1148"
+            "telefono": "(381) 485-6111",
+            "whatsapp": "(381) 523-1148"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "FAFA",
+        "nombre": "Fafa",
         "sucursales": [
           {
             "domicilio": "San Martín 780",
             "telefono": "",
-            "whatsapp": "640-2134"
+            "whatsapp": "(381) 640-2134"
           }
         ],
         "direcciones": 1
@@ -2073,147 +2071,148 @@
     ]
   },
   {
+    "id": 21,
     "rubro": "Bares & Restaurantes",
     "comercios": [
       {
-        "nombre": "BONAFIDE",
+        "nombre": "Bonafide",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "349-7178"
+            "whatsapp": "(381) 349-7178"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "CAFÉ ARUBA",
+        "nombre": "Café Aruba",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "432-3198",
-            "whatsapp": "551-8335"
+            "telefono": "(381) 432-3198",
+            "whatsapp": "(381) 551-8335"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "DILETTO STORETOSTADERO",
+        "nombre": "Diletto StoreTostadero",
         "sucursales": [
           {
             "domicilio": "Av. Ejército del Norte 741",
-            "telefono": "435-5710",
-            "whatsapp": "476-1363"
+            "telefono": "(381) 435-5710",
+            "whatsapp": "(381) 476-1363"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "PORTER BREW HOUSE ",
+        "nombre": "Porter Brew House",
         "sucursales": [
           {
             "domicilio": "Av. Perón 1750",
-            "telefono": "485-8001",
+            "telefono": "(381) 485-8001",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "BONNEVILLE BAR",
+        "nombre": "Bonneville Bar",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 904",
             "telefono": "",
-            "whatsapp": "624-4200"
+            "whatsapp": "(381) 624-4200"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "KM 12",
+        "nombre": "Km 12",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 3050",
             "telefono": "",
-            "whatsapp": "634-1716"
+            "whatsapp": "(381) 634-1716"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "WALNUSS CERVECEÍA ARTESANAL",
+        "nombre": "Walnuss Cerveceía Artesanal",
         "sucursales": [
           {
             "domicilio": "Uruguay 411",
             "telefono": "",
-            "whatsapp": "553-5008"
+            "whatsapp": "(381) 553-5008"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MALLIÑA CANASTITAS ",
+        "nombre": "Malliña Canastitas",
         "sucursales": [
           {
             "domicilio": "San Lorenzo 367",
             "telefono": "",
-            "whatsapp": "369-6385"
+            "whatsapp": "(381) 369-6385"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL CRISTO",
+        "nombre": "El Cristo",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 4",
-            "telefono": "435-7576",
-            "whatsapp": "527-4442"
+            "telefono": "(381) 435-7576",
+            "whatsapp": "(381) 527-4442"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL CRISTO II",
+        "nombre": "El Cristo II",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "434-7606",
-            "whatsapp": "368-4565"
+            "telefono": "(381) 434-7606",
+            "whatsapp": "(381) 368-4565"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "LAS BRASAS PARRILLADA",
+        "nombre": "Las Brasas Parrillada",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1569",
-            "telefono": "425-6020",
+            "telefono": "(381) 425-6020",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "GREEM-GRAFT BEER AND PIZZA",
+        "nombre": "Greem-Graft Beer and Pizza",
         "sucursales": [
           {
             "domicilio": "Av. Perón 2200",
-            "telefono": "450-7658",
-            "whatsapp": "598-0718"
+            "telefono": "(381) 450-7658",
+            "whatsapp": "(381) 598-0718"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "PIAF",
+        "nombre": "Piaf",
         "sucursales": [
           {
             "domicilio": "Av. Perón 1800",
             "telefono": "",
-            "whatsapp": "663-3783"
+            "whatsapp": "(381) 663-3783"
           }
         ],
         "direcciones": 1
@@ -2221,48 +2220,49 @@
     ]
   },
   {
+    "id": 8,
     "rubro": "Golosinas",
     "comercios": [
       {
-        "nombre": "LA GOLOSINERIA",
+        "nombre": "La Golosineria",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "438-8938"
+            "whatsapp": "(381) 438-8938"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "EL EMPORIO DE LAS GOLOSINAS",
+        "nombre": "El Emporio de las Golosinas",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2028",
-            "telefono": "425-0655",
+            "telefono": "(381) 425-0655",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DULCILANDIA",
+        "nombre": "Dulcilandia",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "419-8150 / 543-0020"
+            "whatsapp": "(381) 419-8150"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "DULCI NARD",
+        "nombre": "Dulci Nard",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "409-1213"
+            "whatsapp": "(381) 409-1213"
           }
         ],
         "direcciones": 0
@@ -2270,74 +2270,75 @@
     ]
   },
   {
+    "id": 9,
     "rubro": "Helados",
     "comercios": [
       {
-        "nombre": "STICK",
+        "nombre": "Stick",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "532-2220"
+            "whatsapp": "(381) 532-2220"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "WOLLEN SWISS ICE CREAM",
+        "nombre": "Wollen swiss ice cream",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "301-9446",
+            "telefono": "(381) 301-9446",
             "whatsapp": ""
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "YO HELADOS",
+        "nombre": "Yo Helados",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1300",
-            "telefono": "425-8535",
+            "telefono": "(381) 425-8535",
             "whatsapp": ""
           },
           {
             "domicilio": "Av. Solano Vera y Camino de Sirga",
-            "telefono": "425-3107",
-            "whatsapp": "532-9753"
+            "telefono": "(381) 425-3107",
+            "whatsapp": "(381) 532-9753"
           }
         ],
         "direcciones": 2
       },
       {
-        "nombre": "TELLO",
+        "nombre": "Tello",
         "sucursales": [
           {
             "domicilio": "Camino de Sirga 1400 - Galería Quara",
-            "telefono": "439-6800",
+            "telefono": "(381) 439-6800",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "VOLTA",
+        "nombre": "Volta",
         "sucursales": [
           {
-            "domicilio": "Av. Oerón 2001 ",
+            "domicilio": "Av. Oerón 2001",
             "telefono": "",
-            "whatsapp": "502-7990"
+            "whatsapp": "(381) 502-7990"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "GRIDO",
+        "nombre": "Grido",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 153",
-            "telefono": "574-9939",
+            "telefono": "(381) 574-9939",
             "whatsapp": ""
           }
         ],
@@ -2346,268 +2347,269 @@
     ]
   },
   {
+    "id": 10,
     "rubro": "Librerías",
     "comercios": [
       {
-        "nombre": "CAMELOT",
+        "nombre": "Camelot",
         "sucursales": [
           {
             "domicilio": "Florida Sur 24",
-            "telefono": "425-2882",
+            "telefono": "(381) 425-2882",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DEL PASEO FRANCÉS",
+        "nombre": "Del Paseo Francés",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1620",
-            "telefono": "446-9286",
+            "telefono": "(381) 446-9286",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL PORTAL",
+        "nombre": "El Portal",
         "sucursales": [
           {
             "domicilio": "Mendoza 104",
-            "telefono": "425-1972",
-            "whatsapp": "508-2188"
+            "telefono": "(381) 425-1972",
+            "whatsapp": "(381) 508-2188"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "FLORIDA",
+        "nombre": "Florida",
         "sucursales": [
           {
             "domicilio": "Florida 40",
             "telefono": "",
-            "whatsapp": "354-8986"
+            "whatsapp": "(381) 354-8986"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "GRACIELA",
+        "nombre": "Graciela",
         "sucursales": [
           {
             "domicilio": "Pringles 770",
-            "telefono": "435-0436",
+            "telefono": "(381) 435-0436",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA SOLANITA",
+        "nombre": "La Solanita",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 540",
             "telefono": "",
-            "whatsapp": "530-9283"
+            "whatsapp": "(381) 530-9283"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LESBLON",
+        "nombre": "LesBlon",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2018",
-            "telefono": "615-0111",
+            "telefono": "(381) 615-0111",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LO DE EVE",
+        "nombre": "Lo de Eve",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vega 390",
-            "telefono": "638-5339",
+            "telefono": "(381) 638-5339",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MARU",
+        "nombre": "Maru",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1799",
-            "telefono": "425-6383",
+            "telefono": "(381) 425-6383",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MERCERÍA MOLINA",
+        "nombre": "Mercería Molina",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vega 141",
-            "telefono": "425-0188",
+            "telefono": "(381) 425-0188",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "ORIGAMI CKC",
+        "nombre": "Origami CKC",
         "sucursales": [
           {
             "domicilio": "Pringles 1192",
-            "telefono": "354-3002",
+            "telefono": "(381) 354-3002",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "PAEZ LOPEZ SILVIA BEATRIZ",
+        "nombre": "Paez Lopez Silvia Beatriz",
         "sucursales": [
           {
             "domicilio": "Honduras 463",
-            "telefono": "435-1068",
+            "telefono": "(381) 435-1068",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "SIL - MAR",
+        "nombre": "Sil - Mar",
         "sucursales": [
           {
             "domicilio": "Los Ceibos 626",
-            "telefono": "435-2848",
-            "whatsapp": "604-3496"
+            "telefono": "(381) 435-2848",
+            "whatsapp": "(381) 604-3496"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "TIENDA DE ARTE",
+        "nombre": "Tienda de Arte",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1273",
             "telefono": "",
-            "whatsapp": "510-6349"
+            "whatsapp": "(381) 510-6349"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "YENNY",
+        "nombre": "Yenny",
         "sucursales": [
           {
             "domicilio": "Av. Fermín Cariola 42 - Local 1191",
-            "telefono": "431-5002",
+            "telefono": "(381) 431-5002",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "ZAVALIA",
+        "nombre": "Zavalia",
         "sucursales": [
           {
             "domicilio": "Zavala 535",
-            "telefono": "435-3515",
+            "telefono": "(381) 435-3515",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "SAN FRANCISCO",
+        "nombre": "San Francisco",
         "sucursales": [
           {
             "domicilio": "Corrientes 287",
-            "telefono": "422-8822",
-            "whatsapp": "589-3399"
+            "telefono": "(381) 422-8822",
+            "whatsapp": "(381) 589-3399"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "NOROESTE",
+        "nombre": "Noroeste",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2028",
-            "telefono": "230-4878",
-            "whatsapp": "654-5150"
+            "telefono": "(381) 230-4878",
+            "whatsapp": "(381) 654-5150"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL ARCÓN ALMACÉN DE REGALOS",
+        "nombre": "El Arcón Almacén de Regalos",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1799 - Shopping - Local 126",
             "telefono": "",
-            "whatsapp": "522-2530"
+            "whatsapp": "(381) 522-2530"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "IMPRECONT",
+        "nombre": "Imprecont",
         "sucursales": [
           {
-            "domicilio": "Salta 64 - Galería Plaza Mayor - Local 17 ",
+            "domicilio": "Salta 64 - Galería Plaza Mayor - Local 17",
             "telefono": "",
-            "whatsapp": "413-1707"
+            "whatsapp": "(381) 413-1707"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MARU LIBRERÍA",
+        "nombre": "Maru Librería",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1817",
-            "telefono": "425-5813",
+            "telefono": "(381) 425-5813",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "ARTE PARA EL ARTE",
+        "nombre": "Arte para el Arte",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 131",
             "telefono": "",
-            "whatsapp": "533-4002"
+            "whatsapp": "(381) 533-4002"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "TERE SIMÓN DECORACIÓN",
+        "nombre": "Tere Simón Decoración",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1526 - Local 7A",
-            "telefono": "497-1847",
-            "whatsapp": "467-5300"
+            "telefono": "(381) 497-1847",
+            "whatsapp": "(381) 467-5300"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "ARTEMAS",
+        "nombre": "ArteMas",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "335-5678"
+            "whatsapp": "(381) 335-5678"
           }
         ],
         "direcciones": 0
@@ -2615,26 +2617,27 @@
     ]
   },
   {
+    "id": 25,
     "rubro": "Bazar",
     "comercios": [
       {
-        "nombre": "BAZAR PATO GALLO DECO",
+        "nombre": "Bazar Pato Gallo Deco",
         "sucursales": [
           {
             "domicilio": "Catamarca 1600 - Local 5",
             "telefono": "",
-            "whatsapp": "655-3743"
+            "whatsapp": "(381) 655-3743"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "NORBAZAR",
+        "nombre": "Norbazar",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2343",
             "telefono": "",
-            "whatsapp": "600-8191 / 600-8192"
+            "whatsapp": "(381) 600-8191"
           }
         ],
         "direcciones": 1
@@ -2642,92 +2645,93 @@
     ]
   },
   {
+    "id": 5,
     "rubro": "Tecnología",
     "comercios": [
       {
-        "nombre": "FLASH GAMES",
+        "nombre": "Flash Games",
         "sucursales": [
           {
             "domicilio": "Catamarca 410",
             "telefono": "",
-            "whatsapp": "414-1610"
+            "whatsapp": "(381) 414-1610"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "UTUTO",
+        "nombre": "Ututo",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2010",
-            "telefono": "232-7668",
+            "telefono": "(381) 232-7668",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "SMART SHOP",
+        "nombre": "Smart Shop",
         "sucursales": [
           {
             "domicilio": "Los Ceibos 1100",
             "telefono": "",
-            "whatsapp": "615-1933"
+            "whatsapp": "(381) 615-1933"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "WEKE STORE",
+        "nombre": "Weke Store",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 542 - Local 3",
             "telefono": "",
-            "whatsapp": "637-4074"
+            "whatsapp": "(381) 637-4074"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "GUIBERT INFORMÁTICA",
+        "nombre": "Guibert Informática",
         "sucursales": [
           {
             "domicilio": "Constancio Vigil 2222",
             "telefono": "",
-            "whatsapp": "549-8297"
+            "whatsapp": "(381) 549-8297"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "COMPUCITI",
+        "nombre": "Compuciti",
         "sucursales": [
           {
             "domicilio": "Jujuy 203",
             "telefono": "",
-            "whatsapp": "532-4601"
+            "whatsapp": "(381) 532-4601"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "TECNOVIP",
+        "nombre": "Tecnovip",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1799",
             "telefono": "",
-            "whatsapp": "643-1720"
+            "whatsapp": "(381) 643-1720"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "ELECTRO.NIC",
+        "nombre": "Electro.nic",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "561-2401"
+            "whatsapp": "(381) 561-2401"
           }
         ],
         "direcciones": 0
@@ -2735,114 +2739,115 @@
     ]
   },
   {
+    "id": 11,
     "rubro": "Limpieza",
     "comercios": [
       {
-        "nombre": "3B Distribuidora",
+        "nombre": "3B distribuidora",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "655-4720",
+            "telefono": "(381) 655-4720",
             "whatsapp": ""
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "ARTICULOS DE LIMPIEZA",
+        "nombre": "Articulos de limpieza",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "569-2709"
+            "whatsapp": "(381) 569-2709"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "SERVICIO INTEGRAL DE LIMPIEZA",
+        "nombre": "Servicio Integral de Limpieza",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "572-0361"
+            "whatsapp": "(381) 572-0361"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "AGUSTÍN PUCHETA AMWAY",
+        "nombre": "Agustín Pucheta Amway",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "602-1108"
+            "whatsapp": "(381) 602-1108"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "BURBUJITA",
+        "nombre": "Burbujita",
         "sucursales": [
           {
             "domicilio": "Entre Rios 2510",
-            "telefono": "425-4373",
-            "whatsapp": "546-4187"
+            "telefono": "(381) 425-4373",
+            "whatsapp": "(381) 546-4187"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "GAMA Distribuidora",
+        "nombre": "Gama Distribuidora",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 62",
-            "telefono": "425-5375",
-            "whatsapp": "616-0101"
+            "telefono": "(381) 425-5375",
+            "whatsapp": "(381) 616-0101"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA ESCOBITA",
+        "nombre": "La Escobita",
         "sucursales": [
           {
             "domicilio": "Santiago 676",
-            "telefono": "425-4373",
-            "whatsapp": "678-2499"
+            "telefono": "(381) 425-4373",
+            "whatsapp": "(381) 678-2499"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "AGUA VIVA",
+        "nombre": "Agua Viva",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2068",
-            "telefono": "425-4373",
-            "whatsapp": "604-0031"
+            "telefono": "(381) 425-4373",
+            "whatsapp": "(381) 604-0031"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LUND",
+        "nombre": "Lund",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "480-7403"
+            "whatsapp": "(381) 480-7403"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "SP DISTRIBUCIÓN",
+        "nombre": "SP Distribución",
         "sucursales": [
           {
             "domicilio": "Lamadrid 957",
             "telefono": "",
-            "whatsapp": "657-2306"
+            "whatsapp": "(381) 657-2306"
           }
         ],
         "direcciones": 1
@@ -2850,15 +2855,16 @@
     ]
   },
   {
+    "id": 18,
     "rubro": "Tintorerías",
     "comercios": [
       {
-        "nombre": "SECCO PRESTO",
+        "nombre": "Secco Presto",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 350",
             "telefono": "",
-            "whatsapp": "628-7381"
+            "whatsapp": "(381) 628-7381"
           }
         ],
         "direcciones": 1
@@ -2866,70 +2872,71 @@
     ]
   },
   {
+    "id": 23,
     "rubro": "Indumentaria & Zapatería",
     "comercios": [
       {
-        "nombre": "AIRE LIBRE",
+        "nombre": "Aire Libre",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "417-8453"
+            "whatsapp": "(381) 417-8453"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "COSAS DE CHICOS",
+        "nombre": "Cosas de Chicos",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1799 - Shopping - Local 140",
             "telefono": "",
-            "whatsapp": "368-2133"
+            "whatsapp": "(381) 368-2133"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "COCORETA",
+        "nombre": "Cocoreta",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 598 - Paseo Heller - Local 3",
             "telefono": "",
-            "whatsapp": "656-5119"
+            "whatsapp": "(381) 656-5119"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LENCERÍA CHANTELLE",
+        "nombre": "Lencería Chantelle",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 72",
-            "telefono": "425-9368",
+            "telefono": "(381) 425-9368",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "COFFEE",
+        "nombre": "Coffee",
         "sucursales": [
           {
-            "domicilio": "Salta 64 - Galería Plaza Mayor ",
+            "domicilio": "Salta 64 - Galería Plaza Mayor",
             "telefono": "",
-            "whatsapp": "582-9393"
+            "whatsapp": "(381) 582-9393"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "HABÍA UNA VEZ",
+        "nombre": "Había una vez",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1799 - Shopping - Local 102",
             "telefono": "",
-            "whatsapp": "613-1209"
+            "whatsapp": "(381) 613-1209"
           }
         ],
         "direcciones": 1
@@ -2937,58 +2944,59 @@
     ]
   },
   {
+    "id": 14,
     "rubro": "Belleza",
     "comercios": [
       {
-        "nombre": "MIMARTE PELUQUERÍA",
+        "nombre": "Mimarte Peluquería",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega y Pedro de Villalba",
             "telefono": "",
-            "whatsapp": "594-6004"
+            "whatsapp": "(381) 594-6004"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LOOK TUCUMÁN DIATRIBUIDORA",
+        "nombre": "Look Tucumán Diatribuidora",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "506-4935 / 523-9093"
+            "whatsapp": "(381) 506-4935"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "MÓNICA OVIEDO COSMIATRA",
+        "nombre": "Mónica Oviedo Cosmiatra",
         "sucursales": [
           {
             "domicilio": "Country del Pilar - Casa G2",
             "telefono": "",
-            "whatsapp": "301-0228"
+            "whatsapp": "(381) 301-0228"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "PRETTY4EVER - UÑAS",
+        "nombre": "Pretty4ever - Uñas",
         "sucursales": [
           {
             "domicilio": "Country del Pilar - Casa G8",
             "telefono": "",
-            "whatsapp": "586-7906"
+            "whatsapp": "(381) 586-7906"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CLUB CAPELLI",
+        "nombre": "Club Capelli",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija y Lobo de la vega",
-            "telefono": "464-7103",
+            "telefono": "(381) 464-7103",
             "whatsapp": ""
           }
         ],
@@ -2997,48 +3005,49 @@
     ]
   },
   {
+    "id": 16,
     "rubro": "Semillerías",
     "comercios": [
       {
-        "nombre": "COCINARTE",
+        "nombre": "CocinArte",
         "sucursales": [
           {
             "domicilio": "Country Las Jarillas",
             "telefono": "",
-            "whatsapp": "673-5590"
+            "whatsapp": "(381) 673-5590"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL NOGAL",
+        "nombre": "El Nogal",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 84",
-            "telefono": "425-8003",
-            "whatsapp": "661-8126"
+            "telefono": "(381) 425-8003",
+            "whatsapp": "(381) 661-8126"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL BAZAR DE LAS ESPECIAS",
+        "nombre": "El Bazar de las Especias",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "681-6167"
+            "whatsapp": "(381) 681-6167"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "EL MOLINO",
+        "nombre": "El Molino",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "300-7209"
+            "whatsapp": "(381) 300-7209"
           }
         ],
         "direcciones": 0
@@ -3046,224 +3055,225 @@
     ]
   },
   {
+    "id": 20,
     "rubro": "Veterinarias",
     "comercios": [
       {
-        "nombre": "ACONQUIJA",
+        "nombre": "Aconquija",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2264",
-            "telefono": "425-4959",
+            "telefono": "(381) 425-4959",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "BRANGUS",
+        "nombre": "Brangus",
         "sucursales": [
           {
             "domicilio": "Av. Perón 80",
-            "telefono": "455-8138",
+            "telefono": "(381) 455-8138",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CENTRO VETERINARIO YERBA BUENA",
+        "nombre": "Centro Veterinario Yerba Buena",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 281",
-            "telefono": "435-1476",
+            "telefono": "(381) 435-1476",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CERRO TIENDA DE MASCOTAS",
+        "nombre": "Cerro Tienda de Mascotas",
         "sucursales": [
           {
             "domicilio": "Universo 27",
             "telefono": "",
-            "whatsapp": "679-4922"
+            "whatsapp": "(381) 679-4922"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "CLUB CAN",
+        "nombre": "Club Can",
         "sucursales": [
           {
             "domicilio": "Av. Perón 1700",
-            "telefono": "485-6021",
+            "telefono": "(381) 485-6021",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "COQUENA",
+        "nombre": "Coquena",
         "sucursales": [
           {
             "domicilio": "Av. Mate de Luna 4395",
-            "telefono": "435-5963",
+            "telefono": "(381) 435-5963",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DR GUSTAVO VALDEZ",
+        "nombre": "Dr Gustavo Valdez",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 53",
-            "telefono": "637-6690",
+            "telefono": "(381) 637-6690",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DR. MARCELO VÁZQUEZ",
+        "nombre": "Dr. Marcelo Vázquez",
         "sucursales": [
           {
             "domicilio": "Remedios de Escalada 1587",
-            "telefono": "425-1689",
+            "telefono": "(381) 425-1689",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DR. SCHWINT",
+        "nombre": "Dr. Schwint",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 526",
-            "telefono": "425-1988",
+            "telefono": "(381) 425-1988",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "DRA. CECILIA MASI ELIZALDE",
+        "nombre": "Dra. Cecilia Masi Elizalde",
         "sucursales": [
           {
             "domicilio": "Martín Fierro 151",
-            "telefono": "318-7211",
+            "telefono": "(381) 318-7211",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL PUCARA",
+        "nombre": "El Pucara",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 950",
-            "telefono": "307-2614",
+            "telefono": "(381) 307-2614",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL-KADI",
+        "nombre": "El-Kadi",
         "sucursales": [
           {
             "domicilio": "Salas y Valdez 195",
-            "telefono": "435-2566",
+            "telefono": "(381) 435-2566",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA CHACHA",
+        "nombre": "La Chacha",
         "sucursales": [
           {
             "domicilio": "Av. Perón 146",
-            "telefono": "435-5816",
+            "telefono": "(381) 435-5816",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MUNDO MASCOTA",
+        "nombre": "Mundo Mascota",
         "sucursales": [
           {
             "domicilio": "Diego de Villarroel 1890",
-            "telefono": "425-0882",
+            "telefono": "(381) 425-0882",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "PURO PELO",
+        "nombre": "Puro Pelo",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 2491",
             "telefono": "",
-            "whatsapp": "413-2263"
+            "whatsapp": "(381) 413-2263"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "QUARA",
+        "nombre": "Quara",
         "sucursales": [
           {
             "domicilio": "San Martín 1350",
             "telefono": "",
-            "whatsapp": "669-7088"
+            "whatsapp": "(381) 669-7088"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "SAN MIGUEL",
+        "nombre": "San Miguel",
         "sucursales": [
           {
             "domicilio": "Av. Mate de Luna 3448",
-            "telefono": "423-3673",
+            "telefono": "(381) 423-3673",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "YUNGAS",
+        "nombre": "Yungas",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera",
-            "telefono": "425-9604",
+            "telefono": "(381) 425-9604",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "TIENDA PARA MASCOTAS SAN MARTIN",
+        "nombre": "Tienda para Mascotas San Martin",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "230-0763",
-            "whatsapp": "304-4388"
+            "telefono": "(381) 230-0763",
+            "whatsapp": "(381) 304-4388"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "ANDRES BONANO, ALIMENTOS PARA MASCOTAS",
+        "nombre": "Andres Bonano, Alimentos para Mascotas",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "402-0576"
+            "whatsapp": "(381) 402-0576"
           }
         ],
         "direcciones": 0
@@ -3271,48 +3281,49 @@
     ]
   },
   {
+    "id": 24,
     "rubro": "Pinturerías & Ferreteria",
     "comercios": [
       {
-        "nombre": "PINTURERÍA ESPAÑA",
+        "nombre": "Pinturería España",
         "sucursales": [
           {
             "domicilio": "Av. Mate de Luna 4794",
-            "telefono": "422-5700",
-            "whatsapp": "641-8745"
+            "telefono": "(381) 422-5700",
+            "whatsapp": "(381) 641-8745"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "TUCUMÁN PINTURAS",
+        "nombre": "Tucumán Pinturas",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 950 - Local 4",
-            "telefono": "425-7749",
-            "whatsapp": "320-3104 / 566-6633"
+            "telefono": "(381) 425-7749",
+            "whatsapp": "(381) 320-3104"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MUNDO FERRETERO",
+        "nombre": "Mundo Ferretero",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1073 - Local 1",
-            "telefono": "425-7786",
+            "telefono": "(381) 425-7786",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "TUCUMANCHAS",
+        "nombre": "Tucumanchas",
         "sucursales": [
           {
             "domicilio": "San Juan 1351",
             "telefono": "",
-            "whatsapp": "645-5519 / 644-2914"
+            "whatsapp": "(381) 645-5519"
           }
         ],
         "direcciones": 1
@@ -3320,59 +3331,60 @@
     ]
   },
   {
+    "id": 2,
     "rubro": "Bebidas",
     "comercios": [
       {
-        "nombre": "DRINK DELIVERY",
+        "nombre": "Drink Delivery",
         "sucursales": [
           {
             "domicilio": "La pampa 1881",
-            "telefono": "687-2537",
+            "telefono": "(381) 687-2537",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "GREENBEER",
+        "nombre": "Greenbeer",
         "sucursales": [
           {
             "domicilio": "Av. Perón 2500",
-            "telefono": "450-7658",
+            "telefono": "(381) 450-7658",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "LA TREINTA Y UNO",
+        "nombre": "La treinta y uno",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 1071",
-            "telefono": "425-7311",
-            "whatsapp": "466-1954"
+            "telefono": "(381) 425-7311",
+            "whatsapp": "(381) 466-1954"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "REY DE COPAS",
+        "nombre": "Rey de Copas",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 319",
             "telefono": "",
-            "whatsapp": "463-2600"
+            "whatsapp": "(381) 463-2600"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "BOQUERIA TUCUMAN",
+        "nombre": "Boqueria Tucuman",
         "sucursales": [
           {
             "domicilio": "Av. Perón 2500",
             "telefono": "",
-            "whatsapp": "697-7329"
+            "whatsapp": "(381) 697-7329"
           }
         ],
         "direcciones": 1
@@ -3380,256 +3392,257 @@
     ]
   },
   {
+    "id": 17,
     "rubro": "Servicios",
     "comercios": [
       {
-        "nombre": "ALBERTO (PILETAS)",
+        "nombre": "Alberto (Piletas)",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "545-4014"
+            "whatsapp": "(381) 545-4014"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "CESAR SARMIENTO (ENFERMERO)",
+        "nombre": "Cesar Sarmiento (Enfermero)",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "474-0843"
+            "whatsapp": "(381) 474-0843"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "GERMAN (CERRAJERO)",
+        "nombre": "German (Cerrajero)",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "628-1385"
+            "whatsapp": "(381) 628-1385"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "MARCOS DIBENEDETO (PILETAS)",
+        "nombre": "Marcos Dibenedeto (Piletas)",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "670-3706"
+            "whatsapp": "(381) 670-3706"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "PAOLO (PILETAS)",
+        "nombre": "Paolo (Piletas)",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "319-6969"
+            "whatsapp": "(381) 319-6969"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "SALVATTORI REVESTIMIENTOS",
+        "nombre": "Salvattori Revestimientos",
         "sucursales": [
           {
             "domicilio": "Lobo de la Vega 1095",
             "telefono": "",
-            "whatsapp": "611-5611"
+            "whatsapp": "(381) 611-5611"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL OBRERO CORRALÓN",
+        "nombre": "El Obrero Corralón",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 1174",
             "telefono": "",
-            "whatsapp": "300-3143"
+            "whatsapp": "(381) 300-3143"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EL ELECTRICISTA",
+        "nombre": "El Electricista",
         "sucursales": [
           {
             "domicilio": "Mendoza 106",
-            "telefono": "425-1972",
-            "whatsapp": "508-2188"
+            "telefono": "(381) 425-1972",
+            "whatsapp": "(381) 508-2188"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "EXTRAGAS",
+        "nombre": "Extragas",
         "sucursales": [
           {
             "domicilio": "Santa Cruz 570",
-            "telefono": "349-4740",
+            "telefono": "(381) 349-4740",
             "whatsapp": ""
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "YPF GAS",
+        "nombre": "YPF gas",
         "sucursales": [
           {
             "domicilio": "",
-            "telefono": "433-1036",
-            "whatsapp": "419-5780"
+            "telefono": "(381) 433-1036",
+            "whatsapp": "(381) 419-5780"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "ROMA GAS",
+        "nombre": "Roma Gas",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 1174",
             "telefono": "",
-            "whatsapp": "402-6126"
+            "whatsapp": "(381) 402-6126"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "YERBA BUENA GAS ",
+        "nombre": "Yerba Buena Gas",
         "sucursales": [
           {
             "domicilio": "Lamadrid 1450",
             "telefono": "",
-            "whatsapp": "403-8441"
+            "whatsapp": "(381) 403-8441"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "VIVERO EL CRISTO",
+        "nombre": "Vivero El Cristo",
         "sucursales": [
           {
             "domicilio": "Av. Aconquija 400",
             "telefono": "",
-            "whatsapp": "542-9590"
+            "whatsapp": "(381) 542-9590"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "VIVERO SOBRAL",
+        "nombre": "Vivero Sobral",
         "sucursales": [
           {
             "domicilio": "Libertad 320",
-            "telefono": "425-6802",
-            "whatsapp": "520-7787"
+            "telefono": "(381) 425-6802",
+            "whatsapp": "(381) 520-7787"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "MARCOS RUIZ SEGUROS",
+        "nombre": "Marcos Ruiz Seguros",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "547-0025"
+            "whatsapp": "(381) 547-0025"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "LUNA ELECTRÓNICA",
+        "nombre": "Luna Electrónica",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "478-6876"
+            "whatsapp": "(381) 478-6876"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "BATERÍAS YERBA BUENA",
+        "nombre": "Baterías Yerba Buena",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "664-6755 / 578-8028"
+            "whatsapp": "(381) 664-6755"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "TAXI YERBA BUENA",
+        "nombre": "Taxi Yerba Buena",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "681-0406"
+            "whatsapp": "(381) 681-0406"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "GAS MALVINAS",
+        "nombre": "Gas Malvinas",
         "sucursales": [
           {
-            "domicilio": "Pja. Malvivas altura Av. Aconquija 2200 - Local 2 ",
+            "domicilio": "Pja. Malvivas altura Av. Aconquija 2200 - Local 2",
             "telefono": "",
-            "whatsapp": "511-7468"
+            "whatsapp": "(381) 511-7468"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "PEST CONTROL (FUMIGACIÓN)",
+        "nombre": "Pest Control (Fumigación)",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "643-5068"
+            "whatsapp": "(381) 643-5068"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "CORRALÓN SOLANO VERA",
+        "nombre": "Corralón Solano Vera",
         "sucursales": [
           {
             "domicilio": "Av. Solano Vera 528",
             "telefono": "",
-            "whatsapp": "502-9194"
+            "whatsapp": "(381) 502-9194"
           }
         ],
         "direcciones": 1
       },
       {
-        "nombre": "ANTONIO HERRERA (ALBAÑIL)",
+        "nombre": "Antonio Herrera (albañil)",
         "sucursales": [
           {
             "domicilio": "",
             "telefono": "",
-            "whatsapp": "304-0864"
+            "whatsapp": "(381) 304-0864"
           }
         ],
         "direcciones": 0
       },
       {
-        "nombre": "SEGUMAX GNC",
+        "nombre": "Segumax GNC",
         "sucursales": [
           {
             "domicilio": "Las Piedras 2069",
-            "telefono": "230-6210",
+            "telefono": "(381) 230-6210",
             "whatsapp": ""
           }
         ],

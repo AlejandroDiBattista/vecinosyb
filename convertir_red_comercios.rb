@@ -2,10 +2,9 @@ require "erb"
 require "open-uri"
 require "json"
 
-def normalizar(texto, pre="", pos="")
-	texto = texto.strip#.gsub("-", "")
-	texto == "" ? "" : "#{pre}#{texto}#{pos}"
-end
+
+Campos = [:id, :rubro, :nombre, :telefono, :whatsapp, :direccion, :localidad, :envios, :contacto, :asignado, :controlado]
+OrdenRubros  = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Bares & Restaurantes", "Golosinas", "Helados", "Librerías", "Bazar",  "Tecnología",  "Limpieza", "Tintorerías", "Indumentaria & Zapatería", "Belleza", "Semillerías", "Veterinarias", "Pinturerías & Ferreteria", "Bebidas", "Servicios"]
 
 class Hash 
 	def method_missing(meth, *args, &blk)
@@ -23,10 +22,23 @@ class Object
 	def i
 		to_s.i
 	end
+	def tel
+		to_s.tel
+	end
+	def limpiar
+		to_s.limpiar
+	end
+end
+
+class NilClass
+	def limpiar
+		""
+	end
 end
 
 class String
 	def cubrir(formato)
+		# formato=""
 		return "" if strip == ""
 		"#{formato}#{strip}#{formato}"
 	end
@@ -50,50 +62,111 @@ class String
 	def pad(len=30)
 		(self + " " * len)[0...len]
 	end
+
+	def tel
+		tmp = split("/")
+				.map{|x|x.gsub(/\D/,"")}
+				.select{|t|t.size == 7}
+				.first
+		tmp ? "(381) #{tmp[0...3]}-#{tmp[3..-1]}" : ""
+	end
+
+	def limpiar
+		chomp.strip.gsub(/\s+/," ")
+	end
 end
 
-campos = [:id,:rubro,:nombre,:telefono,:whatsapp,:direccion,:localidad,:envios,:contacto,:asignado,:controlado]
-# campos = [:id, :rubro, :nombre, :telefono, :whatsapp, :direccion, :envios, :contacto, :asignado, :controlado]
-orden  = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Bares & Restaurantes", "Golosinas", "Helados", "Librerías", "Bazar",  "Tecnología",  "Limpieza", "Tintorerías", "Indumentaria & Zapatería", "Belleza", "Semillerías", "Veterinarias", "Pinturerías & Ferreteria", "Bebidas", "Servicios"]
+def contar(lista)
+	lista.uniq.map{|r| [r, lista.count{|x|x == r}]}.sort_by(&:last)	
+end
 
-datos = open('datos.tsv')
-			.readlines[1..-1]
-			.map{|x| x.split("\t").map(&:chomp) }
-			.map{|x| campos.zip(x).to_h }
-			.select{|x|x.rubro && x.rubro.strip.size > 0 }
-			# .select{|x| x.envios["si"] }
+def analizar(datos)
+	puts "\n-- ANALISIS DE DATOS --\n"
+
+	puts "\nClasificion Envios"
+	contar(datos.map(&:envios)).each{|x|puts "  %-40s %3i" % x }
+	
+	puts "\nClasificacion Rubros"
+	contar(datos.map(&:rubro)).each{|x|puts "  %-40s %3i" % x }
 
 
+	puts "REVISNADO"
+
+	mal = datos.select{|x| sin_dato(x) }
+	if mal.size > 0 
+		puts "Hay #{mal.size} entradas sin datos suficientes" 
+		pp mal
+	end
+
+	rubros = datos.map(&:rubro).uniq
+	
+	sin_ordenar = rubros - OrdenRubros
+	if sin_ordenar.size > 0 then
+		puts "\nFalta definir el orden para..."
+		pp sin_ordenar
+	end
+	
+	sin_rubros = OrdenRubros - rubros
+	if sin_rubros.size > 0 then
+		puts "\nOrden obsoleto para..."
+		pp sin_rubros
+	end
+
+	if mal.size == 0 && sin_ordenar.size == 0 && sin_rubros.size == 0 then
+		puts "Todo OK"
+	end
+	puts "."
+end
+
+def leer_datos(origen='datos.tsv')
+	open(origen)
+		.readlines[1..-1]
+		.map{|x| x.split("\t").map(&:limpiar) }
+		.map{|x| Campos.zip(x).to_h }
+		.select{|x|x.rubro.size > 0 }
+end
+
+def sin_dato(dato)
+	if dato.rubro.nil? || dato.nombre.nil? || dato.telefono.nil? ||dato.whatsapp.nil? 
+		puts "MALLL"
+		pp dato
+		return true 
+	else 
+		puts "."
+	end
+
+	(dato.rubro.size == 0) || (dato.nombre.size ==  0) || (dato.telefono.size == 0)# &&  dato.whatsapp.size == 0)
+end
+
+datos = leer_datos()
+# pp datos
+# analizar datos 
+
+# return
+i = 0
 comercios = datos.group_by{|d|d.rubro}.map do |rubro, comercios|
 	{
+		id: i+=1,
 		rubro: rubro,
 		comercios: comercios.group_by{|c| c.nombre }.map do |comercio, sucursales|
 			{
-				nombre: comercio.upcase.gsub("FARMACIA", "Farmacia").gsub("DISTRIBUIDORA", "Distribuidora"), 
+				nombre: comercio.gsub("FARMACIA", "Farmacia").gsub("DISTRIBUIDORA", "Distribuidora"), 
 				sucursales: sucursales.map do |s|
 					{
 					 	domicilio: s.direccion,
-					 	telefono:  s.telefono,
-					 	whatsapp:  s.whatsapp,
+					 	telefono:  s.telefono.tel,
+					 	whatsapp:  s.whatsapp.tel,
 					}
 				end.sort_by{|d| d.domicilio.size > 0 ? d.domicilio : "zzzz" },
 				direcciones: sucursales.count{|s|s.direccion.strip.size > 0 }
 			}
 		end.sort_by{|d| d.comercio }
 	}
-end.sort_by{|x| orden.index(x.rubro) || 99}
+end.sort_by{|x| OrdenRubros.index(x.rubro) || 99}
 
-# pp comercios
-p Dir.pwd
 open("docs/_data/comercios.json","w+"){|f| f.write(JSON.pretty_generate(comercios))}
 
-p datos.map(&:envios).uniq.sort 
-rub = datos.map(&:rubro).uniq.sort 
-p rub - orden
-p orden - rub
-cr = rub.map{|r| [r, datos.count{|x|x.rubro==r}]}
-pp cr
-return 
+# return 
 
 salida = []
 salida << "⭐*Yerba Buena - Envio a domicilio*⭐"
@@ -104,7 +177,7 @@ salida << "_Compartilo!_"
 
 for rubro in comercios
 	salida << ""
-	salida << "🔖_*#{rubro.rubro.upcase}*_" #" 📍" #"👈🏻"
+	salida << "🔖 _*#{rubro.rubro.upcase}*_" #" 📍" #"👈🏻"
 	salida << ""
 
 	for comercio in rubro.comercios
@@ -112,8 +185,8 @@ for rubro in comercios
 			salida << "- #{comercio.nombre.b}"
 			# wp = comercio.sucursales.map{|x|x.whatsapp}.select{|x|x.size > 0}.map{|x|"wp: #{x}"}
 			# tl = comercio.sucursales.map(&:telefono).select{|x|x.size > 0}.map{|x|"tl: #{x}"}
-			wp = comercio.sucursales.map{|x|x.whatsapp}.select{|x|x.size > 0}.map{|x|"🤳#{x}"}
-			tl = comercio.sucursales.map(&:telefono).select{|x|x.size > 0}.map{|x|"☎️#{x}"}
+			wp = comercio.sucursales.map(&:whatsapp).select{|x|x.size > 0}.map{|x|"w:#{x}"}
+			tl = comercio.sucursales.map(&:telefono).select{|x|x.size > 0}.map{|x|"t:#{x}"}
 			aux = (wp+tl).first(3)
 			salida << "  #{aux.join(' ').m}" 
 			# p salida.last if wp.size > 1 || tl.size > 1 || wp.size + tl.size > 2 
@@ -149,7 +222,7 @@ categorias = datos.map(&:rubro).uniq.sort
 # datos = open('C:/Users/Algacom/Desktop/Datos/datos.tsv')
 # 			.readlines[1..-1]
 # 			.map{|x| x.split("\t").map(&:chomp) }
-# 			.map{|x| campos.zip(x).to_h }
+# 			.map{|x| Campos.zip(x).to_h }
 # 			.select{|x| x.envios == "si" && x.wp.size == 0 }#[1..10]
 
 # i = 0 
