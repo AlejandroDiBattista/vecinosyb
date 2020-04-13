@@ -137,12 +137,13 @@ nav a i {
 
 .wp, .tl { 
 	font-size: 16px;
-	margin: 2px;
+	margin: 4px;
 }
 
 .wp {
 	color: green; 
 }
+
 .tl { 
 	color: red; 
 }
