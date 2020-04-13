@@ -44,7 +44,7 @@ end
 
 class String
 	def cubrir(formato)
-		# formato=""
+		formato=""
 		return "" if strip == ""
 		"#{formato}#{strip}#{formato}"
 	end
@@ -151,6 +151,8 @@ def sin_dato(dato)
 end
 
 datos = leer_datos()
+puts datos.size
+puts datos.select{|x|x.envios[/si/]}.size
 # pp datos
 # analizar datos 
 
@@ -183,8 +185,23 @@ open("docs/_data/comercios.json","w+"){|f| f.write(JSON.pretty_generate(comercio
 # return 
 
 salida = []
-salida << "⭐*Yerba Buena - Envio a domicilio*⭐"
-salida << "_Compartilo!_"
+modo = :largo
+
+if modo == :largo
+	salida << "⭐DIRECTORIO VIRTUAL DE COMERCIOS⭐"
+
+	salida << "Estimado vecino de YERBA BUENA, me sumo a la buena iniciativa del Concejal Marcelo Rojas y te invito a usar esta herramienta para evitar salir de casa 😷"
+	salida << ""
+	salida << "Intendente: Mariano Campero"
+	salida << "Compártela con tus amigos 😉"
+	salida << ""
+else	
+	salida << "⭐DIRECTORIO VIRTUAL DE COMERCIOS⭐"
+	salida << "Estimado vecino, estos negocios amigos te llevan los productos para que no tengas que salir de casa"
+	salida << ""
+	salida << "Compartilo! 😉"
+	salida << "También podes consultar en www.vecinosyv.com"
+end
 # salida << ""
 # salida << "Compartilo!"
 # salida << ""
@@ -223,10 +240,13 @@ for rubro in comercios
 
 	end
 end
-salida << ""
-salida << "Lista creada por 'Vecinos de Yerba Buena'"
-salida << "Para agregar un comercio o recibir actualizaciones comunícate a wa.me/543814416851"
-salida 
+if modo == :largo 
+else
+	salida << ""
+	salida << "Directorio elaborado por el equipo del Concejal Marcelo Rojas"
+	salida << ""
+	salida << "Estimado comerciante... para agregarse al listado o actualizar datos comucarse a wa.me/543814416851"
+end
 
 puts salida.join("\n")
 categorias = datos.map(&:rubro).uniq.sort

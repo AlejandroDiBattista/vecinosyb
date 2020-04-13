@@ -15,7 +15,7 @@ html, body, div, h1, h2, h3, p, main, header, footer {
 #page {
 	display: grid;
 	grid-template-columns: 240px auto;
-	grid-template-rows: 160px auto 30px;
+	grid-template-rows: minmax(160px, auto) auto 30px;
 	grid-gap: 10px;
 }
 
@@ -45,7 +45,7 @@ a {
 
 /* header */
 header {
-	padding: 16px;
+	padding: 8px;
 	margin: 0;
 	display: grid;
 	grid-template-columns: 500px 1fr;
@@ -56,19 +56,26 @@ header {
 
 header h1 {
 	font-size: 40px;
-	font-weight: 700;
-	height: 100%;
+	font-weight: 900;
 
 	text-align: center;
 	margin: 0;
-	padding: 20px 0 0 0 ;
+	padding: 8px 0 0 0 ;
+}
+
+header h1 i {
+	font-weight: 400;
+}
+header p {
+	margin: 0;
+	padding: 8px 0 16px;
 }
 
 header article {
-	font-size: 16px;
+	font-size: 24px;
 	font-weight: 400;
 	margin: 0;
-	padding: 20px 0 0 0 ;
+	padding: 0 0 0 0 ;
 }
 
 /*Menu */
