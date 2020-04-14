@@ -68,8 +68,8 @@ class String
 	end
 
 	def wa
-		return "" if size < 7
-		"https://wa.me/54381#{gsub("-","")}"
+		tmp = tel.gsub(/\D/,"")
+		tmp.empty? ? "" : "https://wa.me/54#{tmp}"
 	end
 
 	def tl
@@ -129,5 +129,3 @@ class String
 		strip.size == 0 
 	end
 end
-
-p "454-6446/454-4654".telefonos
