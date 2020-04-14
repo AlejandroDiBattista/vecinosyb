@@ -77,8 +77,10 @@ header h1 {
 	padding: 8px 0 0 0 ;
 }
 
-header h1 p {
+header h1 a {
+	font-size: 40px;
 	font-weight: 200;
+	color: hsl(var(--tono), var(--lumi), 80%);
 }
 
 header p {
