@@ -66,7 +66,7 @@ def sin_dato(dato)
 end
 
 def rubro_id(rubro)
-	rubro.strip.downcase.gsub(/[^a-záéíóú]+/,"_")
+	rubro.strip.downcase.gsub(/[^a-záéíóú]+/,"_").gsub("é","e").gsub("í","i").gsub("ó","ó").gsub("ú","u")
 end
 
 def generar_comercios(datos)
@@ -168,7 +168,6 @@ if analizar(datos)
 	datos = datos.select{|x|/si/ === x.envios}
 
 	comercios = generar_comercios(datos)
-	p comercios.map(&:id)
 	rubros = comercios.map{|x| {id: x.id, nombre: x.rubro, cantidad: x.comercios.count } }.sort_by(&:nombre)
 
 	open("docs/_data/comercios.json","w+"){|f| f.write(JSON.pretty_generate(comercios))}

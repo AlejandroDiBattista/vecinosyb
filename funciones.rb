@@ -86,7 +86,7 @@ class String
 				.map{|x|x.gsub(/\D/,"")}
 				.select{|t|t.size == 7}
 				.first
-		tmp ? "(381)#{tmp[0...3]}-#{tmp[3..-1]}" : ""
+		tmp ? "(381) #{tmp[0...3]}-#{tmp[3..-1]}" : ""
 	end
 
 	def telefonos
