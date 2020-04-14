@@ -1,0 +1,132 @@
+[
+  {
+    "id": "C026",
+    "nombre": "Farmacias",
+    "cantidad": 9
+  },
+  {
+    "id": "C026",
+    "nombre": "Carnicerías",
+    "cantidad": 18
+  },
+  {
+    "id": "C026",
+    "nombre": "Pollerías",
+    "cantidad": 12
+  },
+  {
+    "id": "C026",
+    "nombre": "Verdulerías",
+    "cantidad": 13
+  },
+  {
+    "id": "C026",
+    "nombre": "Panaderías",
+    "cantidad": 9
+  },
+  {
+    "id": "C026",
+    "nombre": "Almacenes",
+    "cantidad": 13
+  },
+  {
+    "id": "C026",
+    "nombre": "Fiambres",
+    "cantidad": 6
+  },
+  {
+    "id": "C026",
+    "nombre": "Pastas",
+    "cantidad": 3
+  },
+  {
+    "id": "C026",
+    "nombre": "Sandwichería",
+    "cantidad": 3
+  },
+  {
+    "id": "C026",
+    "nombre": "Comidas",
+    "cantidad": 41
+  },
+  {
+    "id": "C026",
+    "nombre": "Bares & Restaurantes",
+    "cantidad": 1
+  },
+  {
+    "id": "C026",
+    "nombre": "Golosinas",
+    "cantidad": 4
+  },
+  {
+    "id": "C026",
+    "nombre": "Helados",
+    "cantidad": 6
+  },
+  {
+    "id": "C026",
+    "nombre": "Librerías",
+    "cantidad": 12
+  },
+  {
+    "id": "C026",
+    "nombre": "Bazar",
+    "cantidad": 2
+  },
+  {
+    "id": "C026",
+    "nombre": "Jugueterías",
+    "cantidad": 1
+  },
+  {
+    "id": "C026",
+    "nombre": "Tecnología",
+    "cantidad": 9
+  },
+  {
+    "id": "C026",
+    "nombre": "Limpieza",
+    "cantidad": 10
+  },
+  {
+    "id": "C026",
+    "nombre": "Tintorerías",
+    "cantidad": 2
+  },
+  {
+    "id": "C026",
+    "nombre": "Indumentaria & Zapatería",
+    "cantidad": 6
+  },
+  {
+    "id": "C026",
+    "nombre": "Belleza",
+    "cantidad": 6
+  },
+  {
+    "id": "C026",
+    "nombre": "Semillerías",
+    "cantidad": 4
+  },
+  {
+    "id": "C026",
+    "nombre": "Veterinarias",
+    "cantidad": 14
+  },
+  {
+    "id": "C026",
+    "nombre": "Pinturerías & Ferreteria",
+    "cantidad": 5
+  },
+  {
+    "id": "C026",
+    "nombre": "Bebidas",
+    "cantidad": 4
+  },
+  {
+    "id": "C026",
+    "nombre": "Servicios",
+    "cantidad": 24
+  }
+]

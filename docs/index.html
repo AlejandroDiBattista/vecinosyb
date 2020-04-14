@@ -11,10 +11,10 @@ title: RVC Yerba Buena
   </header>
   
   <nav>
-  	
+
   		<h1>Categorias</h1>
-		{% for rubro in site.data.comercios %}
-			<div><a href="#r{{rubro.id}}">{{rubro.rubro}}</a></div>
+		{% for rubro in site.data.rubros %}
+			<div><a href="#r{{rubro.id}}">{{rubro.nombre}}</a></div>
 		{% endfor %}
   </nav>
 
