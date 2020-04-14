@@ -12,6 +12,32 @@ class Hash
 	end
 end
 
+# BEGIN:VCARD
+# VERSION:3.0
+# N:{Last name};{First name}
+# FN:{First name} {Last name}
+# TITLE:{Title}
+# ORG:{Company}
+# URL:https://my-company.url/
+# EMAIL;TYPE=INTERNET:{E-mail}
+# TEL;TYPE=voice,work,pref:{Phone}
+# TEL;TYPE=voice,cell,pref:{Mobile}
+# ADR:;;{Street}, {City}, {Postal Code} {State}
+# END:VCARD 
+
+
+
+def generar_vcard(empresa, direccion, *telefonos )
+	salida = []
+	salida << "BEGIN:VCARD"
+	salida << "VERSION:3.0"
+	salida << "ORG:#{empresa}"
+	[telefonos].flatten.each{|telefono| salida << "TYPE=voice,work,pref:#{telefono}" }
+	salida << "ADR:;;#{direccion},Yerba Buena,4172,Tucuman"
+	salida << "END:VCARD" 
+	salida.join("\n")
+end
+
 class Object
 	def m
 		to_s.m
@@ -251,6 +277,7 @@ end
 
 puts salida.join("\n")
 categorias = datos.map(&:rubro).uniq.sort
+open("ale.vcf", "w+"){|f|f.write generar_vcard("Agilsoft", "Av Central 4124", "3815343458", "3814345621") }
 # puts "[#{categorias.join(", ")}]"
 # puts 
 
