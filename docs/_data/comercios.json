@@ -1,6 +1,6 @@
 [
   {
-    "id": "C026",
+    "id": "farmacias",
     "rubro": "Farmacias",
     "comercios": [
       {
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "carnicerías",
     "rubro": "Carnicerías",
     "comercios": [
       {
@@ -401,11 +401,24 @@
           }
         ],
         "direcciones": 2
+      },
+      {
+        "nombre": "D’ Carne Somos",
+        "sucursales": [
+          {
+            "domicilio": "582-7595",
+            "telefono": "",
+            "whatsapp": "(381)582-7595",
+            "call": "tel:+381Av. Colón 421",
+            "send": "https://wa.me/543815827595"
+          }
+        ],
+        "direcciones": 1
       }
     ]
   },
   {
-    "id": "C026",
+    "id": "pollerías",
     "rubro": "Pollerías",
     "comercios": [
       {
@@ -567,7 +580,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "verdulerías",
     "rubro": "Verdulerías",
     "comercios": [
       {
@@ -749,7 +762,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "panaderías",
     "rubro": "Panaderías",
     "comercios": [
       {
@@ -893,7 +906,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "almacenes",
     "rubro": "Almacenes",
     "comercios": [
       {
@@ -1075,7 +1088,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "fiambres",
     "rubro": "Fiambres",
     "comercios": [
       {
@@ -1159,7 +1172,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "pastas",
     "rubro": "Pastas",
     "comercios": [
       {
@@ -1204,7 +1217,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "sandwichería",
     "rubro": "Sandwichería",
     "comercios": [
       {
@@ -1249,7 +1262,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "comidas",
     "rubro": "Comidas",
     "comercios": [
       {
@@ -1788,7 +1801,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "bares_restaurantes",
     "rubro": "Bares & Restaurantes",
     "comercios": [
       {
@@ -1807,7 +1820,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "golosinas",
     "rubro": "Golosinas",
     "comercios": [
       {
@@ -1865,7 +1878,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "helados",
     "rubro": "Helados",
     "comercios": [
       {
@@ -1956,7 +1969,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "librerías",
     "rubro": "Librerías",
     "comercios": [
       {
@@ -2114,11 +2127,24 @@
           }
         ],
         "direcciones": 1
+      },
+      {
+        "nombre": "Cúspide",
+        "sucursales": [
+          {
+            "domicilio": "Complejo Gómez PardonAv Perón 1850",
+            "telefono": "",
+            "whatsapp": "(381)473-6372",
+            "call": "",
+            "send": "https://wa.me/543814736372"
+          }
+        ],
+        "direcciones": 1
       }
     ]
   },
   {
-    "id": "C026",
+    "id": "bazar",
     "rubro": "Bazar",
     "comercios": [
       {
@@ -2150,7 +2176,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "jugueterías",
     "rubro": "Jugueterías",
     "comercios": [
       {
@@ -2169,7 +2195,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "tecnología",
     "rubro": "Tecnología",
     "comercios": [
       {
@@ -2295,11 +2321,24 @@
           }
         ],
         "direcciones": 0
+      },
+      {
+        "nombre": "Nexo Comunicaciones",
+        "sucursales": [
+          {
+            "domicilio": "Av. Aconquija 1800",
+            "telefono": "(381)230-5479",
+            "whatsapp": "(381)526-6122",
+            "call": "tel:+3812305479",
+            "send": "https://wa.me/543815266122"
+          }
+        ],
+        "direcciones": 1
       }
     ]
   },
   {
-    "id": "C026",
+    "id": "limpieza",
     "rubro": "Limpieza",
     "comercios": [
       {
@@ -2435,7 +2474,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "tintorerías",
     "rubro": "Tintorerías",
     "comercios": [
       {
@@ -2467,9 +2506,22 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "indumentaria_zapatería",
     "rubro": "Indumentaria & Zapatería",
     "comercios": [
+      {
+        "nombre": "Había una vez",
+        "sucursales": [
+          {
+            "domicilio": "Av. Aconquija 1799 - Shopping - Local 102",
+            "telefono": "",
+            "whatsapp": "(381)613-1209",
+            "call": "",
+            "send": "https://wa.me/543816131209"
+          }
+        ],
+        "direcciones": 1
+      },
       {
         "nombre": "Aire Libre",
         "sucursales": [
@@ -2536,14 +2588,40 @@
         "direcciones": 1
       },
       {
-        "nombre": "Había una vez",
+        "nombre": "Eugenia by Conty Lencería Fina",
         "sucursales": [
           {
-            "domicilio": "Av. Aconquija 1799 - Shopping - Local 102",
+            "domicilio": "",
             "telefono": "",
-            "whatsapp": "(381)613-1209",
+            "whatsapp": "(381)508-7150",
             "call": "",
-            "send": "https://wa.me/543816131209"
+            "send": "https://wa.me/543815087150"
+          }
+        ],
+        "direcciones": 0
+      },
+      {
+        "nombre": "Nací con Alas",
+        "sucursales": [
+          {
+            "domicilio": "",
+            "telefono": "",
+            "whatsapp": "(381)629-6126",
+            "call": "",
+            "send": "https://wa.me/543816296126"
+          }
+        ],
+        "direcciones": 0
+      },
+      {
+        "nombre": "Dulce guillermina",
+        "sucursales": [
+          {
+            "domicilio": "653-0718",
+            "telefono": "",
+            "whatsapp": "(381)425-9342",
+            "call": "tel:+381Lobo de la vega al 100",
+            "send": "https://wa.me/543814259342"
           }
         ],
         "direcciones": 1
@@ -2551,7 +2629,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "belleza",
     "rubro": "Belleza",
     "comercios": [
       {
@@ -2635,7 +2713,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "semillerías",
     "rubro": "Semillerías",
     "comercios": [
       {
@@ -2693,7 +2771,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "veterinarias",
     "rubro": "Veterinarias",
     "comercios": [
       {
@@ -2881,7 +2959,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "pinturerías_ferreteria",
     "rubro": "Pinturerías & Ferreteria",
     "comercios": [
       {
@@ -2937,6 +3015,19 @@
         "direcciones": 1
       },
       {
+        "nombre": "Voltaje",
+        "sucursales": [
+          {
+            "domicilio": "444-6594",
+            "telefono": "",
+            "whatsapp": "(381)444-6594",
+            "call": "tel:+381Av. Solano Vera 598",
+            "send": "https://wa.me/543814446594"
+          }
+        ],
+        "direcciones": 1
+      },
+      {
         "nombre": "Tucumanchas",
         "sucursales": [
           {
@@ -2952,7 +3043,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "bebidas",
     "rubro": "Bebidas",
     "comercios": [
       {
@@ -3010,7 +3101,7 @@
     ]
   },
   {
-    "id": "C026",
+    "id": "servicios",
     "rubro": "Servicios",
     "comercios": [
       {
@@ -3313,6 +3404,19 @@
         "direcciones": 1
       },
       {
+        "nombre": "DMayo Taller Frenos y Embragües",
+        "sucursales": [
+          {
+            "domicilio": "Amador Lucero 554",
+            "telefono": "",
+            "whatsapp": "(381)362-2338",
+            "call": "",
+            "send": "https://wa.me/543813622338"
+          }
+        ],
+        "direcciones": 1
+      },
+      {
         "nombre": "Cadetería Exprés",
         "sucursales": [
           {
@@ -3324,6 +3428,19 @@
           }
         ],
         "direcciones": 0
+      },
+      {
+        "nombre": "Barberking Baterías",
+        "sucursales": [
+          {
+            "domicilio": "Av Aconquija 1900",
+            "telefono": "",
+            "whatsapp": "(381)644-8530",
+            "call": "",
+            "send": "https://wa.me/543816448530"
+          }
+        ],
+        "direcciones": 1
       }
     ]
   }

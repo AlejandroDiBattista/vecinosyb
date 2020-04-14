@@ -1,131 +1,131 @@
 [
   {
-    "id": "C026",
+    "id": "almacenes",
     "nombre": "Almacenes",
     "cantidad": 13
   },
   {
-    "id": "C026",
+    "id": "bares_restaurantes",
     "nombre": "Bares & Restaurantes",
     "cantidad": 1
   },
   {
-    "id": "C026",
+    "id": "bazar",
     "nombre": "Bazar",
     "cantidad": 2
   },
   {
-    "id": "C026",
+    "id": "bebidas",
     "nombre": "Bebidas",
     "cantidad": 4
   },
   {
-    "id": "C026",
+    "id": "belleza",
     "nombre": "Belleza",
     "cantidad": 6
   },
   {
-    "id": "C026",
+    "id": "carnicerías",
     "nombre": "Carnicerías",
-    "cantidad": 18
+    "cantidad": 19
   },
   {
-    "id": "C026",
+    "id": "comidas",
     "nombre": "Comidas",
     "cantidad": 41
   },
   {
-    "id": "C026",
+    "id": "farmacias",
     "nombre": "Farmacias",
     "cantidad": 9
   },
   {
-    "id": "C026",
+    "id": "fiambres",
     "nombre": "Fiambres",
     "cantidad": 6
   },
   {
-    "id": "C026",
+    "id": "golosinas",
     "nombre": "Golosinas",
     "cantidad": 4
   },
   {
-    "id": "C026",
+    "id": "helados",
     "nombre": "Helados",
     "cantidad": 6
   },
   {
-    "id": "C026",
+    "id": "indumentaria_zapatería",
     "nombre": "Indumentaria & Zapatería",
-    "cantidad": 6
+    "cantidad": 9
   },
   {
-    "id": "C026",
+    "id": "jugueterías",
     "nombre": "Jugueterías",
     "cantidad": 1
   },
   {
-    "id": "C026",
+    "id": "librerías",
     "nombre": "Librerías",
-    "cantidad": 12
+    "cantidad": 13
   },
   {
-    "id": "C026",
+    "id": "limpieza",
     "nombre": "Limpieza",
     "cantidad": 10
   },
   {
-    "id": "C026",
+    "id": "panaderías",
     "nombre": "Panaderías",
     "cantidad": 9
   },
   {
-    "id": "C026",
+    "id": "pastas",
     "nombre": "Pastas",
     "cantidad": 3
   },
   {
-    "id": "C026",
+    "id": "pinturerías_ferreteria",
     "nombre": "Pinturerías & Ferreteria",
-    "cantidad": 5
+    "cantidad": 6
   },
   {
-    "id": "C026",
+    "id": "pollerías",
     "nombre": "Pollerías",
     "cantidad": 12
   },
   {
-    "id": "C026",
+    "id": "sandwichería",
     "nombre": "Sandwichería",
     "cantidad": 3
   },
   {
-    "id": "C026",
+    "id": "semillerías",
     "nombre": "Semillerías",
     "cantidad": 4
   },
   {
-    "id": "C026",
+    "id": "servicios",
     "nombre": "Servicios",
-    "cantidad": 24
+    "cantidad": 26
   },
   {
-    "id": "C026",
+    "id": "tecnología",
     "nombre": "Tecnología",
-    "cantidad": 9
+    "cantidad": 10
   },
   {
-    "id": "C026",
+    "id": "tintorerías",
     "nombre": "Tintorerías",
     "cantidad": 2
   },
   {
-    "id": "C026",
+    "id": "verdulerías",
     "nombre": "Verdulerías",
     "cantidad": 13
   },
   {
-    "id": "C026",
+    "id": "veterinarias",
     "nombre": "Veterinarias",
     "cantidad": 14
   }

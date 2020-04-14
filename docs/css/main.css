@@ -67,6 +67,7 @@ header {
 	grid-template-rows: 150px 25px;
 }
 */
+
 header h1 {
 	font-size: 40px;
 	font-weight: 800;
@@ -95,7 +96,10 @@ header article {
 
 header article b {
 	color: hsl(var(--tono), var(--lumi), 70%);
+}
 
+header article a {
+	color: hsl(var(--tono), var(--lumi), 80%);
 }
 
 /*Menu */
@@ -119,6 +123,7 @@ nav a, header a {
 
 a:hover {
 	color: hsl(var(--tono), var(--lumi), 10%);
+	text-decoration: underline;
 }
 
 nav div {

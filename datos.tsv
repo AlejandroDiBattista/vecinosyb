@@ -298,7 +298,7 @@ id	rubro	nombre	telefono	whatsapp	direccion	localidad	envios	contacto	asignado	c
 404	Veterinarias	Tienda para Mascotas San Martin	230-0763	304-4388		smt	si-controlar	luciana		
 405	Comidas	Tus Congelados		579-3297	Country La Pedemonta	yb	si	luciana		si
 406	Sandwichería	Chegusan		486-2065	Camino del Perú 100	yb	si	roxana		si
-407	Servicios	Pest Control (Fumigación)		643-5068		yb	si-controlar	marcelo		
+407	Servicios	Pest Control (Fumigación)		643-5068		yb	si	marcelo		
 408	Servicios	Corralón Solano Vera		502-9194	Av. Solano Vera 528	yb	si-controlar	luciana		
 409	Fiambres	La treinta y uno	425-7311	466-1954	Av. Aconquija 1071	yb	si	luciana		si
 410	Panaderías	Alta Fiesta		467-6978 / 352-8938	Av. Aconquija 2081	yb	no-controlar	luciana		
@@ -339,20 +339,20 @@ id	rubro	nombre	telefono	whatsapp	direccion	localidad	envios	contacto	asignado	c
 445	Almacenes	El Boisdron Miniservice		358-1719	Lamadrid 1031	yb	si	roxana		
 446	Librerías	Mundo Papel		631-3686	Av. Aconquija 1914	yb	si	roxana		
 447	Veterinarias	Dr. Gustavo E. Valdez	4251223/4852363	637-6690	Av. Solano Vera 53	yb	si	roxana		
-448	Servicios	DMayo Taller Frenos y Embragües		3622338/6470642	Amador Lucero 554	smt	no-controlar	roxana		
-449	Comidas	El Encuentro	485-6030			yb	si-controlar	sofi		
+448	Servicios	DMayo Taller Frenos y Embragües		3622338/6470642	Amador Lucero 554	smt	si	roxana		
+449	Comidas	El Encuentro	485-6030			yb	si	sofi		
 450	Servicios	Cadetería Exprés		337-0284		yb	si	sofi		
 451	Tecnología	Ctrl P Computer Service		469-3335		yb	si	luz		
 452	Belleza	Esencia Peluquerías & Estética		202-3182	juan B Teran 20	yb	si	sofi		
-453	Piletas	Arquitectura en Piscinas		653-0827 / 609-3617	Av. Aconquija 23	yb	no			
-454										
-455										
-456										
-457										
-458										
-459										
-460										
-461										
+453	Piletas	Arquitectura en Piscinas		653-0827 / 609-3617	Av. Aconquija 23	yb	no	sofi		
+454	Indumentaria & Zapatería	Eugenia by Conty Lencería Fina		508-7150		yb	si	marcelo		
+455	Tecnología	Nexo Comunicaciones	230-5479	526-6122	Av. Aconquija 1800	yb	si	roxana		
+456	Librerías	Cúspide		473-6372	Complejo Gómez PardonAv Perón 1850	yb	si	luciana		
+457	Servicios	Barberking Baterías		644-8530	Av Aconquija 1900	yb	si	marcelo		
+458	Indumentaria & Zapatería	Nací con Alas		629-6126		yb	si	marcelo		
+459	Indumentaria & Zapatería	Dulce guillermina	Lobo de la vega al 100	425-9342	653-0718	yb	si-auto	web		
+460	Electricidad	Voltaje 	Av. Solano Vera 598	444-6594	444-6594	yb	si-auto	web		
+461	Carnicerías	D’ Carne Somos 	Av. Colón 421 	582-7595 / 423-2999	582-7595	smt	si-auto	web		
 462										
 463										
 464										

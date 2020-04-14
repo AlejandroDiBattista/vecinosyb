@@ -4,7 +4,7 @@ require "json"
 require "./funciones"
 
 Campos = [:id, :rubro, :nombre, :telefono, :whatsapp, :direccion, :localidad, :envios, :contacto, :asignado, :controlado]
-OrdenRubros  = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Bares & Restaurantes", "Golosinas", "Helados", "Librerías", "Bazar", "Jugueterías", "Tecnología",  "Limpieza", "Tintorerías", "Indumentaria & Zapatería", "Belleza", "Semillerías", "Veterinarias", "Pinturerías & Ferreteria", "Bebidas", "Servicios", "Piletas"]
+OrdenRubros  = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Bares & Restaurantes", "Golosinas", "Helados", "Bebidas", "Librerías", "Bazar", "Jugueterías", "Tecnología",  "Limpieza", "Tintorerías", "Indumentaria & Zapatería", "Belleza", "Semillerías", "Veterinarias", "Pinturerías & Ferreteria", "Servicios", "Piletas", "Electricidad"]
 
 def contar(lista)
 	lista.uniq.map{|r| [r, lista.count{|x|x == r}]}.sort_by(&:last)	
@@ -65,11 +65,15 @@ def sin_dato(dato)
 	end
 end
 
+def rubro_id(rubro)
+	rubro.strip.downcase.gsub(/[^a-záéíóú]+/,"_")
+end
+
 def generar_comercios(datos)
-	id = "C000"
+	i = 0
 	datos.group_by{|d|d.rubro}.map do |rubro, comercios|
 		{
-			id: id.succ!,
+			id: rubro_id(rubro),
 			rubro: rubro,
 			comercios: comercios.group_by{|c| c.nombre }.map do |comercio, sucursales|
 				{
@@ -164,6 +168,7 @@ if analizar(datos)
 	datos = datos.select{|x|/si/ === x.envios}
 
 	comercios = generar_comercios(datos)
+	p comercios.map(&:id)
 	rubros = comercios.map{|x| {id: x.id, nombre: x.rubro, cantidad: x.comercios.count } }.sort_by(&:nombre)
 
 	open("docs/_data/comercios.json","w+"){|f| f.write(JSON.pretty_generate(comercios))}

@@ -40,7 +40,7 @@ main {
 }
 
 footer {
-  grid-column: 3 / 3;
+  grid-column: 2 / 3;
   grid-row: 3 / 3;
 }
 
@@ -67,6 +67,7 @@ header {
 	grid-template-rows: 150px 25px;
 }
 */
+
 header h1 {
 	font-size: 40px;
 	font-weight: 800;
@@ -76,8 +77,8 @@ header h1 {
 	padding: 8px 0 0 0 ;
 }
 
-header h1 i {
-	font-weight: 400;
+header h1 p {
+	font-weight: 200;
 }
 
 header p {
@@ -95,7 +96,10 @@ header article {
 
 header article b {
 	color: hsl(var(--tono), var(--lumi), 70%);
+}
 
+header article a {
+	color: hsl(var(--tono), var(--lumi), 80%);
 }
 
 /*Menu */
@@ -119,6 +123,7 @@ nav a, header a {
 
 a:hover {
 	color: hsl(var(--tono), var(--lumi), 10%);
+	text-decoration: underline;
 }
 
 nav div {

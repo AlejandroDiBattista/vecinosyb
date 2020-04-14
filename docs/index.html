@@ -1,65 +1,48 @@
 ---
 layout: default
-title: RVC Yerba Buena
+title: RVC YB
 ---
+<nav>
+	<h1>Categorias</h1>
+	{% for rubro in site.data.rubros %}
+		<div><a href="#{{rubro.id}}">{{rubro.nombre}}</a></div>
+	{% endfor %}
+</nav>
 
-<section id="page">
-
-	<header>
-		<h1>Yerba Buena <p>#QuedateEnCasa</p></h1>
-		<article>Registro Virtual de Comercios</article>
-  </header>
-  
-  <nav>
-
-  		<h1>Categorias</h1>
-		{% for rubro in site.data.rubros %}
-			<div><a href="#r{{rubro.id}}">{{rubro.nombre}}</a></div>
-		{% endfor %}
-  </nav>
-
-	<main>
-		{% for rubro in site.data.comercios %}
-			<div class="cuerpo">
-				<div class="titulo" id="r{{rubro.id}}">
-					{{rubro.rubro}}
-				</div>
-				
-				<div class="comercios">
-					{% for comercio in rubro.comercios %}
-						<div class="comercio">
-				
-							<div class="titulo">
-								{{ comercio.nombre }}
-							</div>
-
-							<div class="sucursales">
-								{% for sucursal in comercio.sucursales %}
-									<div class="sucursal">
-										<div class="direccion">
-											{{ sucursal.domicilio }}
-										</div>
-										{% if sucursal.telefono != "" %}	
-											<a class="tl" href="{{ sucursal.call }}">{{ sucursal.telefono }}</a>
-										{% endif %}
-										{% if sucursal.whatsapp != "" %}	
-											<a class="wp" href="{{ sucursal.send }}">{{ sucursal.whatsapp }}</a>
-										{% endif %}
-									</div>
-								{% endfor %}
-							</div>
-						</div>
-					{% endfor %}
-				</div>
-
+<main>
+	{% for rubro in site.data.comercios %}
+		<div class="cuerpo">
+			<div class="titulo" id="{{rubro.id}}">
+				{{rubro.rubro}}
 			</div>
-		{% endfor %}
-  </main>
+			
+			<div class="comercios">
+				{% for comercio in rubro.comercios %}
+					<div class="comercio">
+			
+						<div class="titulo">
+							{{ comercio.nombre }}
+						</div>
 
-  <footer>			
-  		<p class="center-text">
-  			Creado por Concejal <b>Marcelo Rojas</b> - <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOrcdrKs3Iy9pasQtXgaikcOh63dwMacI3Ir3QIHIJg0oXBw/viewform">Cargar Datos</a>
-  		</p>
-	</footer>
-</section>
+						<div class="sucursales">
+							{% for sucursal in comercio.sucursales %}
+								<div class="sucursal">
+									<div class="direccion">
+										{{ sucursal.domicilio }}
+									</div>
+									{% if sucursal.telefono != "" %}	
+										<a class="tl" href="{{ sucursal.call }}">{{ sucursal.telefono }}</a>
+									{% endif %}
+									{% if sucursal.whatsapp != "" %}	
+										<a class="wp" href="{{ sucursal.send }}">{{ sucursal.whatsapp }}</a>
+									{% endif %}
+								</div>
+							{% endfor %}
+						</div>
+					</div>
+				{% endfor %}
+			</div>
 
+		</div>
+	{% endfor %}
+</main>
