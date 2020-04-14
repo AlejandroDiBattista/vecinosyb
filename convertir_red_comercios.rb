@@ -1,118 +1,11 @@
 require "erb"
 require "open-uri"
 require "json"
-
+require "./funciones"
 
 Campos = [:id, :rubro, :nombre, :telefono, :whatsapp, :direccion, :localidad, :envios, :contacto, :asignado, :controlado]
 OrdenRubros  = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Bares & Restaurantes", "Golosinas", "Helados", "Librerías", "Bazar",  "Tecnología",  "Limpieza", "Tintorerías", "Indumentaria & Zapatería", "Belleza", "Semillerías", "Veterinarias", "Pinturerías & Ferreteria", "Bebidas", "Servicios"]
 
-class Hash 
-	def method_missing(meth, *args, &blk)
-		self[meth.to_s.downcase.to_sym]
-	end
-end
-
-# BEGIN:VCARD
-# VERSION:3.0
-# N:{Last name};{First name}
-# FN:{First name} {Last name}
-# TITLE:{Title}
-# ORG:{Company}
-# URL:https://my-company.url/
-# EMAIL;TYPE=INTERNET:{E-mail}
-# TEL;TYPE=voice,work,pref:{Phone}
-# TEL;TYPE=voice,cell,pref:{Mobile}
-# ADR:;;{Street}, {City}, {Postal Code} {State}
-# END:VCARD 
-
-
-
-def generar_vcard(empresa, direccion, *telefonos )
-	salida = []
-	salida << "BEGIN:VCARD"
-	salida << "VERSION:3.0"
-	salida << "ORG:#{empresa}"
-	[telefonos].flatten.each{|telefono| salida << "TYPE=voice,work,pref:#{telefono}" }
-	salida << "ADR:;;#{direccion},Yerba Buena,4172,Tucuman"
-	salida << "END:VCARD" 
-	salida.join("\n")
-end
-
-class Object
-	def m
-		to_s.m
-	end
-	def b
-		to_s.b
-	end
-	def i
-		to_s.i
-	end
-	def tel
-		to_s.tel
-	end
-	def limpiar
-		to_s.limpiar
-	end
-end
-
-class NilClass
-	def limpiar
-		""
-	end
-	def wa
-		""
-	end
-	def tl
-		""
-	end
-end
-
-class String
-	def cubrir(formato)
-		formato=""
-		return "" if strip == ""
-		"#{formato}#{strip}#{formato}"
-	end
-
-	def m
-		cubrir("```")
-	end
-	
-	def b
-		cubrir("*")
-	end
-
-	def i
-		cubrir("_")
-	end
-
-	def wa
-		return "" if size < 7
-		"https://wa.me/54381#{gsub("-","")}"
-	end
-
-	def tl
-		return "" if size < 7
-		"tel:+381#{gsub("-","")}"
-	end
-
-	def pad(len=30)
-		(self + " " * len)[0...len]
-	end
-
-	def tel
-		tmp = split("/")
-				.map{|x|x.gsub(/\D/,"")}
-				.select{|t|t.size == 7}
-				.first
-		tmp ? "(381) #{tmp[0...3]}-#{tmp[3..-1]}" : ""
-	end
-
-	def limpiar
-		chomp.strip.gsub(/\s+/," ")
-	end
-end
 
 def contar(lista)
 	lista.uniq.map{|r| [r, lista.count{|x|x == r}]}.sort_by(&:last)	
@@ -165,15 +58,15 @@ def leer_datos(origen='datos.tsv')
 end
 
 def sin_dato(dato)
-	if dato.rubro.nil? || dato.nombre.nil? || dato.telefono.nil? ||dato.whatsapp.nil? 
+	sd = [datos.rubro, datos.nombre, datos.telefono, datos.whatsapp].all?(&:empty?)
+	if sd 
 		puts "MALLL"
 		pp dato
 		return true 
 	else 
 		puts "."
 	end
-
-	(dato.rubro.size == 0) || (dato.nombre.size ==  0) || (dato.telefono.size == 0)# &&  dato.whatsapp.size == 0)
+	sd 
 end
 
 datos = leer_datos()
@@ -208,8 +101,10 @@ end.sort_by{|x| OrdenRubros.index(x.rubro) || 99}
 
 open("docs/_data/comercios.json","w+"){|f| f.write(JSON.pretty_generate(comercios))}
 
-# return 
 
+return
+analizar datos 
+return 
 salida = []
 modo = :largo
 
@@ -265,6 +160,7 @@ for rubro in comercios
 
 	end
 end
+
 if modo == :corto 
 	salida << ""
 	salida << "Visitá www.vecinosyb.com"
@@ -276,8 +172,12 @@ else
 end
 
 puts salida.join("\n")
-categorias = datos.map(&:rubro).uniq.sort
-open("ale.vcf", "w+"){|f|f.write generar_vcard("Agilsoft", "Av Central 4124", "3815343458", "3814345621") }
+open("enviar-whatsapp.txt","w+"){|f|f.write(salida.join("\n"))}
+
+# categorias = datos.map(&:rubro).uniq.sort
+
+# <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOrcdrKs3Iy9pasQtXgaikcOh63dwMacI3Ir3QIHIJg0oXBw/viewform?embedded=true" width="640" height="1256" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+# open("ale.vcf", "w+"){|f|f.write generar_vcard("Agilsoft", "Av Central 4124", "3815343458", "3814345621") }
 # puts "[#{categorias.join(", ")}]"
 # puts 
 
