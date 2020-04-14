@@ -1,8 +1,28 @@
 [
   {
     "id": "C026",
-    "nombre": "Farmacias",
-    "cantidad": 9
+    "nombre": "Almacenes",
+    "cantidad": 13
+  },
+  {
+    "id": "C026",
+    "nombre": "Bares & Restaurantes",
+    "cantidad": 1
+  },
+  {
+    "id": "C026",
+    "nombre": "Bazar",
+    "cantidad": 2
+  },
+  {
+    "id": "C026",
+    "nombre": "Bebidas",
+    "cantidad": 4
+  },
+  {
+    "id": "C026",
+    "nombre": "Belleza",
+    "cantidad": 6
   },
   {
     "id": "C026",
@@ -11,48 +31,18 @@
   },
   {
     "id": "C026",
-    "nombre": "Pollerías",
-    "cantidad": 12
-  },
-  {
-    "id": "C026",
-    "nombre": "Verdulerías",
-    "cantidad": 13
-  },
-  {
-    "id": "C026",
-    "nombre": "Panaderías",
-    "cantidad": 9
-  },
-  {
-    "id": "C026",
-    "nombre": "Almacenes",
-    "cantidad": 13
-  },
-  {
-    "id": "C026",
-    "nombre": "Fiambres",
-    "cantidad": 6
-  },
-  {
-    "id": "C026",
-    "nombre": "Pastas",
-    "cantidad": 3
-  },
-  {
-    "id": "C026",
-    "nombre": "Sandwichería",
-    "cantidad": 3
-  },
-  {
-    "id": "C026",
     "nombre": "Comidas",
     "cantidad": 41
   },
   {
     "id": "C026",
-    "nombre": "Bares & Restaurantes",
-    "cantidad": 1
+    "nombre": "Farmacias",
+    "cantidad": 9
+  },
+  {
+    "id": "C026",
+    "nombre": "Fiambres",
+    "cantidad": 6
   },
   {
     "id": "C026",
@@ -66,13 +56,8 @@
   },
   {
     "id": "C026",
-    "nombre": "Librerías",
-    "cantidad": 12
-  },
-  {
-    "id": "C026",
-    "nombre": "Bazar",
-    "cantidad": 2
+    "nombre": "Indumentaria & Zapatería",
+    "cantidad": 6
   },
   {
     "id": "C026",
@@ -81,8 +66,8 @@
   },
   {
     "id": "C026",
-    "nombre": "Tecnología",
-    "cantidad": 9
+    "nombre": "Librerías",
+    "cantidad": 12
   },
   {
     "id": "C026",
@@ -91,28 +76,13 @@
   },
   {
     "id": "C026",
-    "nombre": "Tintorerías",
-    "cantidad": 2
+    "nombre": "Panaderías",
+    "cantidad": 9
   },
   {
     "id": "C026",
-    "nombre": "Indumentaria & Zapatería",
-    "cantidad": 6
-  },
-  {
-    "id": "C026",
-    "nombre": "Belleza",
-    "cantidad": 6
-  },
-  {
-    "id": "C026",
-    "nombre": "Semillerías",
-    "cantidad": 4
-  },
-  {
-    "id": "C026",
-    "nombre": "Veterinarias",
-    "cantidad": 14
+    "nombre": "Pastas",
+    "cantidad": 3
   },
   {
     "id": "C026",
@@ -121,12 +91,42 @@
   },
   {
     "id": "C026",
-    "nombre": "Bebidas",
+    "nombre": "Pollerías",
+    "cantidad": 12
+  },
+  {
+    "id": "C026",
+    "nombre": "Sandwichería",
+    "cantidad": 3
+  },
+  {
+    "id": "C026",
+    "nombre": "Semillerías",
     "cantidad": 4
   },
   {
     "id": "C026",
     "nombre": "Servicios",
     "cantidad": 24
+  },
+  {
+    "id": "C026",
+    "nombre": "Tecnología",
+    "cantidad": 9
+  },
+  {
+    "id": "C026",
+    "nombre": "Tintorerías",
+    "cantidad": 2
+  },
+  {
+    "id": "C026",
+    "nombre": "Verdulerías",
+    "cantidad": 13
+  },
+  {
+    "id": "C026",
+    "nombre": "Veterinarias",
+    "cantidad": 14
   }
 ]

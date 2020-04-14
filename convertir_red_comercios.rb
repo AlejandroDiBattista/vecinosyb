@@ -164,7 +164,7 @@ if analizar(datos)
 	datos = datos.select{|x|/si/ === x.envios}
 
 	comercios = generar_comercios(datos)
-	rubros = comercios.map{|x| {id: x.id, nombre: x.rubro, cantidad: x.comercios.count } }.sort_by(&:rubro)
+	rubros = comercios.map{|x| {id: x.id, nombre: x.rubro, cantidad: x.comercios.count } }.sort_by(&:nombre)
 
 	open("docs/_data/comercios.json","w+"){|f| f.write(JSON.pretty_generate(comercios))}
 	open("docs/_data/rubros.json","w+"){|f| f.write(JSON.pretty_generate(rubros))}
