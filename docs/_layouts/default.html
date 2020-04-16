@@ -18,22 +18,21 @@
 	</head>
 
 	<body>
-		<section id="page">
-			<header>
-				<h1>Yerba Buena <a id="hashtag" href="/">#QuedateEnCasa</a></h1>
-				<article>
-					<h3>Registro Virtual de Comercios</h3>
-					{{ if page.title == "RVC YB" }}
-						<a href="/registrar.html">Solicitar Incorporación al Registro</a>
-					{{ endif }}
-				</article>
-			</header>
-			{{ content }}
-			<footer>			
-		  		<p class="center-text"><a href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a> por Concejal <b>Marcelo Rojas</b></p>
-			</footer>
+		<div id="page">
+			<section>
+				<header>
+					<h1>Yerba Buena <a id="hashtag" href="/">#QuedateEnCasa</a></h1>
+					<article>
+						Registro Virtual de Comercios
+					</article>
+				</header>
 
-		</section>
+				{{ content }}
 
+				<footer>			
+			  		<p class="center-text"><a href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a> por Concejal <b>Marcelo Rojas</b></p>
+				</footer>
+			</section>
+		</div>
 	</body>
 </html>

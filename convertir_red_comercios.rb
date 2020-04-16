@@ -90,10 +90,17 @@ def generar_comercios(datos)
 						}
 					end.sort_by{|d| d.domicilio.size > 0 ? d.domicilio : "zzzz" },
 					direcciones: sucursales.count{|s|s.direccion.strip.size > 0 }
-				}
+				},
+			}
 			end.sort_by{|d| d.comercio }
 		}
 	end.sort_by{|x| OrdenRubros.index(x.rubro) || 99}
+end
+
+def agregar_busqueda(datos)
+	datos.each do |dato|
+		dato.seach = [dato.rubro, dato.comercios.map(&:nombre), dato.comercios.map{|x| x.sucursales.map{|y| [x.domicilio, x.telefono, x.whatsapp]}}
+	end
 end
 
 def generar_whatsapp(comercios, modo, formato=false)

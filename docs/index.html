@@ -3,13 +3,24 @@ layout: default
 title: RVC YB
 ---
 <nav>
-	<h1>Categorias</h1>
-	{% for rubro in site.data.rubros %}
-		<div><a href="#{{rubro.id}}">{{rubro.nombre}}</a></div>
-	{% endfor %}
+
+		<form class="searchform" action="/sok" method="get">
+			<input type="text" class="lupa" placeholder="Buscar..." autofocus>
+			<input type="submit" class="invisible">
+		</form>
+
+		<h1>Categorias</h1>
+		{% for rubro in site.data.rubros %}
+			<div><a href="#{{rubro.id}}">{{rubro.nombre}}</a></div>
+		{% endfor %}
+
+		<div  class="regitrar">
+			<a href="/registrar.html">Registrar comercio</a>
+		</div>
 </nav>
 
 <main>
+
 	{% for rubro in site.data.comercios %}
 		<div class="cuerpo">
 			<div class="titulo" id="{{rubro.id}}">
