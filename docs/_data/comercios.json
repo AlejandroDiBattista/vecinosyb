@@ -406,10 +406,10 @@
         "nombre": "D’ Carne Somos",
         "sucursales": [
           {
-            "domicilio": "582-7595",
-            "telefono": "",
+            "domicilio": "Av. Colón 421",
+            "telefono": "(381) 582-7595",
             "whatsapp": "(381) 582-7595",
-            "call": "tel:+381Av. Colón 421",
+            "call": "tel:+3815827595 / 4232999",
             "send": "https://wa.me/543815827595"
           }
         ],
@@ -1797,6 +1797,19 @@
           }
         ],
         "direcciones": 0
+      },
+      {
+        "nombre": "La mejor Empanadas",
+        "sucursales": [
+          {
+            "domicilio": "Av. Aconquija 1900 - Local 8",
+            "telefono": "(381) 614-4067",
+            "whatsapp": "(381) 614-4067",
+            "call": "tel:+3816144067",
+            "send": "https://wa.me/543816144067"
+          }
+        ],
+        "direcciones": 1
       }
     ]
   },
