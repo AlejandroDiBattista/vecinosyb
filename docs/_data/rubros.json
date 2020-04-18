@@ -2,7 +2,7 @@
   {
     "id": "almacenes",
     "nombre": "Almacenes",
-    "cantidad": 13
+    "cantidad": 12
   },
   {
     "id": "bebidas",
@@ -12,12 +12,12 @@
   {
     "id": "carnicerias",
     "nombre": "Carnicerías",
-    "cantidad": 19
+    "cantidad": 18
   },
   {
     "id": "comidas",
     "nombre": "Comidas",
-    "cantidad": 42
+    "cantidad": 37
   },
   {
     "id": "farmacias",
@@ -42,12 +42,12 @@
   {
     "id": "limpieza",
     "nombre": "Limpieza",
-    "cantidad": 10
+    "cantidad": 9
   },
   {
     "id": "panaderias",
     "nombre": "Panaderías",
-    "cantidad": 9
+    "cantidad": 7
   },
   {
     "id": "pastas",
@@ -57,7 +57,7 @@
   {
     "id": "pollerias",
     "nombre": "Pollerías",
-    "cantidad": 12
+    "cantidad": 11
   },
   {
     "id": "sandwicheria",
@@ -67,7 +67,7 @@
   {
     "id": "semillerias",
     "nombre": "Semillerías",
-    "cantidad": 4
+    "cantidad": 3
   },
   {
     "id": "verdulerias",
@@ -77,6 +77,6 @@
   {
     "id": "veterinarias",
     "nombre": "Veterinarias",
-    "cantidad": 14
+    "cantidad": 12
   }
 ]

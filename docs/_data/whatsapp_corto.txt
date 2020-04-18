@@ -5,6 +5,15 @@ Intendente: Mariano Campero
 Compártela con tus amigos 😉
 
 🔖 _*FARMACIAS*_
+- Calcagno
+  w:(381) 590-5917
+
+- Cristo Rey
+  t:(381) 435-3024 t:(381) 485-8034
+
+- El Corte
+  w:(381) 403-9778
+
 - Farmacia Del estero
   t:(381) 435-3024
 
@@ -20,15 +29,6 @@ Compártela con tus amigos 😉
 - Farmacia Zarzosa
   t:(381) 425-2859
 
-- El Corte
-  w:(381) 403-9778
-
-- Calcagno
-  w:(381) 590-5917
-
-- Cristo Rey
-  t:(381) 435-3024 t:(381) 485-8034
-
 - Plazoleta
   w:(381) 403-6264 t:(381) 425-6840
 
@@ -40,6 +40,9 @@ Compártela con tus amigos 😉
 - Aconquija
   t:(381) 425-3135 t:(381) 435-3971
 
+- Angelita
+  w:(381) 641-8973
+
 - Cresta Negra
   w:(381) 302-7043
 
@@ -49,11 +52,11 @@ Compártela con tus amigos 😉
 - Daniel
   t:(381) 425-8670
 
-- El abasto Mercado de carnes
-  w:(381) 598-4807
-
 - El Gaucho
   t:(381) 431-5059
+
+- El abasto Mercado de carnes
+  w:(381) 598-4807
 
 - Fidensa
   w:(381) 332-0152 t:(381) 524-7760
@@ -64,6 +67,9 @@ Compártela con tus amigos 😉
 - La Carlota
   t:(381) 435-3535
 
+- La Gloria
+  w:(381) 512-8447 w:(381) 512-8449 t:(381) 485-2259
+
 - La Negrita
   w:(381) 520-1010
 
@@ -73,23 +79,14 @@ Compártela con tus amigos 😉
 - La vaca club
   t:(381) 562-3896
 
-- Pepito
-  t:(381) 425-1975
-
 - Media Res
   w:(381) 367-4742
 
-- Angelita
-  w:(381) 641-8973
+- Pepito
+  t:(381) 425-1975
 
 - Super Carnes Bandera
   t:(381) 431-6201
-
-- La Gloria
-  w:(381) 512-8447 w:(381) 512-8449 t:(381) 485-2259
-
-- D’ Carne Somos
-  w:(381) 582-7595 t:(381) 582-7595
 
 
 🔖 _*POLLERÍAS*_
@@ -104,6 +101,12 @@ Compártela con tus amigos 😉
 
 - Granja Fico
   w:(381) 680-7500
+
+- Granja Solana
+  w:(381) 647-0889
+
+- Granja del Cerro
+  w:(381) 418-9178
 
 - La Polleria
   w:(381) 413-1614
@@ -120,25 +123,22 @@ Compártela con tus amigos 😉
 - San Expedito
   w:(381) 511-7163
 
-- Granja Solana
-  w:(381) 647-0889
-
-- K'anka Boutique de Pollos
-  w:(381) 396-5027
-
-- Granja del Cerro
-  w:(381) 418-9178
-
 
 🔖 _*VERDULERÍAS*_
 - Aconquija
   t:(381) 425-3135 t:(381) 435-3971
+
+- B&B Frutas y Verduras
+  w:(381) 572-7846
 
 - Cajones de Verdura a domicilio
   w:(381) 405-5990
 
 - Cebil
   w:(381) 662-5023
+
+- Fru-Ver
+  w:(381) 583-3345 t:(381) 425-5414
 
 - La Boutique de la Verdura
   w:(381) 302-0686
@@ -164,84 +164,72 @@ Compártela con tus amigos 😉
 - Tomas
   w:(381) 463-3445
 
-- B&B Frutas y Verduras
-  w:(381) 572-7846
-
-- Fru-Ver
-  w:(381) 583-3345 t:(381) 425-5414
-
 
 🔖 _*PANADERÍAS*_
 - Albertus
   w:(381) 604-3789 w:(381) 401-8337
 
-- Mimí
-  w:(381) 581-1302
-
-- Dolce La Pastelería
-  w:(381) 336-2009
-
-- Pastelería Sabores Nuestros
-  w:(381) 456-7022
-
-- Don Genuario
-  t:(381) 431-6366 t:(381) 425-6624 t:(381) 435-3078
-
-- Repostería y Cotillón
-  w:(381) 467-6978
-
 - Ana Menendez Tortas
   w:(381) 645-3914
-
-- Panificación Abdala
-  w:(381) 356-0981 t:(381) 425-2155
 
 - Cremona Peach
   w:(381) 550-7591
 
+- Don Genuario
+  t:(381) 431-6366 t:(381) 425-6624 t:(381) 435-3078
+
+- Panificación Abdala
+  w:(381) 356-0981 t:(381) 425-2155
+
+- Pastelería Sabores Nuestros
+  w:(381) 456-7022
+
+- Repostería y Cotillón
+  w:(381) 467-6978
+
 
 🔖 _*ALMACENES*_
+- El Boisdron Miniservice
+  w:(381) 358-1719
+
 - El Mercadito
   t:(381) 485-2348
 
 - El Mercadito & Delivery
   w:(381) 466-3294 t:(381) 466-3294
 
-- Mi Super
-  t:(381) 566-5967
-
-- Panetto
-  w:(381) 647-8491
-
-- Super Tatito
-  t:(381) 425-8046
-
-- Leandro Robin Distribuidor lacteo
-  w:(381) 523-5661
-
-- MiniMaerket Mozart
-  w:(381) 300-7729
-
-- Rincón Lacteo
-  w:(381) 442-9559
+- Equipa Tu Fiesta
+  w:(381) 541-8280 t:(381) 577-7808
 
 - Fru-Ver
   w:(381) 583-3345 t:(381) 425-5414
 
+- Leandro Robin Distribuidor lacteo
+  w:(381) 523-5661
+
+- Mi Super
+  t:(381) 566-5967
+
+- MiniMaerket Mozart
+  w:(381) 300-7729
+
+- Panetto
+  w:(381) 647-8491
+
+- Rincón Lacteo
+  w:(381) 442-9559
+
 - Super Fiesta
   w:(381) 405-2709
 
-- Distribuidora Via Gastronómica
-  w:(381) 488-0782
-
-- Equipa Tu Fiesta
-  w:(381) 541-8280 t:(381) 577-7808
-
-- El Boisdron Miniservice
-  w:(381) 358-1719
+- Super Tatito
+  t:(381) 425-8046
 
 
 🔖 _*FIAMBRES*_
+- Colonia Caroya
+  t:(381) 425-3607
+
 - Distribuidora Candelaria
   w:(381) 565-1195
 
@@ -251,33 +239,30 @@ Compártela con tus amigos 😉
 - Don Jamon
   t:(381) 435-3048
 
-- Rincón Lácteo
-  w:(381) 442-9559
-
 - La treinta y uno
   w:(381) 466-1954 t:(381) 425-7311
 
-- Colonia Caroya
-  t:(381) 425-3607
+- Rincón Lácteo
+  w:(381) 442-9559
 
 
 🔖 _*PASTAS*_
+- Avanti
+  w:(381) 668-0086
+
 - Deli Pastas
   w:(381) 692-5811
 
 - La Casa de Las Pastas
   t:(381) 425-6368
 
-- Avanti
-  w:(381) 668-0086
-
 
 🔖 _*SANDWICHERÍA*_
-- Kike
-  w:(381) 464-4387 t:(381) 400-7166
-
 - Chegusan
   w:(381) 486-2065
+
+- Kike
+  w:(381) 464-4387 t:(381) 400-7166
 
 - Pepe
   w:(381) 659-5555 t:(381) 425-8170
@@ -287,11 +272,62 @@ Compártela con tus amigos 😉
 - Billy Bob Burges
   t:(381) 405-0704
 
+- Bonneville Bar
+  w:(381) 624-4200
+
+- Cuatro Quesos
+  t:(381) 431-7175
+
+- Da Gusto
+  t:(381) 425-8185
+
+- Don Ramón
+  t:(381) 435-3048
+
+- El Cristo
+  w:(381) 527-4442 t:(381) 435-7576
+
+- El Cristo II
+  w:(381) 684-4565 t:(381) 434-7606
+
+- El Encuentro
+  t:(381) 485-6030
+
+- El Mesón del Pato
+  t:(381) 425-0004
+
+- El Paisa Empanadas
+  w:(381) 392-6065
+
 - Empanadas La Leñita
   t:(381) 425-3375
 
+- Fafa
+  w:(381) 640-2134
+
 - Gastronomia Ferullo
   w:(381) 606-5352
+
+- Gastronomia Valkiria
+  w:(381) 662-8203
+
+- Heller
+  w:(381) 502-6948 t:(381) 435-6683
+
+- Jimmy Willy
+  t:(381) 425-8290
+
+- Km 12
+  w:(381) 634-1716
+
+- La Abuela Elena
+  w:(381) 529-9093 t:(381) 435-3578
+
+- La Boqueira
+  w:(381) 697-7329
+
+- La Mejor
+  w:(381) 614-4067
 
 - La Pizzada
   t:(381) 425-0303
@@ -299,11 +335,35 @@ Compártela con tus amigos 😉
 - La treinta y uno
   w:(381) 466-1954 t:(381) 425-7311
 
+- Las Brasas Parrillada
+  t:(381) 425-6020
+
+- Lo de Cordero
+  w:(381) 425-2359
+
+- Lo de Salu
+  w:(381) 539-4193
+
+- Los Hornos
+  t:(381) 425-0301
+
+- Los hornos
+  w:(381) 698-4888 t:(381) 425-0301
+
 - Naturina
   t:(381) 415-4644
 
 - Nutrifood
   t:(381) 583-5424
+
+- Origen Empanadas
+  w:(381) 477-1072 t:(381) 425-7794
+
+- Parrillada Los Hermanos
+  w:(381) 561-6941
+
+- Piaf
+  w:(381) 663-3783
 
 - Pizza 8
   t:(381) 462-8560
@@ -311,129 +371,36 @@ Compártela con tus amigos 😉
 - Pura vida Mae
   w:(381) 630-8678
 
-- La Mejor
-  w:(381) 614-4067
-
-- El Paisa Empanadas
-  w:(381) 392-6065
-
-- La Abuela Elena
-  w:(381) 529-9093 t:(381) 435-3578
-
-- Los Hornos
-  t:(381) 425-0301
-
-- Lo de Cordero
-  w:(381) 425-2359
-
-- La Tranquera Empanadas
-  w:(381) 638-9451 t:(381) 425-1273
-
-- El Cristo II
-  w:(381) 684-4565 t:(381) 434-7606
-
-- El Cristo
-  w:(381) 527-4442 t:(381) 435-7576
-
-- Tonetti
-  w:(381) 524-6573 t:(381) 317-3811
-
-- Da Gusto
-  t:(381) 425-8185
-
-- Gastronomia Valkiria
-  w:(381) 662-8203
-
-- Parrillada Los Hermanos
-  w:(381) 561-6941
-
-- Las Brasas Parrillada
-  t:(381) 425-6020
-
-- El Mesón del Pato
-  t:(381) 425-0004
-
-- Don Ramón
-  t:(381) 435-3048
-
-- Km 12
-  w:(381) 634-1716
-
-- Bonneville Bar
-  w:(381) 624-4200
-
-- Piaf
-  w:(381) 663-3783
-
-- Cuatro Quesos
-  t:(381) 431-7175
-
-- Lo de Salu
-  w:(381) 539-4193
-
-- La Boqueira
-  w:(381) 697-7329
-
-- Jimmy Willy
-  t:(381) 425-8290
-
-- Tus Congelados
-  w:(381) 579-3297
+- Quates
+  w:(381) 523-1148 t:(381) 485-6111
 
 - Quicken Spiedo & Food
   w:(381) 517-4509
 
-- Heller
-  w:(381) 502-6948 t:(381) 435-6683
-
-- El Parador
-  w:(381) 505-5383 t:(381) 435-3930
-
-- Alimentos Saludables
-  w:(381) 448-4203
-
-- Quates
-  w:(381) 523-1148 t:(381) 485-6111
-
-- Fafa
-  w:(381) 640-2134
-
-- Origen Empanadas
-  w:(381) 477-1072 t:(381) 425-7794
-
-- Los hornos
-  w:(381) 698-4888 t:(381) 425-0301
-
-- El Encuentro
-  t:(381) 485-6030
-
-- La mejor Empanadas
-  w:(381) 614-4067 t:(381) 614-4067
+- Tus Congelados
+  w:(381) 579-3297
 
 
 🔖 _*GOLOSINAS*_
-- La Golosineria
-  w:(381) 438-8938
-
-- El Emporio de las Golosinas
-  t:(381) 425-0655
+- Dulci Nard
+  w:(381) 409-1213
 
 - Dulcilandia
   w:(381) 419-8150
 
-- Dulci Nard
-  w:(381) 409-1213
+- El Emporio de las Golosinas
+  t:(381) 425-0655
+
+- La Golosineria
+  w:(381) 438-8938
 
 
 🔖 _*HELADOS*_
+- Grido
+  t:(381) 574-9939
+
 - Stick
   w:(381) 532-2220
-
-- Wollen swiss ice cream
-  t:(381) 301-9446
-
-- Yo Helados
-  w:(381) 532-9753 t:(381) 425-8535 t:(381) 425-3107
 
 - Tello
   t:(381) 439-6800
@@ -441,11 +408,17 @@ Compártela con tus amigos 😉
 - Volta
   w:(381) 502-7990
 
-- Grido
-  t:(381) 574-9939
+- Wollen swiss ice cream
+  t:(381) 301-9446
+
+- Yo Helados
+  w:(381) 532-9753 t:(381) 425-8535 t:(381) 425-3107
 
 
 🔖 _*BEBIDAS*_
+- Drink Delivery
+  t:(381) 687-2537
+
 - Greenbeer
   t:(381) 450-7658
 
@@ -455,19 +428,19 @@ Compártela con tus amigos 😉
 - Rey de Copas
   w:(381) 463-2600
 
-- Drink Delivery
-  t:(381) 687-2537
-
 
 🔖 _*LIMPIEZA*_
 - 3B distribuidora
   t:(381) 655-4720
 
-- Servicio Integral de Limpieza
-  w:(381) 572-0361
+- Agua Viva
+  w:(381) 604-0031 t:(381) 425-4373
 
 - Agustín Pucheta Amway
   w:(381) 602-1108
+
+- Bu Sustentable
+  t:(381) 601-0688
 
 - Burbujita
   w:(381) 546-4187 t:(381) 425-4373
@@ -478,31 +451,22 @@ Compártela con tus amigos 😉
 - La Escobita
   w:(381) 678-2499 t:(381) 425-4373
 
-- Agua Viva
-  w:(381) 604-0031 t:(381) 425-4373
-
-- Lund
-  w:(381) 480-7403
-
 - SP Distribución
   w:(381) 657-2306
 
-- Bu Sustentable
-  t:(381) 601-0688
+- Servicio Integral de Limpieza
+  w:(381) 572-0361
 
 
 🔖 _*SEMILLERÍAS*_
 - CocinArte
   w:(381) 673-5590
 
-- El Nogal
-  w:(381) 661-8126 t:(381) 425-8003
-
-- El Bazar de las Especias
-  w:(381) 681-6167
-
 - El Molino
   w:(381) 300-7209
+
+- El Nogal
+  w:(381) 661-8126 t:(381) 425-8003
 
 
 🔖 _*VETERINARIAS*_
@@ -521,6 +485,12 @@ Compártela con tus amigos 😉
 - Coquena
   t:(381) 435-5963
 
+- Cuatro Patas
+  t:(381) 601-1229
+
+- Dr. Gustavo E. Valdez
+  w:(381) 637-6690 t:(381) 425-1223
+
 - Dr. Schwint
   t:(381) 425-1988
 
@@ -535,18 +505,6 @@ Compártela con tus amigos 😉
 
 - Quara
   w:(381) 669-7088
-
-- Tienda para Mascotas San Martin
-  w:(381) 304-4388 t:(381) 230-0763
-
-- Andres Bonano, Alimentos para Mascotas
-  w:(381) 402-0576
-
-- Cuatro Patas
-  t:(381) 601-1229
-
-- Dr. Gustavo E. Valdez
-  w:(381) 637-6690 t:(381) 425-1223
 
 
 Directorio elaborado por el equipo del Concejal Marcelo Rojas

@@ -83,7 +83,7 @@ class String
 
 	def tel
 		tmp = split("/")
-				.map{|x|x.gsub(/\D/,"")}
+				.map{|x|x.gsub(/\D/,'')[-7..-1]}
 				.select{|t|t.size == 7}
 				.first
 		tmp ? "(381) #{tmp[0...3]}-#{tmp[3..-1]}" : ""

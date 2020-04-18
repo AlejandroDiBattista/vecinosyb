@@ -2,37 +2,47 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>{{ page.title }}</title>
-		<!-- <link rel="stylesheet" href="/css/style.css"> -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		<link rel="stylesheet" href="/css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163637214-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'UA-163637214-1');
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+		<link rel="stylesheet" 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+								integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+								crossorigin="anonymous">
+
+		<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+				integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+				crossorigin="anonymous">
 		</script>
-	</head>
+ -->
+		<link rel="stylesheet" href="/css/main.css">
+		<!-- <link rel="stylesheet" href="/css/bootstrap-responsive.min.css"> -->
+		
+		<!-- Global site tag (gtag.js) - Google Analytics 
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163637214-1"></script>
+ 		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){ dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'UA-163637214-1');
+		</script>-->
+ 	</head>
 
 	<body>
-		<div id="page">
-			<section>
-				<header>
-					<h1>Yerba Buena <a id="hashtag" href="/">#QuedateEnCasa</a></h1>
-					<article>
-						Registro Virtual de Comercios
-					</article>
-				</header>
+<!-- 		<header>
+			<h1>Yerba Buena <a id="hashtag" href="/">#QuedateEnCasa</a>v2</h1>
+			<article>
+				Registro Virtual de Comercios
+			</article>
+		</header>
+ -->
+		<!-- <main> -->
+			{{ content }}
+		<!-- </main> -->
 
-				{{ content }}
-
-				<footer>			
-			  		<p class="center-text"><a href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a> por Concejal <b>Marcelo Rojas</b></p>
-				</footer>
-			</section>
-		</div>
-	</body>
+<!-- 		<footer>			
+	  		<p class="center-text"><a href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a> por Concejal <b>Marcelo Rojas</b></p>
+		</footer>
+ -->	</body>
 </html>

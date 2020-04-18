@@ -89,17 +89,28 @@ def generar_comercios(datos)
 						 	send: s.whatsapp.wa 
 						}
 					end.sort_by{|d| d.domicilio.size > 0 ? d.domicilio : "zzzz" },
-					direcciones: sucursales.count{|s|s.direccion.strip.size > 0 }
-				},
-			}
-			end.sort_by{|d| d.comercio }
+
+					direcciones: sucursales.count{|s|s.direccion.strip.size > 0 },
+				}
+			end.sort_by{|d| d.nombre }
 		}
 	end.sort_by{|x| OrdenRubros.index(x.rubro) || 99}
 end
 
-def agregar_busqueda(datos)
-	datos.each do |dato|
-		dato.seach = [dato.rubro, dato.comercios.map(&:nombre), dato.comercios.map{|x| x.sucursales.map{|y| [x.domicilio, x.telefono, x.whatsapp]}}
+def listar_comercios(datos)
+	datos = datos.sort_by{|x| [OrdenRubros.index(x.rubro), x.nombre, x.direccion || "zzzz"] }
+	datos.map do |dato|
+		{
+			id: 		rubro_id(dato.rubro),
+			rubro: 		dato.rubro,
+			comercio: 	dato.nombre, 
+			direccion: 	dato.direccion, 
+		 	telefono:  	dato.telefono.tel,
+		 	whatsapp:  	dato.whatsapp.tel,
+		 	call: 		dato.telefono.tl,
+		 	send: 		dato.whatsapp.wa,
+		 	search: 	[dato.rubro, dato.nombre, dato.direccion, dato.telefono.telefonos, dato.whatsapp.telefonos].flatten.join(" ").downcase
+		 }
 	end
 end
 
@@ -173,17 +184,14 @@ end
 datos = leer_datos()
 
 if analizar(datos)
+	datos = datos.select{|x| /si/ === x.envios && /y/ === x.localidad && IncluirRubros.include?(x.rubro) }
 
-	p datos.size
-	datos = datos.select{|x|/si/ === x.envios}
-	p datos.size
-	datos = datos.select{|x| IncluirRubros.include?(x.rubro) }
-	p datos.size
-	
 	comercios = generar_comercios(datos)
+	lista = listar_comercios(datos)
 	rubros = comercios.map{|x| {id: x.id, nombre: x.rubro, cantidad: x.comercios.count } }.sort_by(&:nombre)
 
 	open("docs/_data/comercios.json","w+"){|f| f.write(JSON.pretty_generate(comercios))}
+	open("docs/_data/lista.json","w+"){|f| f.write(JSON.pretty_generate(lista))}
 	open("docs/_data/rubros.json","w+"){|f| f.write(JSON.pretty_generate(rubros))}
 
 	whatsapp = generar_whatsapp(comercios, :corto)
