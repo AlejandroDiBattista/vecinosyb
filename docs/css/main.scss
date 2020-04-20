@@ -205,7 +205,7 @@ main section {
 
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
 	.row {
 		display: grid;
 		grid-template-column: auto $menu;
@@ -224,13 +224,13 @@ main section {
 }
 
 @media only screen and (min-width: 800px) {
-	main section { grid-template-columns: repeat(2, 1fr); }
+	main section { grid-template-columns: repeat(1, 1fr); }
 }
 
 @media only screen and (min-width: 1200px) {
-	main section { grid-template-columns: repeat(3, 1fr); }
+	main section { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media only screen and (min-width: 1600px) {
-	main section { grid-template-columns: repeat(4, 1fr); }
+	main section { grid-template-columns: repeat(3, 1fr); }
 }
