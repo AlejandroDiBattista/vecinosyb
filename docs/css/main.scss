@@ -20,10 +20,21 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+	color: $categoria;
+	&:hover {
+		text-decoration: underline;
+		background-color: rgba(0,0,0,0.1);
+		border-radius: 4px;
+		color: $categoria;
+	}
+}
+
 body { 
 	background: $fondo;
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
-	padding: 0px;
+	padding: 8px;
 }
 
 header {
@@ -63,9 +74,8 @@ header {
   	}
 }
 
+
 main {
-	float: left;
-	width: calc(100% - $menu - 8px);
 
 	h2 {
 		padding-top: 8px;
@@ -79,9 +89,9 @@ main {
 		grid-gap: 8px;
 
 		article {
-			border-radius: 4px;
+			border-radius: 6px;
 			border: 0.5px solid rgba(0, 0, 0, 0.2);
-			box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+			box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 
 			padding: 8px 8px 16px 8px;
 			min-height: 120px;	
@@ -102,22 +112,7 @@ main {
 	}
 }
 
-a {
-	text-decoration: none;
-	&:hover {
-		text-decoration: underline;
-		background-color: rgba(0,0,0,0.1);
-		border-radius: 4px;
-		color: $categoria;
-	}
-	color: $categoria;
-}
-
 nav {
-	/*background-color: yellowgreen;*/
-	float: left;
-	width: $menu;
-	margin-left: 8px;
 	a {
 		display: block;
 		padding: 4px;
@@ -151,15 +146,15 @@ footer {
 	top: 5px;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  right: 8px;
-}
+// .sticky {
+//   position: fixed;
+//   top: 0;
+//   right: 8px;
+// }
 
-.sticky + .content {
-  padding-top: 60px;
-}
+// .sticky + .content {
+//   padding-top: 60px;
+// }
 
 .telefono { 
 	background: url(../images/telefono-48.png)  0px 8px / 16px 16px  no-repeat;
@@ -183,19 +178,11 @@ footer {
 			display: block;
 		}
 		color: white;
-	}
 
-	main, nav {   
-    	width: 100%;
-    	padding: 0;
-  	}
+	  	.ir_categoria {
+			display: block;
+		}
 
-  	.ir_categoria {
-		display: block;
-	}
-
-	.sticky {
-		position: relative;
 	}
 
 	nav {
@@ -205,9 +192,6 @@ footer {
 			display: inline;
 		}
 	}
-}
-
-@media screen and (min-width: 501px){
 }
 
 @media screen and (max-width: 800px) {
@@ -222,6 +206,40 @@ footer {
 	main section { grid-template-columns: repeat(3, 1fr); }
 }
 
-@media screen and (min-width: 1401px){
+@media screen and (min-width: 1401px) and (max-width: 3000px){
 	main section { grid-template-columns: repeat(4, 1fr); }
+}
+
+
+.row {
+	display: grid;
+	grid-template-column: auto $menu;
+	grid-template-row: auto;
+	grid-gap: 8px;
+}
+
+main {
+	grid-column: 1;
+	grid-row: 1;
+}
+nav {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+	.row {
+		display: grid;
+		grid-template-column: auto;
+		grid-template-row: auto auto;
+	}
+	main {
+		grid-column: 1;
+		grid-row: 1;
+	}
+	nav {
+		grid-column: 1;
+		grid-row: 2;
+	}
+
 }

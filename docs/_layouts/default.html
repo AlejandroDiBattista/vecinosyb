@@ -7,6 +7,7 @@
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 		<link rel="stylesheet" href="/css/main.css">
+		{% include analitycs.html %}
  	</head>
 
 	<body>
@@ -17,12 +18,12 @@
 			</span>
 			<a href="#categorias">Ir categoría</a>
 		</header>
-
 		{{ content }}
+		
 		<footer>			
 			<a href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a> por Concejal <b>Marcelo Rojas</b>
 		</footer>
-		<script>
+		<!-- <script>
 			window.onscroll = function() {myFunction()};
 
 			var navbar = document.getElementById("categorias");
@@ -35,6 +36,6 @@
 			    navbar.classList.remove("sticky");
 			  }
 			}
-		</script>
+		</script> -->
 	</body>
 </html>

@@ -3,7 +3,7 @@ layout: default
 title: RVC YB
 ---
 <div class="row">
-	<main>v11
+	<main>
 		{% assign rubros = site.data.lista | group_by: 'id' %}
 		{% for rubro in rubros %}
        		<div>
@@ -15,7 +15,7 @@ title: RVC YB
 					<article>
 						<h3>{{ comercio.items.first.comercio }}</h3>
 						{% for sucursal in comercio.items %}
-							<address> {{ sucursal.direccion }} </address>
+							<address> {{ sucursal.direccion }} <i>{{ sucursal.local }}</i></address>
 							<abbr title="Phone">
 								{% if sucursal.telefono != "" %}
 									<a class="telefono" href="{{ sucursal.call }}">{{ sucursal.telefono }}</a>
@@ -30,6 +30,7 @@ title: RVC YB
 				{% endfor %}
 			</section>
 		{% endfor %}
+		Generado el 20 de abril de 2020
 	</main>
 
 	<nav id="categorias">

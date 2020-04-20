@@ -4,8 +4,9 @@ require "json"
 require "./funciones"
 
 Campos = [:id, :rubro, :nombre, :telefono, :whatsapp, :direccion, :local, :localidad, :enviar, :estado, :contacto, :asignado, :controlado, :lat, :lon]
-OrdenRubros    = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Bares & Restaurantes", "Golosinas", "Helados", "Bebidas", "Librerías", "Bazar", "Jugueterías", "Tecnología",  "Limpieza", "Tintorerías", "Indumentaria & Zapatería", "Belleza", "Semillerías", "Veterinarias", "Pinturerías & Ferreteria", "Servicios", "Marketing Digital", "Piletas", "Electricidad"]
-IncluirRubros  = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Golosinas", "Helados", "Bebidas",  "Limpieza", "Semillerías", "Veterinarias"]
+OrdenRubros    = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Bares & Restaurantes", "Golosinas", "Helados", "Bebidas", "Librerías", "Bazar", "Jugueterías", "Tecnología", "Limpieza", "Tintorerías", "Indumentaria & Zapatería", "Belleza", "Semillerías", "Veterinarias", "Pinturerías & Ferreteria", "Servicios", "Marketing Digital", "Piletas", "Electricidad"]
+IncluirRubros = OrdenRubros
+# IncluirRubros  = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Golosinas", "Helados", "Bebidas",  "Limpieza", "Semillerías", "Veterinarias"]
 
 def contar(lista)
 	lista.uniq.map{|r| [r, lista.count{|x|x == r}]}.sort_by(&:last)	
@@ -82,6 +83,7 @@ def generar_comercios(datos)
 					sucursales: sucursales.map do |s|
 						{
 						 	domicilio: s.direccion,
+						 	local: s.local,
 						 	telefono:  s.telefono.tel,
 						 	whatsapp:  s.whatsapp.tel,
 						 	call: s.telefono.tl,
@@ -104,6 +106,7 @@ def listar_comercios(datos)
 			rubro: 		dato.rubro,
 			comercio: 	dato.nombre, 
 			direccion: 	dato.direccion, 
+			local: 		dato.local,
 		 	telefono:  	dato.telefono.tel,
 		 	whatsapp:  	dato.whatsapp.tel,
 		 	call: 		dato.telefono.tl,
@@ -181,17 +184,15 @@ def generar_whatsapp(comercios, modo, formato=false)
 end
 
 datos = leer_datos()
-
 if analizar(datos)
-	datos = datos.select{|x| /si/ === x.enviar && /y/ === x.localidad && IncluirRubros.include?(x.rubro) }
-
+	datos = datos.select{|x| /si/i === x.enviar && /y/i === x.localidad}# && IncluirRubros.include?(x.rubro) }
 	comercios = generar_comercios(datos)
 	lista = listar_comercios(datos)
 	rubros = comercios.map{|x| {id: x.id, nombre: x.rubro, cantidad: x.comercios.count } }.sort_by(&:nombre)
 
-	open("docs/_data/comercios.json","w+"){|f| f.write(JSON.pretty_generate(comercios))}
-	open("docs/_data/lista.json","w+"){|f| f.write(JSON.pretty_generate(lista))}
-	open("docs/_data/rubros.json","w+"){|f| f.write(JSON.pretty_generate(rubros))}
+	open("docs/_data/comercios.json","w+"){|f| 	f.write(JSON.pretty_generate(comercios))}
+	open("docs/_data/lista.json",	 "w+"){|f| 	f.write(JSON.pretty_generate(lista))	}
+	open("docs/_data/rubros.json",	 "w+"){|f| 	f.write(JSON.pretty_generate(rubros))	}
 
 	whatsapp = generar_whatsapp(comercios, :corto)
 	open("docs/_data/whatsapp_corto.txt","w+"){|f| f.write(whatsapp)}

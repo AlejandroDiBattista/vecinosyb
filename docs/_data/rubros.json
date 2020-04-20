@@ -2,12 +2,22 @@
   {
     "id": "almacenes",
     "nombre": "Almacenes",
-    "cantidad": 12
+    "cantidad": 13
+  },
+  {
+    "id": "bazar",
+    "nombre": "Bazar",
+    "cantidad": 2
   },
   {
     "id": "bebidas",
     "nombre": "Bebidas",
     "cantidad": 4
+  },
+  {
+    "id": "belleza",
+    "nombre": "Belleza",
+    "cantidad": 7
   },
   {
     "id": "carnicerias",
@@ -17,7 +27,12 @@
   {
     "id": "comidas",
     "nombre": "Comidas",
-    "cantidad": 37
+    "cantidad": 38
+  },
+  {
+    "id": "electricidad",
+    "nombre": "Electricidad",
+    "cantidad": 1
   },
   {
     "id": "farmacias",
@@ -40,9 +55,29 @@
     "cantidad": 6
   },
   {
+    "id": "indumentaria_zapateria",
+    "nombre": "Indumentaria & Zapatería",
+    "cantidad": 12
+  },
+  {
+    "id": "jugueterias",
+    "nombre": "Jugueterías",
+    "cantidad": 1
+  },
+  {
+    "id": "librerias",
+    "nombre": "Librerías",
+    "cantidad": 13
+  },
+  {
     "id": "limpieza",
     "nombre": "Limpieza",
     "cantidad": 9
+  },
+  {
+    "id": "marketing_digital",
+    "nombre": "Marketing Digital",
+    "cantidad": 1
   },
   {
     "id": "panaderias",
@@ -52,6 +87,11 @@
   {
     "id": "pastas",
     "nombre": "Pastas",
+    "cantidad": 3
+  },
+  {
+    "id": "pinturerias_ferreteria",
+    "nombre": "Pinturerías & Ferreteria",
     "cantidad": 3
   },
   {
@@ -70,6 +110,21 @@
     "cantidad": 3
   },
   {
+    "id": "servicios",
+    "nombre": "Servicios",
+    "cantidad": 22
+  },
+  {
+    "id": "tecnologia",
+    "nombre": "Tecnología",
+    "cantidad": 9
+  },
+  {
+    "id": "tintorerias",
+    "nombre": "Tintorerías",
+    "cantidad": 2
+  },
+  {
     "id": "verdulerias",
     "nombre": "Verdulerías",
     "cantidad": 13
@@ -77,6 +132,6 @@
   {
     "id": "veterinarias",
     "nombre": "Veterinarias",
-    "cantidad": 12
+    "cantidad": 11
   }
 ]
