@@ -32,7 +32,7 @@ a {
 }
 
 body { 
-	background: $fondo;
+	background-color: $fondo;
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
 	padding: 8px;
 }
@@ -42,7 +42,8 @@ html {
 }
 
 header {
-	background: $cabecera;
+	background-color: $cabecera;
+
 	padding: 0px 8px;
 	font-size: 16px;
 	text-align: left;
@@ -192,11 +193,12 @@ nav {
 }
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
 	header {
 		h1 { font-size: 32px; }
 		h2 { font-size: 24px; }
 	  	.ir_categoria {	display: none; }
+	  	background-color: red !important;
 	}
 
 	.row {
@@ -220,14 +222,16 @@ nav {
 	}
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1100px) {
 	main section { grid-template-columns: repeat(2, 1fr); }
+	header { background-color: orange !important;	}
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
 	main section { grid-template-columns: repeat(3, 1fr); }
+	header { background-color: yellow !important;	}
 }
 
-@media only screen and (min-width: 1600px) {
-	main section { grid-template-columns: repeat(4, 1fr); }
-}
+// @media only screen and (min-width: 1600px) {
+// 	main section { grid-template-columns: repeat(4, 1fr); }
+// }
