@@ -48,24 +48,33 @@ footer { padding: 8px; text-align: center; margin-top: 20px; }
 
 .whatsapp { background: url(../images/whatsapp-48.png) 0px 6px/16px 16px no-repeat; padding-left: 20px; }
 
-main section { display: grid; grid-template-columns: auto; grid-gap: 8px; }
+.row { display: grid; grid-template-column: auto; grid-template-row: auto auto; grid-gap: 8px; }
 
-@media only screen and (max-width: 499px) { .row { display: grid; grid-template-column: auto; grid-template-row: auto auto; grid-gap: 8px; }
-  header h1 { font-size: 24px; }
-  header h2 { font-size: 20px; }
-  header .ir_categoria { display: block; }
-  main { grid-column: 1; grid-row: 1; }
-  nav { grid-column: 1; grid-row: 2; }
-  nav a { padding: 8px; line-height: 32px; display: inline; } }
+header h1 { font-size: 24px; }
 
-@media only screen and (min-width: 600px) { .row { display: grid; grid-template-column: auto 160px; grid-template-row: auto; }
+header h2 { font-size: 20px; }
+
+header .ir_categoria { display: block; }
+
+main { grid-column: 1; grid-row: 1; }
+
+main section { display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 8px; }
+
+nav { grid-column: 1; grid-row: 2; }
+
+nav a { padding: 8px; line-height: 32px; display: inline; }
+
+@media only screen and (min-width: 600px) { header h1 { font-size: 32px; }
+  header h2 { font-size: 24px; }
+  header .ir_categoria { display: none; }
+  .row { display: grid; grid-template-column: auto 160px; grid-template-row: auto; }
   main { grid-column: 1; grid-row: 1; }
   nav { grid-column: 2; grid-row: 1; } }
 
-@media only screen and (min-width: 800px) { main section { grid-template-columns: repeat(1, 1fr); } }
+@media only screen and (min-width: 900px) { main section { grid-template-columns: repeat(2, 1fr); } }
 
-@media only screen and (min-width: 1200px) { main section { grid-template-columns: repeat(2, 1fr); } }
+@media only screen and (min-width: 1200px) { main section { grid-template-columns: repeat(3, 1fr); } }
 
-@media only screen and (min-width: 1600px) { main section { grid-template-columns: repeat(3, 1fr); } }
+@media only screen and (min-width: 1600px) { main section { grid-template-columns: repeat(4, 1fr); } }
 
 /*# sourceMappingURL=main.css.map */
