@@ -2,71 +2,42 @@
 layout: default
 title: RVC YB
 ---
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
-    <div class="container">
-        <a href="#" class="navbar-brand mr-3">Registro Virtual de Comercios</a>
-        <a class="nav-link" href="/registrar.html">Registrar Comercio</a>
-    </div>    
-</nav>
-
-<div class="container sticky-top">
-	<div class="row">
-		<div class="col-2">
-			<ul class="list-group list-group-flush">
-			 	<li class="list-group-item"><h5>Categorias</h5></li>
-
-				{% for rubro in site.data.rubros %}
-				<li class="list-group-item">
-					<a href="#{{rubro.id}}">{{rubro.nombre}}</a>
-					
-				</li>
+<div class="row">
+	<main>v11
+		{% assign rubros = site.data.lista | group_by: 'id' %}
+		{% for rubro in rubros %}
+       		<div>
+       			<a href="#"><h2 id={{rubro.items.first.id}}>{{ rubro.items.first.rubro }}</h2></a>
+			<div>
+			<section class="content">
+				{% assign comercios = rubro.items | group_by: 'comercio' %}
+				{% for comercio in comercios %}
+					<article>
+						<h3>{{ comercio.items.first.comercio }}</h3>
+						{% for sucursal in comercio.items %}
+							<address> {{ sucursal.direccion }} </address>
+							<abbr title="Phone">
+								{% if sucursal.telefono != "" %}
+									<a class="telefono" href="{{ sucursal.call }}">{{ sucursal.telefono }}</a>
+								{% endif %}
+						
+								{% if sucursal.whatsapp != "" %}
+									<a class="whatsapp" href="{{ sucursal.send }}">{{ sucursal.whatsapp }}</a>
+								{% endif %}
+							</abbr><br>
+						{% endfor %}
+					</article>
 				{% endfor %}
-			</ul>
-		</div>  
+			</section>
+		{% endfor %}
+	</main>
 
-		<div class="col-10">	
-	  		<div class="container">		
-				{% for rubro in site.data.comercios %}
-					<div class="card-body">
-						<h4 class="" id="{{ rubro.id }}">{{ rubro.rubro }}</h4>
-			  			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 ">
-						  	{% for comercio in rubro.comercios %}
-								<div class="col card mb-1">
-									<div class="p-2 ">
-										<h5 class="">{{ comercio.nombre }}</h5>
-										{% for sucursal in comercio.sucursales %}
-											<div class="card-subtitle pt-1 pb-1">	{{ sucursal.domicilio }} </div>
-											
-											{% if sucursal.telefono != "" %}
-												<abbr title="Phone"><a class="telefono" href="{{ sucursal.call }}">{{ sucursal.telefono }}</a></abbr> <br>
-											{% endif %}
-											
-											{% if sucursal.whatsapp != "" %}
-												<abbr title="Phone"><a class="whatsapp" href="{{ sucursal.send }}">{{ sucursal.whatsapp }}</a></abbr>
-											{% endif %}
-										{% endfor %}
-									</div>
-							  	</div>
-							{% endfor %}
-						</div>
-					</div>
-			  	{% endfor %}
-			</div>
-		</div>
-	</div>
-
-	<hr>
-    <footer>
-        <div class="row">
-            <div class="col-md-6">
-                <p>Vecinos Comprometido YB</p>
-            </div>
-            <div class="col-md-6 text-md-right">
-            	Creado por el equipo del <b>Concejal Marcelo Rojas</b>
-            </div>
-        </div>
-    </footer>
+	<nav id="categorias">
+		<h5>Categorias</h5>
+		{% for rubro in site.data.rubros %}
+			<a href="#{{rubro.id}}">{{rubro.nombre}}</a>
+		{% endfor %}
+		<br>
+	    <a href="/registrar.html">Registrar Comercio</a>
+	</nav>
 </div>
-
-

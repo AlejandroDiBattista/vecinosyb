@@ -3,8 +3,7 @@ require "open-uri"
 require "json"
 require "./funciones"
 
-Campos = [:id, :rubro, :nombre, :telefono, :whatsapp, :direccion, :localidad, :envios, :contacto, :asignado, :controlado]
-
+Campos = [:id, :rubro, :nombre, :telefono, :whatsapp, :direccion, :local, :localidad, :enviar, :estado, :contacto, :asignado, :controlado, :lat, :lon]
 OrdenRubros    = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Bares & Restaurantes", "Golosinas", "Helados", "Bebidas", "Librerías", "Bazar", "Jugueterías", "Tecnología",  "Limpieza", "Tintorerías", "Indumentaria & Zapatería", "Belleza", "Semillerías", "Veterinarias", "Pinturerías & Ferreteria", "Servicios", "Marketing Digital", "Piletas", "Electricidad"]
 IncluirRubros  = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Golosinas", "Helados", "Bebidas",  "Limpieza", "Semillerías", "Veterinarias"]
 
@@ -16,7 +15,7 @@ def analizar(datos)
 	puts "\n-- ANALISIS DE DATOS --\n"
 
 	puts "\nClasificion Envios"
-	contar(datos.map(&:envios)).each{|x|puts "  %-40s %3i" % x }
+	contar(datos.map(&:enviar)).each{|x|puts "  %-40s %3i" % x }
 	
 	puts "\nClasificacion Rubros"
 	contar(datos.map(&:rubro)).each{|x|puts "  %-40s %3i" % x }
@@ -184,7 +183,7 @@ end
 datos = leer_datos()
 
 if analizar(datos)
-	datos = datos.select{|x| /si/ === x.envios && /y/ === x.localidad && IncluirRubros.include?(x.rubro) }
+	datos = datos.select{|x| /si/ === x.enviar && /y/ === x.localidad && IncluirRubros.include?(x.rubro) }
 
 	comercios = generar_comercios(datos)
 	lista = listar_comercios(datos)

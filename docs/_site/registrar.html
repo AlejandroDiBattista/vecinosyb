@@ -2,43 +2,21 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 		<title>RVC YB - Registrar Comercio</title>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-
-		<link rel="stylesheet" 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-								integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
-								crossorigin="anonymous">
-
-		<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
-				integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
-				crossorigin="anonymous">
-		</script>
- -->
 		<link rel="stylesheet" href="/css/main.css">
-		<!-- <link rel="stylesheet" href="/css/bootstrap-responsive.min.css"> -->
-		
-		<!-- Global site tag (gtag.js) - Google Analytics 
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163637214-1"></script>
- 		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){ dataLayer.push(arguments); }
-			gtag('js', new Date());
-			gtag('config', 'UA-163637214-1');
-		</script>-->
  	</head>
 
 	<body>
-<!-- 		<header>
-			<h1>Yerba Buena <a id="hashtag" href="/">#QuedateEnCasa</a>v2</h1>
-			<article>
-				Registro Virtual de Comercios
-			</article>
+		<header>
+			<span>
+				<h1>Registro Virtual de Comercios <b>Yerba Buena</b></h1>
+				<a href="/"><h2>#QuedateEnCasa</h2></a>
+			</span>
+			<a href="#categorias">Ir categoría</a>
 		</header>
- -->
-		<!-- <main> -->
-			<main>
+
+		<main>
 	<a href="/">Volver a la pantalla inicial</a>
 	<iframe 
 		src="https://docs.google.com/forms/d/e/1FAIpQLSeOrcdrKs3Iy9pasQtXgaikcOh63dwMacI3Ir3QIHIJg0oXBw/viewform?embedded=true" 
@@ -46,10 +24,22 @@
 		frameborder="0" marginheight="0" marginwidth="0">
 	</iframe>
 <main>
-		<!-- </main> -->
-
-<!-- 		<footer>			
-	  		<p class="center-text"><a href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a> por Concejal <b>Marcelo Rojas</b></p>
+		<footer>			
+			<a href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a> por Concejal <b>Marcelo Rojas</b>
 		</footer>
- -->	</body>
+		<script>
+			window.onscroll = function() {myFunction()};
+
+			var navbar = document.getElementById("categorias");
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+			    navbar.classList.add("sticky")
+			  } else {
+			    navbar.classList.remove("sticky");
+			  }
+			}
+		</script>
+	</body>
 </html>
