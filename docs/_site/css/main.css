@@ -26,7 +26,7 @@ main h2 { padding-top: 8px; font-weight: lighter; color: #2979ff; }
 
 main section article { border-radius: 6px; border: 0.5px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); padding: 8px 8px 16px 8px; min-height: 120px; }
 
-main section article h3 { padding-bottom: 2px; margin-bottom: -8px; color: linear-gradient(90deg, #162f59 0%, #71a5fe 47%); }
+main section article h3 { padding-bottom: 2px; margin-bottom: -8px; color: #162f59; }
 
 main section article address { margin-top: 16px; margin-bottom: 8px; }
 
@@ -42,41 +42,38 @@ footer { padding: 8px; text-align: center; margin-top: 20px; }
 
 .row:after { content: ""; display: table; clear: both; }
 
-.ir_categoria { display: none; position: relative; right: 8px; top: 5px; }
-
 .telefono { background: url(../images/telefono-48.png) 0px 8px/16px 16px no-repeat; padding-left: 20px; }
 
 .whatsapp { background: url(../images/whatsapp-48.png) 0px 6px/16px 16px no-repeat; padding-left: 20px; }
 
-.row { display: grid; grid-template-column: auto; grid-template-row: auto auto; grid-gap: 8px; }
+.row { display: grid; grid-template-columns: auto; grid-template-rows: auto auto; grid-gap: 8px; }
+
+header { background: linear-gradient(90deg, #162f59 0%, #71a5fe 47%); }
 
 header h1 { font-size: 24px; }
 
 header h2 { font-size: 20px; }
 
-header .ir_categoria { display: block; }
+header .ir_categoria { position: absolute; right: 16px; top: 100px; display: block; padding: 8px 16px; }
 
 main { grid-column: 1; grid-row: 1; }
 
 main section { display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 8px; }
 
-nav { grid-column: 1; grid-row: 2; }
+nav { width: 160px; grid-column: 1; grid-row: 2; }
 
 nav a { padding: 8px; line-height: 32px; display: inline-block; }
 
-@media only screen and (min-width: 800px) { header { background-color: red !important; }
-  header h1 { font-size: 32px; }
+@media only screen and (min-width: 800px) { header h1 { font-size: 32px; }
   header h2 { font-size: 24px; }
   header .ir_categoria { display: none; }
-  .row { display: grid; grid-template-column: auto 160px; grid-template-row: auto; }
+  .row { display: grid; grid-template-columns: auto 160px; grid-template-rows: auto; }
   main { grid-column: 1; grid-row: 1; }
   nav { grid-column: 2; grid-row: 1; }
   nav a { display: block; line-height: 12px; } }
 
-@media only screen and (min-width: 900px) { main section { grid-template-columns: repeat(2, 1fr); }
-  header { background-color: orange !important; } }
+@media only screen and (min-width: 900px) { main section { grid-template-columns: repeat(2, 1fr); } }
 
-@media only screen and (min-width: 1400px) { main section { grid-template-columns: repeat(3, 1fr); }
-  header { background-color: yellow !important; } }
+@media only screen and (min-width: 1400px) { main section { grid-template-columns: repeat(3, 1fr); } }
 
 /*# sourceMappingURL=main.css.map */

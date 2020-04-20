@@ -4,12 +4,12 @@
 $menu: 160px;
 
 $cabecera: linear-gradient(90deg, rgba(22,47,89,1) 0%, rgba(113,165,254,1) 47%);
-$fondo: #ffffff;
-$titulos: 	 #cee0ff;
+$fondo: 	#ffffff;
+$titulos: 	#cee0ff;
 $subtitulo: #9bbffb;
 
 $categoria: #2979ff;
-$negocio: $cabecera;
+$negocio: rgba(22,47,89,1);
 
 * {
 	box-sizing: border-box;
@@ -88,6 +88,7 @@ main {
 		color: $categoria;
 	}
 
+
 	section {
 
 		article {
@@ -141,13 +142,6 @@ footer {
 	clear: both;
 }
 
-.ir_categoria {
-	display: none;
-	position: relative;
-	right: 8px;
-	top: 5px;
-}
-
 .telefono { 
 	background: url(../images/telefono-48.png)  0px 8px / 16px 16px  no-repeat;
 	padding-left: 20px;
@@ -160,15 +154,24 @@ footer {
 
 .row {
 	display: grid;
-	grid-template-column: auto;
-	grid-template-row: auto auto;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto;
 	grid-gap: 8px;
 }
 
 header {
 	h1 { font-size: 24px; }
 	h2 { font-size: 20px; }
-  	.ir_categoria {	display: block;	}
+  	.ir_categoria {	
+  		position: absolute;
+		right: 16px;
+		top: 100px;
+
+  		display: block;	
+  		padding: 8px 16px;
+  		// background-color: green;
+  	}
+  	background: $cabecera;
 }
 
 main {
@@ -182,6 +185,8 @@ main {
 }
 
 nav {
+	width: $menu;
+	// background-color: yellowgreen;
 	grid-column: 1;
 	grid-row: 2;
 
@@ -198,13 +203,13 @@ nav {
 		h1 { font-size: 32px; }
 		h2 { font-size: 24px; }
 	  	.ir_categoria {	display: none; }
-	  	background-color: red !important;
+	  	// background-color: red !important;
 	}
 
 	.row {
 		display: grid;
-		grid-template-column: auto $menu;
-		grid-template-row: auto;
+		grid-template-columns: auto $menu;
+		grid-template-rows: auto;
 	}
 
 	main {
@@ -224,12 +229,12 @@ nav {
 
 @media only screen and (min-width: 900px) {
 	main section { grid-template-columns: repeat(2, 1fr); }
-	header { background-color: orange !important;	}
+	// header { background-color: orange !important;	}
 }
 
 @media only screen and (min-width: 1400px) {
 	main section { grid-template-columns: repeat(3, 1fr); }
-	header { background-color: yellow !important;	}
+	// header { background-color: yellow !important;	}
 }
 
 // @media only screen and (min-width: 1600px) {
