@@ -48,20 +48,20 @@ footer { padding: 8px; text-align: center; margin-top: 20px; }
 
 .whatsapp { background: url(../images/whatsapp-48.png) 0px 6px/16px 16px no-repeat; padding-left: 20px; }
 
-@media screen and (max-width: 500px) { header { color: white; }
+@media screen and (max-device-width: 500px) { header { color: white; }
   header h1 { font-size: 24px; }
   header h2 { font-size: 20px; }
   header > a { display: block; }
   header .ir_categoria { display: block; }
   nav a { padding: 8px; line-height: 32px; display: inline; } }
 
-@media screen and (max-width: 800px) { main section { grid-template-columns: repeat(1, 1fr); } }
+@media screen and (max-device-width: 800px) { main section { grid-template-columns: repeat(1, 1fr); } }
 
-@media screen and (min-width: 801px) and (max-width: 1100px) { main section { grid-template-columns: repeat(2, 1fr); } }
+@media screen and (min-device-width: 801px) and (max-device-width: 1100px) { main section { grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (min-width: 1101px) and (max-width: 1400px) { main section { grid-template-columns: repeat(3, 1fr); } }
+@media screen and (min-device-width: 1101px) and (max-device-width: 1400px) { main section { grid-template-columns: repeat(3, 1fr); } }
 
-@media screen and (min-width: 1401px) and (max-width: 3000px) { main section { grid-template-columns: repeat(4, 1fr); } }
+@media screen and (min-device-width: 1401px) and (max-device-width: 3000px) { main section { grid-template-columns: repeat(4, 1fr); } }
 
 .row { display: grid; grid-template-column: auto 160px; grid-template-row: auto; grid-gap: 8px; }
 
@@ -69,7 +69,7 @@ main { grid-column: 1; grid-row: 1; }
 
 nav { grid-column: 2; grid-row: 1; }
 
-@media screen and (min-width: 0px) and (max-width: 500px) { .row { display: grid; grid-template-column: auto; grid-template-row: auto auto; }
+@media screen and (min-device-width: 0px) and (max-device-width: 500px) { .row { display: grid; grid-template-column: auto; grid-template-row: auto auto; }
   main { grid-column: 1; grid-row: 1; }
   nav { grid-column: 1; grid-row: 2; } }
 
