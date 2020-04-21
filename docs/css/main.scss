@@ -147,11 +147,10 @@ main {
 
 footer {
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 10px;
 
     background: $footer;
-    padding: 40px;
-
+    padding: 10px;
 }
 
 .row:after {
@@ -288,6 +287,12 @@ nav {
 	    	background: #022D57;
 	    	transition: all .3s;
 		}
+	}
+	i {
+		color: white;	
+		padding-left: 10px;
+		font-size: 10px;
+		font-weight: 100;
 	}
 }
 
