@@ -151,6 +151,9 @@ footer {
 
     background: $footer;
     padding: 5px;
+    a {
+    	padding: 0;
+    }
 }
 
 .row:after {
