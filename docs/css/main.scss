@@ -35,12 +35,12 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     color: $link;
+    text-decoration: none !important;
     font-style: normal !important;
 }
 
 a:hover {
     color: $link;
-    text-decoration: none !important;
     background-color: $link-hover !important;
 }
 
