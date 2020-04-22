@@ -7,11 +7,10 @@
 
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="/css/main.css">
-		<link rel="stylesheet" href="/css/custom.css">
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163637214-1"></script>
-	<script>
+<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){ dataLayer.push(arguments); }
 	gtag('js', new Date());
@@ -24,21 +23,34 @@
 		<header>
 			<span>
 				<h1>Registro Virtual de Comercios <b>Yerba Buena</b></h1>
-				<a href="/"><h2>#QuedateEnCasa</h2></a>
+				<a href="javascript:ir('farmacias')"><h2>#QuedateEnCasa</h2></a>
 			</span>
-			<a class="ir_categoria" href="#categorias">Elegir categoría</a>
+
+			
+				<a class="ir_home" href="/">Regresar</a>
+			
 		</header>
+
 		<main>
-	<a href="/">Volver a la pantalla inicial</a>
+
 	<iframe 
 		src="https://docs.google.com/forms/d/e/1FAIpQLSeOrcdrKs3Iy9pasQtXgaikcOh63dwMacI3Ir3QIHIJg0oXBw/viewform?embedded=true" 
-		width="800" height="1350" 
+		width="100%" height="1350" 
 		frameborder="0" marginheight="0" marginwidth="0">
 	</iframe>
 <main>
-
+		
 		<footer>			
 			<a href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a> por Concejal <b>Marcelo Rojas</b>
 		</footer>
+
+		<script>
+			function ir(tag) {
+				var tag = document.getElementById(tag);
+				var height = document.getElementsByTagName("header")[0].offsetHeight
+			    window.scroll({ top: tag.offsetTop - height - 8});
+			}
+		</script>
+
 	</body>
 </html>

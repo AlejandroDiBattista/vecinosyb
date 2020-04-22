@@ -2,11 +2,11 @@
 
 h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
 
-a { color: #009070; font-style: normal !important; }
+a { color: #009070; font-style: normal; text-decoration: none; }
 
-a:hover { color: #009070; text-decoration: none !important; background-color: rgba(28, 192, 155, 0.09) !important; }
+a:hover { color: #009070; background-color: rgba(28, 192, 155, 0.09); border-radius: 6px; }
 
-body { background-color: #2876C1; font-family: Montserrat, Arial, Helvetica, sans-serif; padding: 0px; margin: 100px 0 0 0 !important; }
+body { background-color: #2876C1; font-family: Montserrat, Arial, Helvetica, sans-serif; padding: 0px; margin: 100px 0 0 0; }
 
 html { font-size: 16px; }
 
@@ -14,13 +14,13 @@ header { position: fixed; height: auto; top: 0; background: rgba(255, 255, 255, 
 
 header h1 { font-weight: 900; font-size: 30px; color: #054C91; }
 
-header h1 b { font-weight: 900; font-style: italic; color: #FF7925; }
+header h1 b { font-weight: 900; font-style: italic; color: #FF7925; white-space: nowrap; }
 
 header h2 { font-weight: 100; font-size: 18px; color: #009070; }
 
 header article { position: absolute; right: 16px; top: 10px; font-size: 24px; font-weight: bold; }
 
-header > a { position: absolute; top: 100px; right: 16px; display: none; }
+header > a { position: absolute; top: 90px; right: 6px; display: none; }
 
 main h2 { padding-top: 8px; font-weight: 600; }
 
@@ -36,7 +36,9 @@ main section article abbr a { padding: 4px 8px; color: #009070; }
 
 main section article abbr a:hover { color: #009070; }
 
-footer { text-align: center; margin-top: 10px; background: #fff; padding: 10px; }
+footer { text-align: center; margin-top: 5px; background: #fff; padding: 5px; }
+
+footer a { padding: 0; }
 
 .row:after { content: ""; display: table; clear: both; }
 
@@ -46,13 +48,15 @@ footer { text-align: center; margin-top: 10px; background: #fff; padding: 10px; 
 
 .row { display: grid; grid-template-columns: auto; grid-template-rows: auto auto; grid-gap: 8px; }
 
+header { max-height: 100px; clip: auto; }
+
 header h1 { font-size: 24px; }
 
 header h2 { font-size: 20px; }
 
-header .ir_categoria { position: initial; display: inline-block; float: right; padding: 10px; margin: 8px; background: #ff7926; color: #fff; border-radius: 5px; text-align: right; transition: all .3s; }
+header .ir_categoria, header .ir_home { position: fixed; display: inline-block; top: 32px; right: 6px; padding: 10px; margin: 8px; text-align: center; transition: all .3s; }
 
-header .ir_categoria:hover { background: #2876C1 !important; transition: all .3s; }
+header .ir_categoria:hover, header .ir_home:hover { transition: all .3s; }
 
 main { grid-column: 1; grid-row: 1; }
 
@@ -109,7 +113,5 @@ nav i { color: white; padding-left: 10px; font-size: 10px; font-weight: 100; }
 @media (max-width: 680px) { body { margin: 180px 0 0 0 !important; } }
 
 @media (max-width: 400px) { body { margin: 220px 0 0 0 !important; } }
-
-@media (max-width: 800px) { a.ir_categoria { position: initial !important; display: inline-block !important; float: right !important; background: #ff7926 !important; border-radius: 5px !important; padding: 10px !important; text-align: right !important; margin: 8px !important; } }
 
 /*# sourceMappingURL=main.css.map */

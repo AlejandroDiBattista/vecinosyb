@@ -35,20 +35,21 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     color: $link;
-    text-decoration: none !important;
-    font-style: normal !important;
+    font-style: normal ;
+    text-decoration: none ;
 }
 
 a:hover {
     color: $link;
-    background-color: $link-hover !important;
+    background-color: $link-hover ;
+	border-radius: 6px;
 }
 
 body { 
 	background-color: $fondo;
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
 	padding: 0px;
-    margin: 100px 0 0 0 !important;
+    margin: 100px 0 0 0 ;
 }
 
 html {
@@ -74,6 +75,7 @@ header {
 			font-weight: 900;
 			font-style: italic;
 			color: $titulo-bold;
+			white-space: nowrap;
   		}
   	}
   	h2 {
@@ -91,8 +93,8 @@ header {
   	}
   	& > a {
   		position: absolute;
-  		top: 100px;
-  		right: 16px;
+  		top: 90px;
+  		right: 6px;
   		display: none;
   	}
   	// a, a:visited {
@@ -180,24 +182,23 @@ footer {
 }
 
 header {
+	max-height: 100px;
+	clip: auto;
 	h1 { font-size: 24px; }
 	h2 { font-size: 20px; }
-  	.ir_categoria {	
-  	    position: initial;
-        display: inline-block;
-        float: right;
-        padding: 10px;
-        margin: 8px;
-        
-        background: #ff7926;
-		color: #fff;
-        border-radius: 5px;
 
-        text-align: right;
+  	.ir_categoria, .ir_home {	
+  	    position: fixed;
+        display: inline-block;
+        top: 32px;
+        right: 6px;
+        padding: 10px;
+        margin: 8px; 
+        text-align: center;
 		transition: all .3s;
 
 		&:hover {
-	    	background: $fondo !important;
+	    	// background: $fondo !important;
 	    	transition: all .3s;
 		}
 
@@ -331,19 +332,16 @@ nav {
 		grid-row: 1;
 		& > a {
 			display: block;
-			// background-color: orange;
 		}
 	}
 }
 
 @media only screen and (min-width: 900px) {
 	main section { grid-template-columns: repeat(2, 1fr); }
-	// header { background-color: orange !important;	}
 }
 
 @media only screen and (min-width: 1400px) {
 	main section { grid-template-columns: repeat(3, 1fr); }
-	// header { background-color: yellow !important;	}
 }
 
 // NUEVO
@@ -364,18 +362,5 @@ nav {
         margin: 220px 0 0 0 !important;
     }
 }
-
-@media (max-width: 800px) {
-    a.ir_categoria {
-        position: initial !important;
-        display: inline-block !important;
-        float: right !important;
-        background: #ff7926 !important;
-        border-radius: 5px !important;
-        padding: 10px !important;
-        text-align: right !important;
-        margin: 8px !important;
-    }
-} 
 
 // Gracias Adrian Turbay
