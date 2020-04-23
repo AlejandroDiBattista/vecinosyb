@@ -19,7 +19,8 @@ def analizar(datos)
 	contar(datos.map(&:enviar)).each{|x|puts "  %-40s %3i" % x }
 	
 	puts "\nClasificacion Rubros"
-	contar(datos.map(&:rubro)).each{|x|puts "  %-40s %3i" % x }
+	# contar(datos.map(&:rubro)).each{|x|puts "  %-40s %3i" % x }
+	contar(datos.select{|x|/si/i === x.enviar}.map(&:rubro)).each{|x|puts "  %-40s %3i" % x }
 
 
 	puts "REVISANDO"
