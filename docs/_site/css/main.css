@@ -72,6 +72,8 @@ main section article h3 { color: #000000; font-weight: 600; }
 
 main section article address { margin-top: 16px; margin-bottom: 2px; font-style: normal; color: #525252; }
 
+main section article i { font-size: 12px; }
+
 nav { grid-column: 1; grid-row: 2; }
 
 nav h5 { padding: 8px 0; }

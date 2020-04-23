@@ -24,8 +24,8 @@ title: RVC YB
 								{% if sucursal.whatsapp != "" %}
 									<a class="whatsapp" href="{{ sucursal.send }}">{{ sucursal.whatsapp }}</a>
 								{% endif %}
+								<i>ref: {{ sucursal.ref }}</i>
 							</abbr><br>
-							ref: {{ sucursal.id }}
 						{% endfor %}
 					</article>
 				{% endfor %}
