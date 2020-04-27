@@ -13,7 +13,7 @@ title: RVC YB
           <h2 id="{{rubro.items.first.id}}">{{ rubro.items.first.rubro }}</h2>
         </a>
       </div>
-      <section class="content">
+      <section>
         {% assign comercios = rubro.items | group_by: 'comercio' %} {% for
       comercio in comercios %}
         <article>

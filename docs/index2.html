@@ -5,15 +5,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <title>RVC YB</title>
-
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="/css/main.css" />
+  <script src="utils.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 
-<body>
+<body onresize="javascript: acomodar();">
+
   <header>
     <span>
       <h1>Registro Virtual de Comercios <b>Yerba Buena</b></h1>
@@ -23,32 +25,33 @@
     </span>
     <a id="regreso" class="ir_categoria" href="#categorias">Elegir categoría</a>
   </header>
+
   <div id="app" class="row">
     <main>
-      <div>
+      <template v-for="rubro in rubros">
         <a href="#categorias">
-          <h2 id="farmacias">Farmacias</h2>
+          <h2 :id="rubro.id">{{rubro.rubro}}</h2>
         </a>
-      </div>
-      <section v-for="rubro in rubros" class="content">
-        <article v-for="comercio in rubro.comercios">
-          <h3>{{comercio.nombre}}</h3>
-          <address v-for="sucursal in comercio.sucursales">
-            {{sucursal.domicilio}}<i>{{sucursal.local}}</i><br />
-            <div>
-              <abbr title="Phone">
-
-                <a v-if="sucursal.telefono" class="telefono" href="{{ sucursal.call }}">{{ sucursal.telefono }}</a>
-                <a v-if="sucursal.whatsapp" class="whatsapp" href="{{ sucursal.send }}">{{ sucursal.whatsapp }}</a>
-                <i>ref: {{sucursal.ref}}</i>
-              </abbr>
-            </div>
-            <br />
-          </address>
-        </article>
-      </section>
+        <section>
+          <article v-for="comercio in rubro.comercios">
+            <h3>{{comercio.nombre}}</h3>
+            <address v-for="sucursal in comercio.sucursales">
+              {{sucursal.domicilio}}
+              <i v-if="sucursal.local">{{sucursal.local}}</i>
+              <div>
+                <abbr title="Phone">
+                  <a v-if="sucursal.telefono" class="telefono" :href="sucursal.call">{{ sucursal.telefono }}</a>
+                  <a v-if="sucursal.whatsapp" class="whatsapp" :href="sucursal.send">{{ sucursal.whatsapp }}</a>
+                  <i>ref: {{ sucursal.ref }}</i>
+                </abbr>
+              </div>
+            </address>
+          </article>
+        </section>
+      </template>
     </main>
-    <nav>
+
+    <nav id="categorias">
       <h5>Elegir categoría</h5>
       <a v-for="rubro in rubros" :href="'#'+rubro.id">
         {{rubro.rubro}} ({{rubro.comercios.length}})
@@ -64,22 +67,15 @@
       href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a>
     por Concejal <b>Marcelo Rojas</b>
   </footer>
-  <div id="app">
-    {{ message }}
-    <!-- {{ json[0].comercios[0] }} -->
-  </div>
 
   <script type="text/javascript">
     var app = new Vue({
       el: '#app',
-      data: {
-        message: 'Hello Vue!',
-        rubros: {},
-      },
+      data: { rubros: {} },
       created: function () {
         fetch('comercios.json').then((response) => {
           return response.json().then((json) => {
-            console.log("JSON", json.length)
+            // console.log("JSON", json.length)
             this.rubros = json
           })
         })

@@ -6,15 +6,15 @@ a { color: #009070; font-style: normal; text-decoration: none; }
 
 a:hover { color: #009070; background-color: rgba(28, 192, 155, 0.09); border-radius: 6px; }
 
-body { background-color: #2876C1; font-family: Montserrat, Arial, Helvetica, sans-serif; padding: 0px; margin: 100px 0 0 0; }
+body { background-color: #2876c1; font-family: Montserrat, Arial, Helvetica, sans-serif; padding: 0px; margin: 100px 0 0 0; }
 
 html { font-size: 16px; }
 
 header { position: fixed; height: auto; top: 0; background: rgba(255, 255, 255, 0.97); padding: 15px; box-shadow: 0 0 6px rgba(0, 0, 0, 0.15); z-index: 2; width: 100%; }
 
-header h1 { font-weight: 900; font-size: 30px; color: #054C91; }
+header h1 { font-weight: 900; font-size: 30px; color: #054c91; }
 
-header h1 b { font-weight: 900; font-style: italic; color: #FF7925; white-space: nowrap; }
+header h1 b { font-weight: 900; font-style: italic; color: #ff7925; white-space: nowrap; }
 
 header h2 { font-weight: 100; font-size: 18px; color: #009070; }
 
@@ -54,19 +54,19 @@ header h1 { font-size: 24px; }
 
 header h2 { font-size: 20px; }
 
-header .ir_categoria, header .ir_home { position: fixed; display: inline-block; right: 6px; top: 80px; padding: 10px; margin: 8px; text-align: center; transition: all .3s; color: #FF7925; }
+header .ir_categoria, header .ir_home { position: fixed; display: inline-block; right: 6px; top: 80px; padding: 10px; margin: 8px; text-align: center; transition: all 0.3s; color: #ff7925; }
 
-header .ir_categoria:hover, header .ir_home:hover { transition: all .3s; }
+header .ir_categoria:hover, header .ir_home:hover { transition: all 0.3s; }
 
 main { grid-column: 1; grid-row: 1; }
 
 main section { display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 8px; }
 
-main section.content { margin-bottom: 15px !important; }
+main section.section { margin-bottom: 15px !important; }
 
-main section article { border-radius: 5px; border: none; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2); padding: 15px 15px 20px; background: #fff; transition: all .3s !important; }
+main section article { border-radius: 5px; border: none; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2); padding: 15px 15px 20px; background: #fff; transition: all 0.3s !important; }
 
-main section article:hover { background: #e0f0ff; box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2); transform: scale(1.009) !important; transition: all .3s !important; }
+main section article:hover { background: #e0f0ff; box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2); transform: scale(1.009) !important; transition: all 0.3s !important; }
 
 main section article h3 { color: #000000; font-weight: 600; }
 
@@ -94,7 +94,7 @@ nav i { color: white; padding-left: 10px; font-size: 10px; font-weight: 100; }
 
 .row h2 { margin-bottom: 10px; font-size: 35px; }
 
-.boton { background-color: #FF7925; border-radius: 5px; padding: 10px; text-align: center; }
+.boton { background-color: #ff7925; border-radius: 5px; padding: 10px; text-align: center; }
 
 @media only screen and (min-width: 800px) { header h1 { font-size: 32px; }
   header h2 { font-size: 24px; }

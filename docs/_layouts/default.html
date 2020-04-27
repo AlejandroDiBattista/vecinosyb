@@ -3,72 +3,45 @@ regresar: true
 ---
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>{{ page.title }}</title>
 
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="/css/main.css">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>{{ page.title }}</title>
 
-		{% include analitycs.html %}
- 	</head>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="/css/main.css">
+	<script src="utils.js"></script>
 
-	<body onresize="acomodar()">
-		<header>
-			<span>
-				<h1>Registro Virtual de Comercios <b>Yerba Buena</b></h1>
-				<a href="javascript:ir('farmacias')"><h2>#QuedateEnCasa</h2></a>
-			</span>
 
-			{% if page.title == "RVC YB" %}
-				<a id="regreso" class="ir_categoria" href="javascript:ir('categorias')">Elegir categoría</a>
-			{% else %}
-				<a id="regreso" class="ir_home" href="/">Regresar</a>
-			{% endif %}
-		</header>
+	{% include analitycs.html %}
+</head>
 
-		{{ content }}
-		
-		<footer>			
-			<a href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a> por Concejal <b>Marcelo Rojas</b>
-		</footer>
+<body onresize="javascript: iniciar();">
+	<header>
+		<span>
+			<h1>Registro Virtual de Comercios <b>Yerba Buena</b></h1>
+			<a href="javascript:ir('farmacias')">
+				<h2>#QuedateEnCasa</h2>
+			</a>
+		</span>
 
-		<script>
+		{% if page.title == "RVC YB" %}
+		<a id="regreso" class="ir_categoria" href="javascript:ir('categorias')">Elegir categoría</a>
+		{% else %}
+		<a id="regreso" class="ir_home" href="/">Regresar</a>
+		{% endif %}
+	</header>
 
-			function tag(name){ 
-				return document.getElementsByTagName(name)[0]; 
-			}
+	{{ content }}
 
-			function set(e, propiedad, valor){
-				e.style.setProperty(propiedad, valor + "px");
-			}
+	<footer>
+		<a
+			href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a>
+		por Concejal <b>Marcelo Rojas</b>
+	</footer>
+</body>
 
-			function ir(name) {
-				var e = document.getElementById(name);
-				var h = tag('header').offsetHeight;
-
-			    window.scroll({ top: e.offsetTop - h - 8});
-			}
-
-			function acomodar(){
-				var s = document.getElementById('regreso');
-				var h = tag('header').offsetHeight;
-				var w = tag('header').offsetWidth;
-
-				set(s, 'top', h - 40 - 10);
-				set(s, 'left', w - 150 - 10);
-				set(s, 'width', 150);
-				set(s, 'height', 40);
-
-				set(tag('body'), 'margin-top', h);
-			}
-
-			acomodar();
-			ir("farmacias");
-		</script>
-
-	</body>
 </html>
-
-
