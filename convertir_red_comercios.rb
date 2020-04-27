@@ -3,7 +3,7 @@ require "open-uri"
 require "json"
 require "./funciones"
 
-Campos = [:id, :rubro, :nombre, :telefono, :whatsapp, :direccion, :local, :localidad, :enviar, :estado, :contacto, :asignado, :controlado, :lat, :lon]
+Campos = [:id, :rubro, :nombre, :telefono, :whatsapp, :direccion, :local, :localidad, :enviar, :estado, :pago_electronico, :retirar_lugar, :opinion, :contacto, :asignado, :controlado, :lat, :lon]
 OrdenRubros    = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Bares & Restaurantes", "Golosinas", "Helados", "Bebidas", "Librerías", "Bazar", "Jugueterías", "Tecnología", "Limpieza", "Tintorerías", "Indumentaria & Zapatería", "Belleza", "Semillerías", "Veterinarias", "Pinturerías & Ferreteria", "Servicios", "Marketing Digital", "Piletas", "Electricidad"]
 IncluirRubros = OrdenRubros
 # IncluirRubros  = ["Farmacias", "Carnicerías", "Pollerías", "Verdulerías", "Panaderías", "Almacenes", "Fiambres", "Pastas", "Sandwichería", "Comidas", "Golosinas", "Helados", "Bebidas",  "Limpieza", "Semillerías", "Veterinarias"]
@@ -19,7 +19,8 @@ def analizar(datos)
 	contar(datos.map(&:enviar)).each{|x|puts "  %-40s %3i" % x }
 	
 	puts "\nClasificacion Rubros"
-	contar(datos.map(&:rubro)).each{|x|puts "  %-40s %3i" % x }
+	# contar(datos.map(&:rubro)).each{|x|puts "  %-40s %3i" % x }
+	contar(datos.select{|x|/si/i === x.enviar}.map(&:rubro)).each{|x|puts "  %-40s %3i" % x }
 
 
 	puts "REVISANDO"
@@ -45,7 +46,7 @@ def analizar(datos)
 	end
 
 	ok = [mal, sin_ordenar, sin_rubros].all?(&:empty?)
-	puts ok ? "Todo OK :)" : "Mal :("
+	puts ok ? ":)" : "Mal :("
 	ok 
 end
 
@@ -87,7 +88,8 @@ def generar_comercios(datos)
 						 	telefono:  s.telefono.tel,
 						 	whatsapp:  s.whatsapp.tel,
 						 	call: s.telefono.tl,
-						 	send: s.whatsapp.wa 
+						 	send: s.whatsapp.wa,
+						 	ref: s.id  
 						}
 					end.sort_by{|d| d.domicilio.size > 0 ? d.domicilio : "zzzz" },
 
@@ -111,7 +113,8 @@ def listar_comercios(datos)
 		 	whatsapp:  	dato.whatsapp.tel,
 		 	call: 		dato.telefono.tl,
 		 	send: 		dato.whatsapp.wa,
-		 	search: 	[dato.rubro, dato.nombre, dato.direccion, dato.telefono.telefonos, dato.whatsapp.telefonos].flatten.join(" ").downcase
+		 	ref: 		dato.id, 
+		 	search: 	[dato.rubro, dato.nombre, dato.direccion, dato.telefono.telefonos, dato.whatsapp.telefonos, dato.id].flatten.join(" ").downcase
 		 }
 	end
 end
@@ -200,4 +203,4 @@ if analizar(datos)
 	whatsapp = generar_whatsapp(comercios, :largo)
 	open("docs/_data/whatsapp_corto.txt","w+"){|f| f.write(whatsapp)}
 end	
-puts "Todo OK!!"
+puts "Bien heho... :)"

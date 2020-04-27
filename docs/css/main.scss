@@ -3,7 +3,6 @@
 
 $menu: 240px;
 
-$cabecera: linear-gradient(90deg, rgba(22,47,89,1) 0%, rgba(113,165,254,1) 47%);
 $fondo: 		#2876C1;
 $link: 			#009070;
 
@@ -189,13 +188,16 @@ header {
   	.ir_categoria, .ir_home {	
   	    position: fixed;
         display: inline-block;
-        top: 32px;
+        // top: 32px;
         right: 6px;
+        top: 80px;
+
         padding: 10px;
         margin: 8px; 
         text-align: center;
 		transition: all .3s;
 
+		color: $titulo-bold;
 		&:hover {
 	    	// background: $fondo !important;
 	    	transition: all .3s;
@@ -240,6 +242,9 @@ main {
 			    font-style: normal;
 			    color: $direccion;
 			}
+			i {
+				font-size: 12px;
+			}
 		}
 	}
 }
@@ -278,19 +283,8 @@ nav {
 	    	background: rgba(255, 255, 255, 0.1) !important;
 		}	
 
-		a:last-child {
-		    background: #ff7926;
-		    border-radius: 5px;
-		    padding: 10px;
-		    text-align: center;
-		    transition: all .3s;
-		}
-
-		a:last-child:hover {
-	    	background: #022D57;
-	    	transition: all .3s;
-		}
 	}
+
 	i {
 		color: white;	
 		padding-left: 10px;
@@ -307,6 +301,12 @@ nav {
 	}
 }
 
+.boton {
+	background-color: $titulo-bold;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+}
 
 @media only screen and (min-width: 800px) {
 	header {
@@ -343,23 +343,4 @@ nav {
 	main section { grid-template-columns: repeat(3, 1fr); }
 }
 
-// NUEVO
-@media (max-width: 800px) {
-    body {
-        margin: 150px 0 0 0 !important;
-    }
-}
-
-@media (max-width: 680px) {
-    body {
-        margin: 180px 0 0 0 !important;
-    }
-}
-
-@media (max-width: 400px) {
-    body {
-        margin: 220px 0 0 0 !important;
-    }
-}
-
-// Gracias Adrian Turbay
+// Gracias Adrian 

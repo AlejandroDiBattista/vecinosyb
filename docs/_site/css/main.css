@@ -54,7 +54,7 @@ header h1 { font-size: 24px; }
 
 header h2 { font-size: 20px; }
 
-header .ir_categoria, header .ir_home { position: fixed; display: inline-block; top: 32px; right: 6px; padding: 10px; margin: 8px; text-align: center; transition: all .3s; }
+header .ir_categoria, header .ir_home { position: fixed; display: inline-block; right: 6px; top: 80px; padding: 10px; margin: 8px; text-align: center; transition: all .3s; color: #FF7925; }
 
 header .ir_categoria:hover, header .ir_home:hover { transition: all .3s; }
 
@@ -72,6 +72,8 @@ main section article h3 { color: #000000; font-weight: 600; }
 
 main section article address { margin-top: 16px; margin-bottom: 2px; font-style: normal; color: #525252; }
 
+main section article i { font-size: 12px; }
+
 nav { grid-column: 1; grid-row: 2; }
 
 nav h5 { padding: 8px 0; }
@@ -86,15 +88,13 @@ nav#categorias a { color: #fff; width: auto; }
 
 nav#categorias a:hover { background: rgba(255, 255, 255, 0.1) !important; }
 
-nav#categorias a:last-child { background: #ff7926; border-radius: 5px; padding: 10px; text-align: center; transition: all .3s; }
-
-nav#categorias a:last-child:hover { background: #022D57; transition: all .3s; }
-
 nav i { color: white; padding-left: 10px; font-size: 10px; font-weight: 100; }
 
 .row { margin: 15px; }
 
 .row h2 { margin-bottom: 10px; font-size: 35px; }
+
+.boton { background-color: #FF7925; border-radius: 5px; padding: 10px; text-align: center; }
 
 @media only screen and (min-width: 800px) { header h1 { font-size: 32px; }
   header h2 { font-size: 24px; }
@@ -107,11 +107,5 @@ nav i { color: white; padding-left: 10px; font-size: 10px; font-weight: 100; }
 @media only screen and (min-width: 900px) { main section { grid-template-columns: repeat(2, 1fr); } }
 
 @media only screen and (min-width: 1400px) { main section { grid-template-columns: repeat(3, 1fr); } }
-
-@media (max-width: 800px) { body { margin: 150px 0 0 0 !important; } }
-
-@media (max-width: 680px) { body { margin: 180px 0 0 0 !important; } }
-
-@media (max-width: 400px) { body { margin: 220px 0 0 0 !important; } }
 
 /*# sourceMappingURL=main.css.map */
