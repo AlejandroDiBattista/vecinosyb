@@ -2,47 +2,48 @@
 layout: default
 title: RVC YB
 ---
+
 <div class="row">
-	<main>
-		{% assign rubros = site.data.lista | group_by: 'id' %}
-		{% for rubro in rubros %}
-       		<div>
-       			<a href="javascript:ir('categorias')"><h2 id={{rubro.items.first.id}}>{{ rubro.items.first.rubro }}</h2></a>
-			<div>
-			<section class="content">
-				{% assign comercios = rubro.items | group_by: 'comercio' %}
-				{% for comercio in comercios %}
-					<article>
-						<h3>{{ comercio.items.first.comercio }}</h3>
-						{% for sucursal in comercio.items %}
-							<address> {{ sucursal.direccion }} <i>{{ sucursal.local }}</i></address>
-							<abbr title="Phone">
-								{% if sucursal.telefono != "" %}
-									<a class="telefono" href="{{ sucursal.call }}">{{ sucursal.telefono }}</a>
-								{% endif %}
-						
-								{% if sucursal.whatsapp != "" %}
-									<a class="whatsapp" href="{{ sucursal.send }}">{{ sucursal.whatsapp }}</a>
-								{% endif %}
-								<i>ref: {{ sucursal.ref }}</i>
-							</abbr><br>
-						{% endfor %}
-					</article>
-				{% endfor %}
-			</section>
-		{% endfor %}
-		
-	</main>
+  <main>
+    {% assign rubros = site.data.lista | group_by: 'id' %}
+    {% for rubro in rubros %}
+    <div>
+      <div>
+        <a href="javascript:ir('categorias')">
+          <h2 id="{{rubro.items.first.id}}">{{ rubro.items.first.rubro }}</h2>
+        </a>
+      </div>
+      <section class="content">
+        {% assign comercios = rubro.items | group_by: 'comercio' %} {% for
+      comercio in comercios %}
+        <article>
+          <h3>{{ comercio.items.first.comercio }}</h3>
+          {% for sucursal in comercio.items %}
+          <address>{{ sucursal.direccion }} <i>{{ sucursal.local }}</i></address>
+          <abbr title="Phone">
+            {% if sucursal.telefono != "" %}
+            <a class="telefono" href="{{ sucursal.call }}">{{ sucursal.telefono }}</a>
+            {% endif %} {% if sucursal.whatsapp != "" %}
+            <a class="whatsapp" href="{{ sucursal.send }}">{{ sucursal.whatsapp }}</a>
+            {% endif %}
+            <i>ref: {{ sucursal.ref }}</i> </abbr><br />
+          {% endfor %}
+        </article>
+        {% endfor %}
+      </section>
+    </div>
+    {% endfor %}
+  </main>
 
-	<nav id="categorias">
-		<h5>Elegir categoría</h5>
-		{% for rubro in site.data.rubros %}
-			<a href="javascript:ir('{{rubro.id}}')">{{rubro.nombre}}</a>
-		{% endfor %}
-		<br>
-	    <a class="boton" href="/registrar.html">Registrar Comercio</a>
-	    <i>22 de abril de 2020 - v15</i>
-	</nav>
+  <nav id="categorias">
+    <h5>Elegir categoría</h5>
+    {% for rubro in site.data.rubros %}
+    <a href="javascript:ir('{{rubro.id}}')">{{rubro.nombre}}</a>
+    {% endfor %}
+    <br />
+    <a class="boton" href="/registrar.html">Registrar Comercio</a>
+    <i>22 de abril de 2020 - v15</i>
+  </nav>
 
-	<!-- Gracias Adrian Turbay -->
+  <!-- Gracias Adrian Turbay -->
 </div>
