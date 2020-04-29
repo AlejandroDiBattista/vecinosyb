@@ -2,86 +2,109 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>RVC YB</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="/css/main.css" />
-  <script src="utils.js"></script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<title>RVC YB</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="/css/main.css" />
+	<script src="utils.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 
 <body onresize="javascript: acomodar();">
 
-  <header>
-    <span>
-      <h1>Registro Virtual de Comercios <b>Yerba Buena</b></h1>
-      <a href="#farmacias">
-        <h2>#QuedateEnCasa</h2>
-      </a>
-    </span>
-    <a id="regreso" class="ir_categoria" href="#categorias">Elegir categoría</a>
-  </header>
+	<header>
+		<span>
+			<h1>Registro Virtual de Comercios <b>Yerba Buena</b></h1>
+			<a href="#farmacias">
+				<h2>#QuedateEnCasa</h2>
+			</a>
+		</span>
+		<a id="regreso" class="ir_categoria" href="#categorias">Elegir categoría</a>
+	</header>
 
-  <div id="app" class="row">
-    <main>
-      <template v-for="rubro in rubros">
-        <a href="#categorias">
-          <h2 :id="rubro.id">{{rubro.rubro}}</h2>
-        </a>
-        <section>
-          <article v-for="comercio in rubro.comercios">
-            <h3>{{comercio.nombre}}</h3>
-            <address v-for="sucursal in comercio.sucursales">
-              {{sucursal.domicilio}}
-              <i v-if="sucursal.local">{{sucursal.local}}</i>
-              <div>
-                <abbr title="Phone">
-                  <a v-if="sucursal.telefono" class="telefono" :href="sucursal.call">{{ sucursal.telefono }}</a>
-                  <a v-if="sucursal.whatsapp" class="whatsapp" :href="sucursal.send">{{ sucursal.whatsapp }}</a>
-                  <i>ref: {{ sucursal.ref }}</i>
-                </abbr>
-              </div>
-            </address>
-          </article>
-        </section>
-      </template>
-    </main>
+	<div id="app" class="row">
+		<main>
+			<template v-for="rubro in rubros">
+				<a href="#categorias">
+					<h2 :id="rubro.id">{{rubro.rubro}}</h2>
+				</a>
+				<section>
+					<article v-for="comercio in rubro.comercios">
+						<h3>{{comercio.nombre}}</h3>
+						<address v-for="sucursal in comercio.sucursales">
+							{{sucursal.domicilio}}
+							<i v-if="sucursal.local">{{sucursal.local}}</i>
+							<div>
+								<abbr title="Phone">
+									<a v-if="sucursal.telefono" class="telefono" :href="sucursal.call">{{ sucursal.telefono }}</a>
+									<a v-if="sucursal.whatsapp" class="whatsapp" :href="sucursal.send">{{ sucursal.whatsapp }}</a>
+									<i>ref: {{ sucursal.ref }}</i>
+								</abbr>
+							</div>
+						</address>
+					</article>
+				</section>
+			</template>
+		</main>
 
-    <nav id="categorias">
-      <h5>Elegir categoría</h5>
-      <a v-for="rubro in rubros" :href="'#'+rubro.id">
-        {{rubro.rubro}} ({{rubro.comercios.length}})
-      </a>
-      <br />
-      <a class="boton" href="/registrar.html">Registrar Comercio</a>
-      <i>22 de abril de 2020 - v15</i>
-    </nav>
-  </div>
+		<nav id="categorias">
+			<h5>Elegir categoría</h5>
+			<a v-for="(x) in rubros" :href="'#'+x[0]">
+				{{x[1]}}
+			</a>
+			<br />
+			<a class="boton" href="/registrar.html">Registrar Comercio</a>
+			<i>29 de abril de 2020 - v16</i>
+		</nav>
+	</div>
 
-  <footer>
-    <a
-      href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a>
-    por Concejal <b>Marcelo Rojas</b>
-  </footer>
+	<footer>
+		<a
+			href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a>
+		por Concejal <b>Marcelo Rojas</b>
+	</footer>
 
-  <script type="text/javascript">
-    var app = new Vue({
-      el: '#app',
-      data: { rubros: {} },
-      created: function () {
-        fetch('comercios.json').then((response) => {
-          return response.json().then((json) => {
-            // console.log("JSON", json.length)
-            this.rubros = json
-          })
-        })
-      }
-    })
-  </script>
+	<script type="text/javascript">
+		function agrupar(comercios){
+			let rubros = [];
+			comercios.forEach( item => {
+				rubro = rubros[rubros.length - 1];
+				if(!rubro || rubro.id !== item.id ){
+					rubro = {id: item.id, rubro: item.rubro, comercios: []}
+					rubros.push(rubro);
+				}
+				comercio = rubro.comercios[rubro.comercios.length-1];
+				if(!comercio || comercio.nombre !== item.comercio){
+					comercio = {nombre: item.nombre, sucursales: []};
+					rubro.comercios.push(comercio);
+				}
+				comercio.sucursales.push(item);
+			});
+			return rubros;
+		}
+
+		var app = new Vue({
+			el: '#app',
+			data: { 
+				rubros: {},
+				comecios: {},
+			},
+			created: function () {
+				fetch('lista.json').then((response) => {
+					return response.json().then((json) => {
+						this.comercios = json;
+						this.rubros = agrupar(this.comercios);
+						console.log(this.comercios);
+					})
+				})
+			}
+		})
+
+	</script>
 
 </body>
 
