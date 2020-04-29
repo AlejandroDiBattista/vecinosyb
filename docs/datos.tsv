@@ -1,0 +1,380 @@
+id	rubro	nombre	telefono	whatsapp	direccion	local	localidad	enviar	estado	pago_electronico	retirar_lugar	opinion	contacto	asignado	controlado	lat	lon
+406	Sandwichería	Chegusan		486-2065	Camino del Perú 100		Yerba Buena	si					roxana		si	-26,782766	-65,2481528
+130	Pollerías	San Expedito		511-7163	Nicolás Avellaneda 3		Yerba Buena	si					google	Alejandro	si	-26,7959058	-65,266437
+157	Verdulerías	San Expedito	511-7163		Nicolás Avellaneda 3		Yerba Buena	si					google	Hernan	si	-26,7959058	-65,266437
+37	Carnicerías	San Jose	434-3645		Suipacha 1452		Yerba Buena	no	llamar				google	Pia	si	-26,7959671	-65,2612528
+24	Carnicerías	Ezequiel	348-9899		Batalla de Tucumán 1371		Yerba Buena	no	llamar				google	Valeria	si	-26,796634	-65,2633093
+206	Bares & Restaurantes	Piaf		663-3783	Av. Perón 1800		Yerba Buena	no	controlar							-26,7997633	-65,2930908
+227	Comidas	Piaf		663-3783	Av. Perón 1800		Yerba Buena	si							si	-26,7997633	-65,2930908
+65	Farmacias	Farmacia Su Farm		683-8347	Av. Perón 1900		Yerba Buena	si					luciana		si	-26,800072	-65,2974529
+64	Farmacias	Farmacia San Gabriel	435-6971		Fanzolato 100		Yerba Buena	si					sofia		si	-26,8001102	-65,2697755
+440	Carnicerías	La Gloria		512-8449	Av. Perón 2700		Yerba Buena	si								-26,8001342	-65,310622
+221	Comidas	Parrillada Los Hermanos		561-6941	Av. Perón 2900		Yerba Buena	si	controlar							-26,8004128	-65,3086139
+205	Bares & Restaurantes	Greem-Graft Beer and Pizza	450-7658	598-0718	Av. Perón 2200		Yerba Buena	no	controlar				luciana			-26,8007114	-65,3018333
+414	Helados	Volta		502-7990	Av. Oerón 2001 		Yerba Buena	si	controlar				sofi			-26,8010337	-65,2966862
+331	Comidas	Jimmy Willy	425-8290		Av. Perón 139		Yerba Buena	si	controlar				luciana			-26,801077	-65,2963676
+159	Verdulerías	Tomas		463-3445	Av. Perón 139		Yerba Buena	si					sofia		si	-26,801077	-65,2963676
+113	Pollerías	A Todo Pollo	431-7115		Av. Perón 25		Yerba Buena	no					google	Susana	si	-26,801077	-65,2963676
+7	Bebidas	Boqueria Tucuman		697-7329	Av. Perón 2500		Yerba Buena	no	controlar				luciana		si	-26,8010992	-65,3054528
+9	Bebidas	Greenbeer	450-7658		Av. Perón 2500		Yerba Buena	si					sofia		si	-26,8010992	-65,3054528
+219	Comidas	Boquería Tucumán		697-7329	Av. Perón 2500		Yerba Buena	no	controlar							-26,8010992	-65,3054528
+330	Comidas	La Boqueira		697-7329	Av. Perón 2500		Yerba Buena	si							si	-26,8010992	-65,3054528
+197	Bares & Restaurantes	Porter Brew House 	485-8001		Av. Perón 1750	Cityplace	Yerba Buena	no	controlar				luciana			-26,8011785	-65,2968202
+335	Farmacias	Cristo Rey	485-8034		Av. Perón 1750	Cityplace - Local 8	Yerba Buena	si	controlar				luciana		si	-26,8011785	-65,2968202
+128	Pollerías	Mi Sofi		352-3176	Saavedra Lamas 900		Yerba Buena	si					google	Alejandro	si	-26,8014173	-65,3080916
+420	Comidas	Quates	485-6111	523-1148	Av. Perón 1500		Yerba Buena	si	controlar				luciana			-26,801617	-65,290058
+99	Panaderías	Albertus		401-8337	Av. Perón 1500		Yerba Buena	si					sofia		si	-26,801617	-65,290058
+466	Indumentaria & Zapatería	M Tienda	366-1595		Av. Perón 1850	Paseo Gomez Pardo	Yerba Buena	si	auto							-26,8016984	-65,2935182
+456	Librerías	Cúspide		473-6372	Av Perón 1850	Complejo Gómez Pardon	Yerba Buena	si					luciana			-26,8016984	-65,2935182
+381	Servicios	Salvattori Revestimientos		611-5611	Lobo de la Vega 1095		Yerba Buena	si	controlar				luciana			-26,8018328	-65,2927941
+180	Almacenes	MiniMaerket Mozart		300-7729	Lobo de la Vega 1099		Yerba Buena	si	controlar				luciana		si	-26,8018328	-65,2927941
+14	Carnicerías	Cabaña Juramento	557-3755		Lobo de la Vega 1222		Yerba Buena	no	llamar				google	Marcelo	si	-26,8018379	-65,2928278
+26	Carnicerías	Fidensa		332-0152	Lobo de la Vega 1358		Yerba Buena	si					luciana		si	-26,8018379	-65,2928278
+164	Veterinarias	Club Can	485-6021		Av. Perón 1700		Yerba Buena	no					google	Hernan	si	-26,8020378	-65,2916853
+29	Carnicerías	Finca San Ramon		342-5538	Maderuelo 900		Yerba Buena	si					roxana		si	-26,8029842	-65,299042
+405	Comidas	Tus Congelados		579-3297	Country La Pedemonta		Yerba Buena	si					luciana		si	-26,8048499	-65,3127459
+104	Panaderías	El Buen Sabor	488-5901		Lobo de la Vega 701		Yerba Buena	no	llamar				google	Hernan	si	-26,8056586	-65,2938032
+441	Carnicerías	La Gloria	485-2259	512-8447	Av. Perón 234		Yerba Buena	si	controlar							-26,805665	-65,2664056
+98	Panaderías	Albertus		345-5668	Av. Perón 165		Yerba Buena	no					google	Alejandro	si	-26,8057607	-65,2659687
+33	Carnicerías	La Perón		602-2576	Av. Perón 210		Yerba Buena	si					google	Carolina	si	-26,8059217	-65,266013
+150	Verdulerías	Los Fresnos Frutas y Verduras	435-1326		Av. Perón 150		Yerba Buena	no					google	Valeria	si	-26,8061857	-65,2648928
+172	Veterinarias	La Chacha	435-5816		Av. Perón 146		Yerba Buena	si					google	Susana	si	-26,8062445	-65,2648428
+20	Carnicerías	Don Polo	435-2678		Av. Perón 120		Yerba Buena	no					google	Carolina	si	-26,8063293	-65,2644396
+118	Pollerías	Don Polo	435-2678		Av. Perón 120		Yerba Buena	no					google	Sofia	si	-26,8063293	-65,2644396
+161	Veterinarias	Brangus	455-8138		Av. Perón 80		Yerba Buena	si					google	Luciana	si	-26,8064375	-65,2636344
+67	Farmacias	Farmacia Yerba Buena	435-4183		Fray Mamerto Esquiú 20		Yerba Buena	no					google	Roxana	si	-26,8069229	-65,262379
+208	Comidas	El Paisa Empanadas		392-6065	Lobo de la Vega y Perú		Yerba Buena	si	controlar				luciana			-26,8070162	-65,2941564
+469	Almacenes	Doña Pila	616-4252	616-4252	Perú 1726		Yerba Buena	si	auto							-26,8073634	-65,2933013
+182	Almacenes	Fru-Ver	425-5414	583-3345	Lobo de la Vega 350	Local 2	Yerba Buena	si	controlar							-26,8079079	-65,294225
+138	Tintorerías	Secco Presto		628-7381	Lobo de la Vega 350		Yerba Buena	si					marcelo	Marcelo	si	-26,8079079	-65,294225
+403	Verdulerías	Fru-Ver	425-5414	583-3345	Lobo de la Vega 350	Local 2	Yerba Buena	si	controlar				su			-26,8079079	-65,294225
+380	Semillerías	El Bazar de las Especias		681-6167			San Miguel de Tucuman	si	controlar				luciana			-26,8082848	-65,2175903
+391	Servicios	Luna Electrónica		478-6876			San Miguel de Tucuman	si	controlar				luciana			-26,8082848	-65,2175903
+174	Veterinarias	Puro Pelo		413-2263	Av. Aconquija 2491		Yerba Buena	si					google	Alejandro	si	-26,8106549	-65,306893
+32	Carnicerías	La Negrita		520-1010	Lobo de la Vega 340		Yerba Buena	si					sofia		si	-26,8083356	-65,2944979
+199	Bares & Restaurantes	Km 12		634-1716	Av. Aconquija 3050		Yerba Buena	no	controlar				luciana			-26,808867	-65,3168489
+225	Comidas	Km 12		634-1716	Av. Aconquija 3050		Yerba Buena	si	controlar							-26,808867	-65,3168489
+190	Belleza	Mimarte Peluquería		594-6004	Lobo de la Vega y Pedro de Villalba		Yerba Buena	si	controlar				luciana			-26,8089927	-65,2946724
+119	Pollerías	Drugstore y Polleria JOA		548-3721	Lobo de la Vega 300		Yerba Buena	si					sofia		si	-26,8090228	-65,2946805
+364	Panaderías	Don Genuario	425-6624		Lobo de la Vega 205		Yerba Buena	si	controlar				luciana			-26,8103372	-65,2946996
+156	Verdulerías	Ruben	435-2131		Perú 804		Yerba Buena	no	llamar				google	Luciana	si	-26,8104259	-65,2769088
+61	Farmacias	Farmacia Los Alisos		467-1685	Av. Aconquija 2491		Yerba Buena	no					roxana		si	-26,8106549	-65,306893
+173	Veterinarias	Mundo Mascota	425-0882		Diego de Villarroel 1890		Yerba Buena	si					google	Susana	si	-26,811562	-65,29672
+210	Comidas	Los Hornos	425-0301		Av. Aconquija 2419		Yerba Buena	si	controlar				luciana			-26,810794	-65,306054
+444	Comidas	Los hornos	4250-301 / 431-6180	698-4888	Av. Aconquija 2419		Yerba Buena	si	controlar							-26,810794	-65,306054
+223	Comidas	El Mesón del Pato	425-0004		Av. Aconquija 2423		Yerba Buena	si	controlar							-26,8108292	-65,3061875
+398	Bazar	Norbazar		600-8191 / 600-8192	Av. Aconquija 2343		Yerba Buena	si	controlar				luciana			-26,8109289	-65,3047579
+27	Carnicerías	Finca San Ramon	230-7030		Bascary 291		Yerba Buena	si					roxana		si	-26,8110174	-65,2870296
+155	Verdulerías	Ramoncito	425-8498		Av. Aconquija 2377		Yerba Buena	no	llamar				google	Susana	si	-26,8110243	-65,3051797
+21	Carnicerías	El abasto Mercado de carnes		598-4807	Av. Aconquija 2496		Yerba Buena	si					roxana		si	-26,8110255	-65,3071339
+411	Comidas	Quicken Spiedo & Food		517-4509	Lobo de la Vega 160		Yerba Buena	si	controlar				luciana			-26,8112682	-65,2953399
+429	Pastas	La Casa de Las Pastas	425-6368		Av. Aconquija 2283		Yerba Buena	si	controlar				roxana			-26,811285	-65,3037421
+11	Carnicerías	100% Cerdo	435-7613		Av. Aconquija 2297		Yerba Buena	si					google	Alejandro	si	-26,8112877	-65,30412059
+369	Panaderías	Panificación Abdala	425-2155	356-0981	Av. Aconquija 2297		Yerba Buena	si	controlar				luciana			-26,8112877	-65,30412059
+12	Carnicerías	Aconquija	425-3135		Av. Aconquija 2275		Yerba Buena	si					google	Alejandro	si	-26,8113188	-65,30357459
+140	Verdulerías	Aconquija	425-3135		Av. Aconquija 2275		Yerba Buena	si					google	Alejandro	si	-26,8113188	-65,30357459
+394	Tecnología	Smart Shop		615-1933	Los Ceibos 1100		Yerba Buena	si	controlar				luciana			-26,811369	-65,2846552
+31	Carnicerías	La Fleming	425-2074		Av. Aconquija 2384		Yerba Buena	no	llamar				google	Roxana	si	-26,8114534	-65,305315
+183	Pastas	Deli Pastas		692-5811	Av. Aconquija 2197		Yerba Buena	si	controlar							-26,8114918	-65,30279039
+218	Comidas	Da Gusto	425-8185		Av. Aconquija 2163		Yerba Buena	si	controlar				luciana			-26,8114959	-65,302251
+149	Verdulerías	La Familia	353-4293		Av. Aconquija 2322		Yerba Buena	si					luz		si	-26,8114989	-65,304706
+57	Farmacias	Farmacia Galenica	425-0348		Av. Aconquija 2177		Yerba Buena	no	llamar				google	Carolina	si	-26,8115472	-65,3025315
+184	Almacenes	Super Fiesta		405-2709	Lobo de la Vega 100		Yerba Buena	si	controlar				luciana			-26,8115486	-65,2954541
+160	Veterinarias	Aconquija	425-4959		Av. Aconquija 2264		Yerba Buena	si					google	Roxana	si	-26,8117647	-65,3037801
+142	Verdulerías	Anahí	539-9795		Av. Aconquija 2155		Yerba Buena	no	llamar				google	Sofia	si	-26,8116444	-65,3020508
+400	Servicios	Gas Malvinas		511-7468	Pja. Malvivas altura Av. Aconquija 2200	Local 2	Yerba Buena	si	controlar				su			-26,811703	-65,3029391
+410	Panaderías	Alta Fiesta		467-6978 / 352-8938	Av. Aconquija 2081		Yerba Buena	no	controlar				luciana			-26,8117416	-65,3008768
+45	Comidas	Pizza 8	462-8560		Av. Aconquija 2129		Yerba Buena	si					sofia		si	-26,8117487	-65,3016657
+167	Veterinarias	Dr. Marcelo Vázquez	425-1689		Remedios de Escalada 1587		Yerba Buena	no	llamar				google	Carolina	si	-26,8121471	-65,2909794
+63	Farmacias	Farmacia Plazoleta	425-1370		Av. Aconquija 2099		Yerba Buena	no	llamar				google	Susana	si	-26,8117776	-65,3011168
+431	Farmacias	Plazoleta	425-6840 / 425-1370	403-6264	Av. Aconquija 2099		Yerba Buena	si	controlar				pia			-26,8117776	-65,3011168
+186	Almacenes	Equipa Tu Fiesta	577-7808	541-8280	Lobo de la Vega 89	Shopping - Local 199	Yerba Buena	si	controlar							-26,8118354	-65,295187
+191	Carnicerías	Media Res		367-4742	Lobo de la Vega 84		Yerba Buena	si	controlar							-26,8118804	-65,2955813
+127	Pollerías	Mi Pollo	425-6471		Lobo de la Vega 84		Yerba Buena	si					google	Sofia	si	-26,8118804	-65,2955813
+379	Semillerías	El Nogal	425-8003	661-8126	Lobo de la Vega 84		Yerba Buena	si	controlar				luciana			-26,8118804	-65,2955813
+68	Farmacias	Farmacia Zarzosa	425-2859		Av. Aconquija 2170		Yerba Buena	si					google	Valeria	si	-26,8119235	-65,3024594
+439	Limpieza	Bu Sustentable	6010688		Barrio Bernel, manzana B casa 20		Yerba Buena	si								-26,8119881	-65,3013529
+452	Belleza	Esencia Peluquerías & Estética		202-3182	Juan B Teran 20		Yerba Buena	si					sofi			-26,8119881	-65,3013529
+389	Servicios	Vivero Sobral	425-6802	520-7787	Libertad 320		Yerba Buena	si	controlar				luciana			-26,8119881	-65,3013529
+131	Pollerías	Tres Mas	307-1666		Patricias Argentinas 1247		Yerba Buena	no	llamar				google	Valeria	si	-26,8119881	-65,3013529
+384	Servicios	Extragas	349-4740		Santa Cruz 570		Yerba Buena	si					roxana		si	-26,8119881	-65,3013529
+348	Indumentaria & Zapatería	Lencería Chantelle	425-9368		Lobo de la Vega 72		Yerba Buena	si	controlar							-26,8120007	-65,2955803
+103	Panaderías	Del Valle	425-3824		Av. Aconquija 2156		Yerba Buena	no	llamar				google	Pia	si	-26,8120322	-65,3022943
+464	Indumentaria & Zapatería	Bredhka indumentaria Unisex	630-7991 / 549-2154	730-7991 / 549-2154	Av. Aconquija 2049 		Yerba Buena	si	auto							-26,8120549	-65,2996481
+59	Farmacias	Farmacia La Unión	425-4730		Av. Aconquija 1931		Yerba Buena	no	llamar				google	Sofia	si	-26,812071	-65,2974236
+171	Veterinarias	El-Kadi	435-2566		Salas y Valdez 195		Yerba Buena	no	llamar				google	Hernan	si	-26,8152147	-65,2670116
+437	Tecnología	Tecnovip	643-1720		Av. Aconquija 1799		Yerba Buena	si	controlar				luciana			-26,812151	-65,294997
+346	Indumentaria & Zapatería	Cosas de Chicos		368-2133	Av. Aconquija 1799	Shopping - Local 140	Yerba Buena	si	controlar							-26,812151	-65,294997
+343	Indumentaria & Zapatería	Había una vez		613-1209	Av. Aconquija 1799	Shopping - Local 102	Yerba Buena	si	controlar				luz			-26,812151	-65,294997
+351	Librerías	El Arcón Almacén de Regalos		522-2530	Av. Aconquija 1799	Shopping - Local 126	Yerba Buena	si	controlar				luciana			-26,812151	-65,294997
+87	Librerías	Maru	425-6383		Av. Aconquija 1799		Yerba Buena	no	llamar				google	Pia	si	-26,812151	-65,294997
+432	Tecnología	Tecnovip		643-1720	Av. Aconquija 1799		Yerba Buena	si					luciana		si	-26,812151	-65,294997
+213	Sandwichería	Pepe	425-8170	659-5555	Av. Aconquija 2064		Yerba Buena	si	controlar							-26,8122894	-65,3003909
+358	Limpieza	Agua Viva	425-4373	604-0031	Av. Aconquija 2068		Yerba Buena	si	controlar				luciana			-26,8122957	-65,3005038
+1	Almacenes	El Mercadito	485-2348		Av. Aconquija 2054		Yerba Buena	si					luciana		si	-26,8123304	-65,300224
+69	Fiambres	Colonia Caroya	425-3607		Av. Solano Vera 18		Yerba Buena	si							si	-26,8123665	-65,3012811
+339	Golosinas	El Emporio de las Golosinas	425-0655		Av. Aconquija 2028		Yerba Buena	si	controlar				luciana			-26,812458	-65,29946799
+350	Librerías	Noroeste	230-4878	654-5150	Av. Aconquija 2028		Yerba Buena	si	controlar							-26,812458	-65,2994679
+85	Librerías	LesBlon	615-0111		Av. Aconquija 2018		Yerba Buena	no	llamar				google	Roxana	si	-26,8124647	-65,2993613
+145	Verdulerías	El Gaucho	425-1121		Av. Aconquija 2030		Yerba Buena	no	llamar				google	Luciana	si	-26,8125102	-65,2996935
+425	Indumentaria & Zapatería	Coffee		582-9393	Salta 64	Galería Plaza Mayor	Yerba Buena	si	controlar				roxana			-26,8125149	-65,290407
+353	Librerías	Imprecont		413-1707	Salta 64	Galería Plaza Mayor - Local 17	Yerba Buena	si	controlar							-26,8125149	-65,290407
+217	Sandwichería	Kike	400-7166	464-4387	Av. Aconquija 1896		Yerba Buena	si	controlar							-26,8125404	-65,2968729
+49	Tecnología	Ututo	232-7668		Av. Aconquija 2010		Yerba Buena	si							si	-26,8125779	-65,2990331
+122	Pollerías	Granja Fico		680-7500	Lobo de la Vega 19		Yerba Buena	si					google	Alejandro	si	-26,8126312	-65,295604
+6	Almacenes	Super Tatito	425-8046		Av. Aconquija 1978		Yerba Buena	si					http://tatito.com.ar/		si	-26,812656	-65,2982502
+15	Carnicerías	Corroto Hijo	485-2369		Av. Aconquija 1978		Yerba Buena	no	llamar				google	Marcelo	si	-26,812656	-65,2982502
+421	Librerías	Maru Librería	425-5813		Av. Aconquija 1817		Yerba Buena	si	controlar				luciana			-26,8127257	-65,2959075
+39	Comidas	Empanadas La Leñita	425-3375		Av. Aconquija 1731		Yerba Buena	si					luciana		si	-26,812831	-65,2941309
+112	Belleza	Club Capelli	464-7103		Av. Aconquija y Lobo de la vega		Yerba Buena	si					roxana		si	-26,8128592	-65,2956647
+446	Librerías	Mundo Papel		631-3686	Av. Aconquija 1914		Yerba Buena	si					roxana			-26,8128662	-65,2972468
+457	Servicios	Barberking Baterías		644-8530	Av. Aconquija 1900		Yerba Buena	si					marcelo			-26,8129325	-65,2970563
+207	Comidas	La Mejor 		614-4067	Av. Aconquija 1900		Yerba Buena	si	controlar							-26,8129325	-65,2970563
+468	Comidas	La mejor Empanadas	614-4067	614-4067	Av. Aconquija 1900	Local 8	Yerba Buena	si	auto							-26,8129325	-65,2970563
+169	Veterinarias	Dra. Cecilia Masi Elizalde	318-7211		Martín Fierro 151		Yerba Buena	no	llamar				google	Valeria	si	-26,8167497	-65,2856816
+52	Farmacias	Farmacia Berny	435-4680		Pedro de Villalba 498		Yerba Buena	no	llamar				google	Sofia	si	-26,8129552	-65,27171
+455	Tecnología	Nexo Comunicaciones	230-5479	526-6122	Av. Aconquija 1800		Yerba Buena	si					roxana			-26,8131096	-65,2957079
+356	Limpieza	Gama Distribuidora	425-5375	616-0101	Av. Solano Vera 62		Yerba Buena	si					luciana		si	-26,8131282	-65,3015486
+34	Carnicerías	La vaca club	562-3896		Av. Aconquija 1629		Yerba Buena	si					google	Luciana	si	-26,813174	-65,2928319
+56	Farmacias	Farmacia Del Pueblo	425-1040		Av. Aconquija 1812		Yerba Buena	no	llamar				google	Roxana	si	-26,8132867	-65,2951623
+41	Comidas	La Pizzada	425-0303		Av. Aconquija 1513		Yerba Buena	si					sofia		si	-26,813301	-65,29168
+28	Carnicerías	Finca San Ramon	485-2343		Solano Vera 102		Yerba Buena	si					roxana		si	-26,8134099	-65,3016514
+204	Bares & Restaurantes	Las Brasas Parrillada	425-6020		Av. Aconquija 1569		Yerba Buena	no	controlar							-26,8134155	-65,2921635
+222	Comidas	Las Brasas Parrillada	425-6020		Av. Aconquija 1569		Yerba Buena	si	controlar							-26,8134155	-65,2921635
+91	Librerías	Sil - Mar	435-2848	604-3496	Los Ceibos 626		Yerba Buena	si					google	Hernan	si	-26,8134972	-65,2737233
+396	Tecnología	Guibert Informática		549-8297	Constancio Vigil 2222		Yerba Buena	si	controlar				luciana			-26,8135906	-65,3035659
+146	Verdulerías	Gustavo	425-0256		Av. Aconquija 1389		Yerba Buena	no	llamar				google	Roxana	si	-26,8136663	-65,29009789
+229	Comidas	Lo de Salu		539-4193	Pedro de Villalba 242		Yerba Buena	si	controlar				luciana			-26,8137297	-65,267797
+79	Librerías	Del Paseo Francés	446-9286		Av. Aconquija 1620		Yerba Buena	no	llamar				google	Pia	si	-26,8137315	-65,2930133
+78	Librerías	Camelot	425-2882		Florida Sur 24		Yerba Buena	no	llamar				google	Valeria	si	-26,8137899	-65,2925269
+110	Panaderías	Villecco	425-9500		Av. Aconquija 1341		Yerba Buena	no					google	Luciana	si	-26,813799	-65,288934
+368	Panaderías	Ana Menendez Tortas		645-3914	Florida Sur 28		Yerba Buena	si	controlar				luciana			-26,813913	-65,292564
+162	Veterinarias	Centro Veterinario Yerba Buena	435-1476		Av. Aconquija 281		Yerba Buena	si					google	Sofia	si	-26,8174006	-65,2692301
+82	Librerías	Florida		354-8986	Florida 40		Yerba Buena	si					roxana		si	-26,8140047	-65,2926872
+92	Librerías	Tienda de Arte		510-6349	Av. Aconquija 1273		Yerba Buena	si					google	Alejandro	si	-26,8141491	-65,2873272
+428	Librerías	Tere Simón Decoración	497-1847	467-5300	Av. Aconquija 1526	Local 7A	Yerba Buena	si	controlar				roxana			-26,8142229	-65,2917449
+424	Librerías	Arte para el Arte		533-4002	Av. Solano Vera 131		Yerba Buena	si	controlar				su			-26,8142897	-65,3022685
+55	Farmacias	Farmacia Del Pueblo	425-1040		Av. Aconquija 1336		Yerba Buena	no	llamar				google	Carolina	si	-26,814397	-65,290213
+341	Helados	Yo Helados	425-8535		Av. Aconquija 1300		Yerba Buena	si	controlar				luciana			-26,814638	-65,290055
+89	Librerías	Origami CKC	354-3002		Pringles 1192		Yerba Buena	no	llamar				google	Marcelo	si	-26,8148416	-65,2914176
+178	Almacenes	Deseo Concedido		537-6744	Av. Solano Vera 199		Yerba Buena	no					roxana		si	-26,8148423	-65,3024611
+187	Bebidas	La treinta y uno	425-7311	466-1954	Av. Aconquija 1071		Yerba Buena	si					luciana		si	-26,8148913	-65,2838016
+42	Comidas	La treinta y uno	425-7311	466-1954	Av. Aconquija 1071		Yerba Buena	si					luciana		si	-26,8148913	-65,2838016
+409	Fiambres	La treinta y uno	425-7311	466-1954	Av. Aconquija 1071		Yerba Buena	si					luciana		si	-26,8148913	-65,2838016
+419	Pinturerías & Ferreteria	Mundo Ferretero	425-7786		Av. Aconquija 1073	Local 1	Yerba Buena	si	controlar				luciana			-26,8148944	-65,2843011
+50	Farmacias	Farmacia Alvez	435-0614		Salas y Valdez 243		Yerba Buena	no	llamar				google	Valeria	si	-26,8149339	-65,2680939
+13	Carnicerías	Aconquija 	435-3971		Salas y Valdez 376		Yerba Buena	si					luciana		si	-26,8149489	-65,2700062
+141	Verdulerías	Aconquija 	435-3971		Salas y Valdez 376		Yerba Buena	si					luciana		si	-26,8149489	-65,2700062
+443	Tintorerías	Lavanderia Cariola		589-1470	Cariola 1785		Yerba Buena	si	controlar							-26,815015	-65,29478
+196	Bares & Restaurantes	Diletto StoreTostadero	435-5710	476-1363	Av. Ejército del Norte 741		San Miguel de Tucuman	si	controlar				luciana			-26,8151043	-65,2298047
+165	Veterinarias	Coquena	435-5963		Av. Mate de Luna 4395		San Miguel de Tucuman	si					google	Carolina	si	-26,8193502	-65,2593895
+100	Panaderías	Albertus		604-3789	Av. Aconquija 889		Yerba Buena	si					sofia		si	-26,8155362	-65,2801037
+151	Verdulerías	Masmud	435-5785		Salas y Valdez 13		Yerba Buena	si					google	Pia	si	-26,8155452	-65,2646717
+115	Pollerías	Chicken House	435-4551		Salas y Valdez 11		Yerba Buena	si					google	Carolina	si	-26,8156199	-65,264657
+198	Bares & Restaurantes	Bonneville Bar		624-4200	Av. Aconquija 904		Yerba Buena	no	controlar				luciana			-26,8156594	-65,2806437
+226	Comidas	Bonneville Bar		624-4200	Av. Aconquija 904		Yerba Buena	si	controlar							-26,8156594	-65,2806437
+54	Farmacias	Farmacia Del Inca	435-2039		Av. Camino del Perú 212		Yerba Buena	no	llamar				google	Marcelo	si	-26,8158154	-65,264432
+228	Comidas	Cuatro Quesos	431-7175		Las Acacias 89		Yerba Buena	si	controlar				luciana			-26,8158512	-65,2732726
+105	Panaderías	El Mundo	435-6444		Av. Aconquija 801 4107		Yerba Buena	no					google	Sofia	si	-26,8160403	-65,2779741
+154	Verdulerías	Pringles	446-6281		Pringles 1228		Yerba Buena	no	llamar				google	Marcelo	si	-26,8160925	-65,285862
+107	Panaderías	La Merced	435-2685		Pringles 1248		Yerba Buena	no					google	Carolina	si	-26,8161512	-65,2859816
+116	Pollerías	Don Gallo	435-0972		Av. Camino del Perú 120		Yerba Buena	si					google	Carolina	si	-26,8162656	-65,2647002
+334	Farmacias	Cristo Rey	435-3024		Av. Aconquija 810		Yerba Buena	si	controlar				luciana		si	-26,8164349	-65,2776472
+53	Farmacias	Farmacia Del estero	435-3024		Av. Aconquija 810		Yerba Buena	si					google	Luciana	si	-26,8164349	-65,2776472
+168	Veterinarias	Dr. Schwint	425-1988		Av. Solano Vera 526		Yerba Buena	si					google	Pia	si	-26,8199379	-65,3039397
+467	Belleza	Silvia Isabel Lopez	362-7144		Hernández 39		Yerba Buena	si	auto							-26,8168068	-65,2707705
+347	Indumentaria & Zapatería	Cocoreta		656-5119	Av. Aconquija 598	Paseo Heller - Local 3	Yerba Buena	si	controlar				luciana			-26,816892	-65,274405
+201	Bares & Restaurantes	Malliña Canastitas 		369-6385	San Lorenzo 367		Yerba Buena	no	controlar							-26,8170322	-65,2945695
+395	Tecnología	Weke Store		637-4074	Av. Aconquija 542	Local 3	Yerba Buena	si	controlar				luciana			-26,817065	-65,273927
+188	Bebidas	Rey de Copas		463-2600	Av. Aconquija 319		Yerba Buena	si	controlar				luciana			-26,8172913	-65,26989
+388	Servicios	Vivero El Cristo		542-9590	Av. Aconquija 400		Yerba Buena	si	controlar				luciana			-26,8173427	-65,2710955
+363	Panaderías	Pastelería Sabores Nuestros		456-7022	Av. Aconquija 285		Yerba Buena	si	controlar				luciana			-26,81739	-65,2693029
+367	Panaderías	Repostería y Cotillón		467-6978 / 352-8938	Av. Aconquija 285		Yerba Buena	si	controlar				luciana			-26,81739	-65,2693029
+109	Panaderías	Sabores Nuestros	435-2307		Av. Aconquija 285		Yerba Buena	no	llamar				google	Roxana	si	-26,81739	-65,2693029
+51	Farmacias	Farmacia América VI	435-6481		Av. Aconquija 283		Yerba Buena	no	llamar				google	Hernan	si	-26,8173947	-65,2692663
+176	Veterinarias	San Miguel	423-3673		Av. Mate de Luna 3448		San Miguel de Tucuman	no	llamar				google	Valeria	si	-26,8214465	-65,2488652
+209	Comidas	La Abuela Elena	435-3578	529-9093	Av. Aconquija 299		Yerba Buena	si	controlar				luciana			-26,8174191	-65,26946629
+75	Helados	Grido	574-9939		Av. Aconquija 153		Yerba Buena	si					Luz		si	-26,8176439	-65,2665937
+83	Librerías	Graciela	435-0436		Pringles 770		Yerba Buena	no	llamar				google	Susana	si	-26,8176666	-65,277148
+16	Carnicerías	Cresta Negra		302-7043	Av. Camino del Perú 50		Yerba Buena	si					roxana		si	-26,8176711	-65,2648605
+114	Pollerías	Carnave	435-7500		Av. Aconquija 85		Yerba Buena	no	llamar				google	Valeria	si	-26,8178479	-65,266072
+453	Piletas	Arquitectura en Piscinas		653-0827 / 609-3617	Av. Aconquija 23		Yerba Buena	no					sofi			-26,817992	-65,265337
+224	Comidas	Don Ramón	435-3048		Av. Aconquija 118		Yerba Buena	si	controlar							-26,8180182	-65,2661002
+72	Fiambres	Don Jamon	435-3048		Av. Aconquija 118		Yerba Buena	si							si	-26,8180182	-65,2661002
+62	Farmacias	Farmacia Marcos Paz	425-3599		Rubén Dario 180		Yerba Buena	si					roxana		si	-26,8180889	-65,280435
+436	Pinturerías & Ferreteria	Saenz Peña	435-6801		Av. Aconquija 266		Yerba Buena	si					luciana			-26,8182234	-65,2678811
+101	Panaderías	Casapan	435-2685		Av. Aconquija 142		Yerba Buena	no	llamar				google	Marcelo	si	-26,8182752	-65,2667359
+202	Bares & Restaurantes	El Cristo	435-7576	527-4442	Av. Aconquija 4		Yerba Buena	no	controlar							-26,8182912	-65,2658156
+215	Comidas	El Cristo	435-7576	527-4442	Av. Aconquija 4		Yerba Buena	si	controlar							-26,8182912	-65,2658156
+170	Veterinarias	El Pucara	307-2614		Av. Solano Vera 950		Yerba Buena	no	llamar				google	Sofia	si	-26,8228678	-65,3049025
+30	Carnicerías	La Carlota	435-3535		Av. Aconquija 120		Yerba Buena	si					google	Hernan	si	-26,8183384	-65,2663314
+372	Pinturerías & Ferreteria	Pinturería España	422-5700	641-8745	Av. Mate de Luna 4794		San Miguel de Tucuman	si	controlar				luciana			-26,8186979	-65,264579
+18	Carnicerías	Daniel	425-8670		Av. Solano Vera 410		Yerba Buena	si					luciana		si	-26,8187048	-65,3035412
+192	Carnicerías	Angelita		641-8973	Federico Rossi 210		Yerba Buena	si	controlar				luciana			-26,8193	-65,2761294
+177	Veterinarias	Yungas	425-9604		Av. Solano Vera		Yerba Buena	no	llamar				google	Marcelo	si	-26,8278256	-65,3059725
+36	Carnicerías	Pepito	425-1975		Av. Solano Vera 500		Yerba Buena	si					google	Susana	si	-26,8197304	-65,3040144
+175	Veterinarias	Quara		669-7088	San Martín 1350		Yerba Buena	si					google	Alejandro	si	-26,829826	-65,29457909
+193	Carnicerías	Super Carnes Bandera	431-6201		Av. Solano Vera 546		Yerba Buena	si	controlar							-26,8201125	-65,3043804
+158	Verdulerías	Súper Carnes Bandera	431-6201		Av. Solano Vera 546		Yerba Buena	si					google	Carolina	si	-26,8201125	-65,3043804
+408	Servicios	Corralón Solano Vera		502-9194	Av. Solano Vera 528		Yerba Buena	si	controlar				luciana			-26,820237	-65,3040539
+84	Librerías	La Solanita		530-9283	Av. Solano Vera 540		Yerba Buena	si					luciana		si	-26,8204	-65,304452
+387	Servicios	Yerba Buena Gas 		403-8441	Lamadrid 1450		Yerba Buena	si	controlar				luciana			-26,820453	-65,2921495
+126	Pollerías	Marka	425-6577		Av. Solano Vera 554		Yerba Buena	si					google	Luciana	si	-26,820549	-65,3041755
+58	Farmacias	Farmacia La Botica	431-5065		Cariola 42		Yerba Buena	no	llamar				google	Pia	si	-26,820991	-65,265896
+460	Electricidad	Voltaje 	444-6594	444-6594	Av. Solano Vera 598		Yerba Buena	si	auto				web			-26,8212224	-65,304518
+404	Veterinarias	Tienda para Mascotas San Martin	230-0763	304-4388			San Miguel de Tucuman	si	controlar				luciana			-26,8082848	-65,2175903
+93	Librerías	Yenny	431-5002		Av. Fermín Cariola 42	Local 1191	Yerba Buena	no	llamar				google	Sofia	si	-26,8219989	-65,2671479
+445	Almacenes	El Boisdron Miniservice		358-1719	Lamadrid 1031		Yerba Buena	si					roxana			-26,8220272	-65,2837531
+23	Carnicerías	El Negro	524-8161		Lamadrid 1031		Yerba Buena	no	llamar				google	Luciana	si	-26,8220272	-65,2837531
+333	Farmacias	Calcagno		590-5917	Lamadrid 1031		Yerba Buena	si					luciana		si	-26,8220272	-65,2837531
+3	Almacenes	El Mercadito & Delivery		466-3294	Solano Vera 761		Yerba Buena	si					luciana		si	-26,8222678	-65,3051709
+360	Limpieza	SP Distribución		657-2306	Lamadrid 957		Yerba Buena	si	controlar							-26,8222721	-65,2824566
+433	Comidas	Fafa		640-2134	San Martín 780		Yerba Buena	si					luz		si	-26,8223325	-65,2933046
+465	Indumentaria & Zapatería	Nací con Alas	629-6126	629-6126	Rubén Darío y Lamadrid 		Yerba Buena	si	auto							-26,8224938	-65,2812204
+211	Comidas	Lo de Cordero		425-2359	Pje. Santiago del Estero 1494		Yerba Buena	si	controlar				luciana			-26,8226762	-65,2922407
+371	Pinturerías & Ferreteria	Tucumanchas		645-5519 / 644-2914	San Juan 1351		San Miguel de Tucuman	si					roxana		si	-26,8226963	-65,2162089
+108	Panaderías	Riquisima	425-0198		Av. Solano Vera 950		Yerba Buena	no					google	Susana	si	-26,8228678	-65,3049025
+373	Pinturerías & Ferreteria	Tucumán Pinturas	425-7749	320-3104 / 566-6633	Av. Solano Vera 950	Local 4	Yerba Buena	si	controlar				luciana			-26,8228678	-65,3049025
+438	Veterinarias	Cuatro Patas	601-1229		Av. Aconquija 688-  local 6		Yerba Buena	si					luciana			-26,8139584	-65,2930473
+399	Bazar	Bazar Pato Gallo Deco		655-3743	Catamarca 1600	Local 5	Yerba Buena	si					roxana		si	-26,8229864	-65,2952012
+332	Farmacias	El Corte		403-9778	Av. Solano Vera 1100		Yerba Buena	si	controlar				luciana			-26,8233188	-65,3052124
+123	Pollerías	La Granja del Tati	435-6295		Zavalía 568		Yerba Buena	no	llamar				google	Hernan	si	-26,8234326	-65,2718864
+349	Librerías	San Francisco	422-8822	589-3399	Corrientes 287		Yerba Buena	si	controlar				luciana			-26,8234371	-65,1993773
+124	Pollerías	La Polleria		413-1614	Av. Solano Vera 990		Yerba Buena	si					google	Alejandro	si	-26,8235141	-65,3051414
+374	Pollerías	Granja Solana		647-0889	Av. Solano Vera 1000		Yerba Buena	si	controlar				luciana			-26,8236114	-65,30528509
+147	Verdulerías	Juancito	425-5547		Av. Solano Vera 1000		Yerba Buena	no	llamar				google	Pia	si	-26,8236114	-65,305285
+8	Bebidas	Drink Delivery	687-2537		La pampa 1881		Yerba Buena	si					luz		si	-26,8239012	-65,2950444
+365	Panaderías	Don Genuario	435-3078		Zabalía 596		Yerba Buena	si	controlar				luciana			-26,8240378	-65,2720777
+48	Tecnología	Flash Games		414-1610	Catamarca 410		Yerba Buena	si							si	-26,8260261	-65,2742611
+383	Servicios	El Electricista	425-1972	508-2188	Mendoza 106		Yerba Buena	si	controlar				luciana			-26,8272581	-65,3070356
+366	Panaderías	Don Genuario	431-6366		Av. Solano Vera y Mendoza		Yerba Buena	si	controlar				luciana			-26,8273784	-65,3059088
+378	Semillerías	CocinArte		673-5590	Country Las Jarillas		Yerba Buena	si	controlar				luz			-26,8274189	-65,3184622
+111	Pastas	Avanti		668-0086	Solano Vera 936	Local 5	Yerba Buena	si					luciana		si	-26,8274979	-65,3057432
+88	Librerías	Mercería Molina	425-0188		Av. Solano Vega 141		Yerba Buena	no	llamar				google	Luciana	si	-26,8278256	-65,3059725
+139	Verdulerías	Acevedo	425-7484		Av. Solano Vega 250		Yerba Buena	no	llamar				google	Marcelo	si	-26,8278256	-65,3059725
+86	Librerías	Lo de Eve	638-5339		Av. Solano Vega 390		Yerba Buena	no	llamar				google	Marcelo	si	-26,8278256	-65,3059725
+163	Veterinarias	Cerro Tienda de Mascotas		679-4922	Universo 27		Yerba Buena	si					luciana		si	-26,8183258	-65,2674348
+377	Pollerías	Granja del Cerro		418-9178	San Martín 750		Yerba Buena	si	controlar				luciana			-26,8289609	-65,2082197
+447	Veterinarias	Dr. Gustavo E. Valdez	425-1223 / 485-2363	637-6690	Av. Solano Vera 53		Yerba Buena	si					roxana			-26,8129326	-65,3017797
+430	Servicios	Segumax GNC	230-6210		Las Piedras 2069		San Miguel de Tucuman	si	controlar							-26,8299201	-65,229748
+5	Almacenes	Panetto		647-8491	Av. Solano Vera 1098		Yerba Buena	si					sofia		si	-26,8303893	-65,3062419
+337	Fiambres	Panetto		647-8491	Av. Solano Vera 1098		Yerba Buena	no	controlar							-26,8303893	-65,3062419
+461	Carnicerías	D’ Carne Somos 	582-7595 / 423-2999	582-7595	Av. Colón 421 		San Miguel de Tucuman	si	auto				web			-26,8307385	-65,2338048
+382	Servicios	El Obrero Corralón		300-3143	Av. Solano Vera 1174		Yerba Buena	si	controlar				luciana			-26,8323121	-65,3064608
+386	Servicios	Roma Gas		402-6126	Av. Solano Vera 1174		Yerba Buena	si	controlar				luciana			-26,8323121	-65,3064608
+397	Tecnología	Compuciti		532-4601	Jujuy 203		San Miguel de Tucuman	si	controlar				luciana			-26,8324832	-65,2116429
+2	Almacenes	El Mercadito & Delivery	466-3294		Camino de Sirga 1452	Galería Quara	Yerba Buena	si					luciana		si	-26,833294	-65,2930899
+102	Panaderías	Cosas Ricas	439-6717		Camino de Sirga 1452	Galería Quara	Yerba Buena	no					google	Carolina	si	-26,833294	-65,2930899
+448	Servicios	DMayo Taller Frenos y Embragües		3622338/6470642	Amador Lucero 554		San Miguel de Tucuman	si					roxana			-26,8333412	-65,2312644
+340	Helados	Yo Helados	425-3107	532-9753	Av. Solano Vera y Camino de Sirga		Yerba Buena	si	controlar				luciana			-26,8334631	-65,30676
+220	Comidas	Gastronomia Valkiria		662-8203	Camino de Sirga 1400	Galería Quara - Local 19	Yerba Buena	si	controlar				luciana			-26,8335573	-65,2901969
+342	Helados	Tello	439-6800		Camino de Sirga 1400	Galería Quara	Yerba Buena	si	controlar				luciana			-26,8335573	-65,2901969
+336	Farmacias	Cristo Rey	453-3824		Av. Roca y Av. Alfredo Guzmán		San Miguel de Tucuman	no	controlar				luciana		si	-26,8338866	-65,2697165
+426	Belleza	Mónica Oviedo Cosmiatra		301-0228	Country del Pilar - Casa G2		Yerba Buena	si					roxana			-26,8374989	-65,3071681
+427	Belleza	Pretty4ever - Uñas		586-7906	Country del Pilar - Casa G8		Yerba Buena	si					alejandro			-26,8374989	-65,3071681
+81	Librerías	El Portal	425-1972	508-2188	Mendoza 104		Yerba Buena	no					google	Luciana	si	-26,8272077	-65,3070429
+148	Verdulerías	La Boutique de la Verdura		302-0686	Mendoza 108		Yerba Buena	si					google	Alejandro	si	-26,8272976	-65,3070635
+357	Limpieza	La Escobita	425-4373	678-2499	Santiago 676		Yerba Buena	si	controlar								
+19	Carnicerías	Don Polo	425-6296		Av. Solano Vega 62		Yerba Buena	no					google	Sofia	si	-26,8131282	-65,3015486
+117	Pollerías	Don Polo	425-6296		Av. Solano Vega 62		Yerba Buena	no					google	Hernan	si	-26,8131282	-65,3015486
+125	Pollerías	Lo de Milo	402-8983		Bolivia 534		Yerba Buena	no	llamar				google	Marcelo	si	-26,8123751	-65,2725917
+106	Panaderías	El Sol Tucumano	435-7800		Chile 150		Yerba Buena	no	llamar				google	Valeria	si	-26,816025	-65,266254
+121	Pollerías	El Tano	434-4784		Colombia 3386		Yerba Buena	no	llamar				google	Pia	si	-26,8098373	-65,2796765
+181	Almacenes	Rincón Lacteo		442-9559	Darwin 820		Yerba Buena	si	controlar				luciana			-26,8245049	-65,2894965
+338	Fiambres	Rincón Lácteo		442-9559	Darwin 820		Yerba Buena	si	controlar				luciana			-26,8245049	-65,2894965
+129	Pollerías	Ra Ha	425-5081		Darwin 826		Yerba Buena	no	llamar				google	Roxana	si	-26,823889	-65,2882789
+35	Carnicerías	Macacha	425-9057		Darwin 87		Yerba Buena	no	llamar				google	Carolina	si	-26,8156702	-65,2866645
+22	Carnicerías	El Gaucho	431-5059		Don Bosco 4412		Yerba Buena	si					google	Hernan	si	-26,8187912	-65,2405716
+370	Panaderías	Cremona Peach		550-7591	Ecuador 247		Yerba Buena	si	controlar				luciana			-26,8120947	-65,278887
+355	Limpieza	Burbujita	425-4373	546-4187	Entre Rios 2510		Yerba Buena	si	controlar							-26,8168295	-65,3088075
+90	Librerías	Paez Lopez Silvia Beatriz	435-1068		Honduras 463		Yerba Buena	no	llamar				google	Carolina	si	-26,8107206	-65,2740969
+459	Indumentaria & Zapatería	Dulce guillermina	425-9342	653-0718	Lobo de la vega al 100		Yerba Buena	si	auto				web			-26,8024303	-65,2930731
+401	Verdulerías	B&B Frutas y Verduras		572-7846	Paraguay 408		Yerba Buena	si	controlar				luciana			-26,8123729	-65,270301
+120	Pollerías	El Buen Pollo	300-9163		Paraguay 757		Yerba Buena	no	llamar				google	Susana	si	-26,8110678	-65,2759355
+66	Farmacias	Farmacia Virgen de la Caridad	435-3974		Perú 780		Yerba Buena	no	llamar				google	Susana	si	-26,81049	-65,2762761
+46	Comidas	Pura vida Mae		630-8678	San Lorenzo 147		Yerba Buena	si					sofia		si	-26,8146823	-65,2942115
+25	Carnicerías	Fidensa	524-7760		San Martin 750		Yerba Buena	si					luciana		si	-26,8221958	-65,2932784
+200	Bares & Restaurantes	Walnuss Cerveceía Artesanal		553-5008	Uruguay 411		Yerba Buena	no	controlar							-26,8059429	-65,3060763
+60	Farmacias	Farmacia Lima	425-2022		Venezuela 68		Yerba Buena	no	llamar				google	Hernan	si	-26,8144253	-65,281907
+442	Jugueterías	Judy Luly		640-1122	Venezuela 70		Yerba Buena	si	controlar							-26,8143067	-65,2819197
+94	Librerías	Zavalia	435-3515		Zavala 535		Yerba Buena	no					google	Roxana	si	-26,8119881	-65,3013529
+71	Fiambres	Distribuidora JRB		565-1195	Mexico 3186		Yerba Buena	si					luciana		si	-26,8119881	-65,3013529
+185	Almacenes	Distribuidora Via Gastronómica		488-0782			sin	si	controlar				luciana				
+194	Bares & Restaurantes	Bonafide		349-7178			sin	no	controlar								
+195	Bares & Restaurantes	Café Aruba	432-3198	551-8335			sin	no	controlar								
+418	Comidas	Alimentos Saludables		448-4203			sin	si	controlar				sofi				
+417	Comidas	El Parador	435-3930 / 435-4391	505-5383			sin	si	controlar				sofi				
+212	Comidas	La Tranquera Empanadas	425-1273	638-9451			sin	si	controlar								
+216	Comidas	Tonetti	317-3811	524-6573			sin	si	controlar								
+359	Limpieza	Lund		480-7403			sin	si	controlar								
+362	Panaderías	Dolce La Pastelería		336-2009			sin	si					luciana		si		
+361	Panaderías	Mimí		581-1302			sin	si	controlar								
+376	Pollerías	K'anka Boutique de Pollos		396-5027			sin	si	controlar				luciana				
+412	Sandwichería	El Salvador 		431-5433			sin	no	controlar				sofi				
+385	Servicios	YPF gas	433-1036	419-5780			sin	si	controlar				luciana				
+413	Veterinarias	Andres Bonano, Alimentos para Mascotas		402-0576			sin	si	controlar				sofi				
+179	Almacenes	Leandro Robin Distribuidor lacteo		523-5661			Yerba Buena	si	controlar				luciana		si		.
+4	Almacenes	Mi Super	566-5967				Yerba Buena	si					luz		si		.
+203	Bares & Restaurantes	El Cristo II	434-7606	368-4565			Yerba Buena	no	controlar								.
+416	Belleza	Look Tucumán Diatribuidora		506-4935 / 523-9093			Yerba Buena	si	controlar				sofi				.
+17	Carnicerías	Cuatrise		576-1636			Yerba Buena	si					sofia		si		.
+38	Comidas	Billy Bob Burges	405-0704				Yerba Buena	si					sofia		si		.
+214	Comidas	El Cristo II	434-7606	684-4565			Yerba Buena	si	controlar								.
+449	Comidas	El Encuentro	485-6030				Yerba Buena	si					sofi				.
+40	Comidas	Gastronomia Ferullo		606-5352			Yerba Buena	si					luciana		si		.
+415	Comidas	Heller	435-6683	502-6948 / 479-6776			Yerba Buena	si	controlar				sofi				.
+43	Comidas	Naturina	415-4644				Yerba Buena	si					sofia		si		.
+44	Comidas	Nutrifood	583-5424				Yerba Buena	si					Luz		si		.
+435	Comidas	Origen Empanadas	425-7794	477-1072			Yerba Buena	si					marcelo				.
+70	Fiambres	Distribuidora Candelaria		565-1195			Yerba Buena	si					hernan		si		.
+73	Golosinas	Dulci Nard		409-1213			Yerba Buena	si					Luz		si		.
+422	Golosinas	Dulcilandia		419-8150 / 543-0020			Yerba Buena	si	controlar				luciana				
+74	Golosinas	La Golosineria		438-8938			Yerba Buena	si					roxana		si		
+76	Helados	Stick		532-2220			Yerba Buena	si					luciana		si		
+77	Helados	Wollen swiss ice cream	301-9446				Yerba Buena	si					luciana		si		
+345	Indumentaria & Zapatería	Aire Libre		417-8453			Yerba Buena	si					luciana		si		
+462	Indumentaria & Zapatería	Breshka		6307991/5492154			Yerba Buena	si					su				
+454	Indumentaria & Zapatería	Eugenia by Conty Lencería Fina		508-7150			Yerba Buena	si					marcelo				
+458	Indumentaria & Zapatería	Nací con Alas		629-6126			Yerba Buena	si					marcelo				
+434	Librerías	ArteMas		335-5678			Yerba Buena	no	controlar								
+95	Limpieza	3B distribuidora	655-4720				Yerba Buena	si					luciana		si		
+354	Limpieza	Agustín Pucheta Amway		602-1108			Yerba Buena	si	controlar								
+96	Limpieza	Articulos de limpieza		569-2709			Yerba Buena	no					luciana		si		
+97	Limpieza	Servicio Integral de Limpieza		572-0361			Yerba Buena	si					luciana		si		
+463	Marketing Digital	Eureka		594-4731			Yerba Buena	si					roxana				
+132	Semillerías	El Molino		300-7209			Yerba Buena	si					luciana		si		
+133	Servicios	Alberto (Piletas)		545-4014			Yerba Buena	si					sofia		si		
+423	Servicios	Antonio Herrera (albañil)		304-0864			Yerba Buena	si	controlar				su				
+392	Servicios	Baterías Yerba Buena		664-6755 / 578-8028			Yerba Buena	si	controlar				su				
+450	Servicios	Cadetería Exprés		337-0284			Yerba Buena	si					sofi				
+134	Servicios	Cesar Sarmiento (Enfermero)		474-0843			Yerba Buena	si					pia		si		
+135	Servicios	German (Cerrajero)		628-1385			Yerba Buena	si					sofia		si		
+136	Servicios	Marcos Dibenedeto (Piletas)		670-3706			Yerba Buena	si					luciana		si		
+390	Servicios	Marcos Ruiz Seguros		547-0025			Yerba Buena	si	controlar				luciana				
+137	Servicios	Paolo (Piletas)		319-6969			Yerba Buena	si					sofia		si		
+407	Servicios	Pest Control (Fumigación)		643-5068			Yerba Buena	si					marcelo				
+393	Servicios	Taxi Yerba Buena		681-0406			Yerba Buena	si					roxana		si		
+451	Tecnología	Ctrl P Computer Service		469-3335			Yerba Buena	si					luz				
+47	Tecnología	Electro.nic		561-2401			Yerba Buena	si					Luz		si		
+143	Verdulerías	Cajones de Verdura a domicilio		405-5990			Yerba Buena	si					luciana		si		
+144	Verdulerías	Cebil		662-5023			Yerba Buena	si					luciana		si		
+152	Verdulerías	Nicolás Bennasar		442-6999			Yerba Buena	si					sofia		si		
+153	Verdulerías	Pedro Veglia verduras para Countries	361-1943				Yerba Buena	si					sofia		si		
+	Almacenes	La Arbolada		4012019	Salas y Valdez 831		Yerba Buena	no	auto								
+	Almacenes	La Arbolada		4012019	Salas y Valdez 831		Yerba Buena	no	auto								
+	Comidas	Lizana	4024999	3814024292	Lamadrid 20 		Yerba Buena	si	auto								
+	Librerías	Amautu Libros	5753702	3815753702	Florida 28		Yerba Buena	no	auto								
+	Bebidas	Destí de vi 		3563473	Av Mitre 230		San Miguel de Tucumán	si	auto								
+	Indumentaria & Zapatería	Kavak Deportes	4252000	3815050399	Av. Aconquija 1460		Yerba Buena	si	auto								
+	Servicios	D'Mayo Frenos y Embragues Auxilio Mecanico		3813622338	San Lorenzo 3212		San Miguel de Tucumán	si	auto								
+	Indumentaria & Zapatería	Monono Indumentaria para bebes	3362374	3813362374	Av. Aconquija 2287		Yerba Buena	si	auto								
+	Almacenes	Finca		3816727214	Solano Vera 1035		Yerba Buena	si	auto								
+	Librerías	Copy House 		3813563267	Lobo de la Vega 100		Yerba Buena	si	auto								
+	Verdulerías	Gonzalo Bringas		3815719973	Barrio Alto Verde		Yerba Buena	si	auto								
+	Comidas	Los Moros	4253434	3816312560	Lobo de la Vega 60		Yerba Buena	si	auto								
+	Almacenes	El Mercadito	4258334	3815427510	Solano Vera 761		Yerba Buena	si	auto								
+	Bebidas	Liquor Store 	6993777	3816993777	Lobo de la Vega 650		Yerba Buena	si	auto								
+	Indumentaria & Zapatería	3er Tiempo	5115744	3815115744	San Martín 9		Yerba Buena	si	auto								
+	Servicios	Ruiz - Seguros Automoviles	5470025	3815470025	Av. Aconquija 1832	Oficina 11	Yerba Buena	si	auto								
+	Jugueterías	Coti Mayorista	4503673	3815618315	Thames 62		San Miguel de Tucumán	si	auto								
+	Jugueterías	Coti Store	4843267	3815614913	24 de Setiembre 352		San Miguel de Tucumán	si	auto								

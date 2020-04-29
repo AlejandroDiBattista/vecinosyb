@@ -36,7 +36,7 @@
 					<article v-for="comercio in rubro.comercios">
 						<h3>{{comercio.nombre}}</h3>
 						<address v-for="sucursal in comercio.sucursales">
-							{{sucursal.domicilio}}
+							{{sucursal.direccion}}
 							<i v-if="sucursal.local">{{sucursal.local}}</i>
 							<div>
 								<abbr title="Phone">
@@ -69,17 +69,18 @@
 	</footer>
 
 	<script type="text/javascript">
-		function agrupar(comercios){
+
+		function agruparPorRubros(comercios){
 			let rubros = [];
 			comercios.forEach( item => {
 				rubro = rubros[rubros.length - 1];
 				if(!rubro || rubro.id !== item.id ){
-					rubro = {id: item.id, rubro: item.rubro, comercios: []}
+					rubro = { id: item.id, rubro: item.rubro, comercios: [] }
 					rubros.push(rubro);
 				}
 				comercio = rubro.comercios[rubro.comercios.length-1];
 				if(!comercio || comercio.nombre !== item.comercio){
-					comercio = {nombre: item.nombre, sucursales: []};
+					comercio = { nombre: item.comercio, sucursales: [] };
 					rubro.comercios.push(comercio);
 				}
 				comercio.sucursales.push(item);
@@ -89,23 +90,23 @@
 
 		var app = new Vue({
 			el: '#app',
+			
 			data: { 
 				rubros: {},
-				comecios: {},
+				comercios: {},
 			},
+
 			created: function () {
 				fetch('lista.json').then((response) => {
 					return response.json().then((json) => {
 						this.comercios = json;
-						this.rubros = agrupar(this.comercios);
-						console.log(this.comercios);
+						this.rubros = agruparPorRubros(this.comercios);
+						console.log(this.rubros);
 					})
 				})
 			}
 		})
-
 	</script>
-
 </body>
 
 </html>
