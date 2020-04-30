@@ -105,20 +105,20 @@
 				fetch('lista.json').then((response) => {
 					return response.json().then((json) => {
 						this.origen = json;
-						// this.rubros = agruparPorRubros(this.origen);
+						this.rubros = agruparPorRubros(this.origen);
 
-						const options = { 
-							includeScore: 0, 
-							keys: ['comercio'],
-						}
+						// const options = { 
+						// 	includeScore: 0, 
+						// 	keys: ['comercio'],
+						// }
 
-						let fuse = new Fuse(this.origen, options);
-						this.comercios = fuse.search("solano vera");
-						this.comercios = this.comercios.map(x => x.item).sort( x => x.rubro);
+						// let fuse = new Fuse(this.origen, options);
+						// this.comercios = fuse.search("solano vera");
+						// this.comercios = this.comercios.map(x => x.item).sort( x => x.rubro);
 
-						console.log("Comercios...");
-						this.rubros = agruparPorRubros( this.comercios );
-						console.log(this.rubros);
+						// console.log("Comercios...");
+						// this.rubros = agruparPorRubros( this.comercios );
+						// console.log(this.rubros);
 					})
 				})
 			}
