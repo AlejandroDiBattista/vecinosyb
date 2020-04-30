@@ -36,7 +36,7 @@
 					<article v-for="comercio in rubro.comercios">
 						<h3>{{comercio.nombre}}</h3>
 						<address v-for="sucursal in comercio.sucursales">
-							{{sucursal.direccion}}
+							{{sucursal.domicilio}}
 							<i v-if="sucursal.local">{{sucursal.local}}</i>
 							<div>
 								<abbr title="Phone">

@@ -18,7 +18,7 @@ title: RVC YB
 		  			<article>
 			 			<h3>{{ comercio.items.first.comercio }}</h3>
 			 			{% for sucursal in comercio.items %}
-			 				<address>{{ sucursal.direccion }} <i>{{ sucursal.local }}</i></address>
+			 				<address>{{ sucursal.domicilio }} <i>{{ sucursal.local }}</i></address>
 			 				<abbr title="Phone">
 							{% if sucursal.telefono != "" %}
 								<a class="telefono" href="{{ sucursal.call }}">{{ sucursal.telefono }}</a>

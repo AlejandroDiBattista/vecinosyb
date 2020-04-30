@@ -107,7 +107,7 @@ def listar_comercios(datos)
 			id: 		rubro_id(dato.rubro),
 			rubro: 		dato.rubro,
 			comercio: 	dato.nombre, 
-			direccion: 	dato.direccion, 
+			domicilio: 	dato.direccion, 
 			local: 		dato.local,
 		 	telefono:  	dato.telefono.tel,
 		 	whatsapp:  	dato.whatsapp.tel,
@@ -195,6 +195,7 @@ if analizar(datos)
 
 	open("docs/_data/comercios.json","w+"){|f| 	f.write(JSON.pretty_generate(comercios))}
 	open("docs/_data/lista.json",	 "w+"){|f| 	f.write(JSON.pretty_generate(lista))	}
+	open("docs/lista.json",	 "w+"){|f| 	f.write(JSON.pretty_generate(lista))	}
 	open("docs/_data/rubros.json",	 "w+"){|f| 	f.write(JSON.pretty_generate(rubros))	}
 
 	whatsapp = generar_whatsapp(comercios, :corto)
@@ -203,4 +204,4 @@ if analizar(datos)
 	whatsapp = generar_whatsapp(comercios, :largo)
 	open("docs/_data/whatsapp_corto.txt","w+"){|f| f.write(whatsapp)}
 end	
-puts "Bien heho... :)"
+puts "Muy BIEN!! :)"
