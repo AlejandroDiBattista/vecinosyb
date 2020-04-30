@@ -218,9 +218,8 @@ main {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 8px;
-		&.section {
-			margin-bottom: 15px !important;
-		}
+		margin-bottom: 15px !important;
+		
 		article {
 			border-radius: 5px;
 			border: none;
