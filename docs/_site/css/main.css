@@ -42,9 +42,9 @@ footer a { padding: 0; }
 
 .row:after { content: ""; display: table; clear: both; }
 
-.telefono { background: url(../images/telefono-48.png) 0px 8px/16px 16px no-repeat; padding-left: 20px; }
+.telefono { background: url(../images/telefono.png) 0px 8px/16px 16px no-repeat; padding-left: 20px; }
 
-.whatsapp { background: url(../images/whatsapp-48.png) 0px 6px/16px 16px no-repeat; padding-left: 20px; }
+.whatsapp { background: url(../images/whatsapp.png) 0px 6px/16px 16px no-repeat; padding-left: 20px; }
 
 .row { display: grid; grid-template-columns: auto; grid-template-rows: auto auto; grid-gap: 8px; }
 
@@ -85,6 +85,10 @@ nav#categorias h5 { font-size: 28px; color: #ffffff; }
 nav#categorias a { color: #fff; width: auto; }
 
 nav#categorias a:hover { background: rgba(255, 255, 255, 0.1) !important; }
+
+nav .search-box { display: inline-block; position: relative; margin-right: 16px; cursor: text; }
+
+nav .search-box input { width: 10rem; height: 2rem; color: #4e6e8e; display: inline-block; border: 1px solid #cfd4db; border-radius: 2rem; font-size: .9rem; line-height: 2rem; padding: 0 .5rem 0 2rem; outline: none; transition: all .2s ease; background: #fff url(/images/search.svg) 8px 8px no-repeat; background-size: 1rem; }
 
 nav i { color: white; padding-left: 10px; font-size: 10px; font-weight: 100; }
 

@@ -10,6 +10,7 @@
 		rel="stylesheet" />
 	<link rel="stylesheet" href="/css/main.css" />
 	<script src="utils.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
 
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
@@ -53,8 +54,11 @@
 
 		<nav id="categorias">
 			<h5>Elegir categoría</h5>
-			<a v-for="(x) in rubros" :href="'#'+x[0]">
-				{{x[1]}}
+			<div class="search-box">
+				<input autocomplete="off" spellcheck="false" value="" class="" placeholder="">
+			</div>
+			<a v-for="rubro in rubros" :href="'#'+rubro.id">
+				{{rubro.rubro}}[{{rubro.comercios.length}}]
 			</a>
 			<br />
 			<a class="boton" href="/registrar.html">Registrar Comercio</a>
@@ -93,14 +97,27 @@
 			
 			data: { 
 				rubros: {},
+				origen: {},
 				comercios: {},
 			},
 
 			created: function () {
 				fetch('lista.json').then((response) => {
 					return response.json().then((json) => {
-						this.comercios = json;
-						this.rubros = agruparPorRubros(this.comercios);
+						this.origen = json;
+						// this.rubros = agruparPorRubros(this.origen);
+
+						const options = { 
+							includeScore: 0, 
+							keys: ['comercio'],
+						}
+
+						let fuse = new Fuse(this.origen, options);
+						this.comercios = fuse.search("solano vera");
+						this.comercios = this.comercios.map(x => x.item).sort( x => x.rubro);
+
+						console.log("Comercios...");
+						this.rubros = agruparPorRubros( this.comercios );
 						console.log(this.rubros);
 					})
 				})

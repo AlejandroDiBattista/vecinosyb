@@ -14,7 +14,7 @@ regresar: true
 		rel="stylesheet">
 	<link rel="stylesheet" href="/css/main.css">
 	<script src="utils.js"></script>
-
+	<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
 
 	{% include analitycs.html %}
 </head>
@@ -42,6 +42,39 @@ regresar: true
 			href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a>
 		por Concejal <b>Marcelo Rojas</b>
 	</footer>
+	<script>
+
+			function tag(name){ 
+				return document.getElementsByTagName(name)[0]; 
+			}
+
+			function set(e, propiedad, valor){
+				e.style.setProperty(propiedad, valor + "px");
+			}
+
+			function ir(name) {
+				var e = document.getElementById(name);
+				var h = tag('header').offsetHeight;
+
+			    window.scroll({ top: e.offsetTop - h - 8});
+			}
+
+			function acomodar(){
+				var s = document.getElementById('regreso');
+				var h = tag('header').offsetHeight;
+				var w = tag('header').offsetWidth;
+
+				set(s, 'top', h - 40 - 10);
+				set(s, 'left', w - 150 - 10);
+				set(s, 'width', 150);
+				set(s, 'height', 40);
+
+				set(tag('body'), 'margin-top', h);
+			}
+
+			acomodar();
+			ir("farmacias");
+		</script>
 </body>
 
 </html>
