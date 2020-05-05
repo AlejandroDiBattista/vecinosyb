@@ -362,19 +362,23 @@ id	rubro	nombre	telefono	whatsapp	direccion	local	localidad	enviar	estado	pago_e
 153	Verdulerías	Pedro Veglia verduras para Countries	361-1943				Yerba Buena	si					sofia		si		
 414	Almacenes	La Arbolada		4012019	Salas y Valdez 831		Yerba Buena	no	auto								
 415	Almacenes	La Arbolada		4012019	Salas y Valdez 831		Yerba Buena	no	auto								
-416	Comidas	Lizana	4024999	3814024292	Lamadrid 20 		Yerba Buena	si	auto								
-417	Librerías	Amautu Libros	5753702	3815753702	Florida 28		Yerba Buena	no	auto								
+416	Comidas	Lizana	4024999	4024292	Lamadrid 20 		Yerba Buena	si	auto								
+417	Librerías	Amautu Libros	5753702	5753702	Florida 28		Yerba Buena	no	auto								
 418	Bebidas	Destí de vi 		3563473	Av Mitre 230		San Miguel de Tucumán	si	auto								
-419	Indumentaria & Zapatería	Kavak Deportes	4252000	3815050399	Av. Aconquija 1460		Yerba Buena	si	auto								
-420	Servicios	D'Mayo Frenos y Embragues Auxilio Mecanico		3813622338	San Lorenzo 3212		San Miguel de Tucumán	si	auto								
-421	Indumentaria & Zapatería	Monono Indumentaria para bebes	3362374	3813362374	Av. Aconquija 2287		Yerba Buena	si	auto								
-422	Almacenes	Finca		3816727214	Solano Vera 1035		Yerba Buena	si	auto								
-423	Librerías	Copy House 		3813563267	Lobo de la Vega 100		Yerba Buena	si	auto								
-424	Verdulerías	Gonzalo Bringas		3815719973	Barrio Alto Verde		Yerba Buena	si	auto								
-425	Comidas	Los Moros	4253434	3816312560	Lobo de la Vega 60		Yerba Buena	si	auto								
-426	Almacenes	El Mercadito	4258334	3815427510	Solano Vera 761		Yerba Buena	si	auto								
-427	Bebidas	Liquor Store 	6993777	3816993777	Lobo de la Vega 650		Yerba Buena	si	auto								
-428	Indumentaria & Zapatería	3er Tiempo	5115744	3815115744	San Martín 9		Yerba Buena	si	auto								
-429	Servicios	Ruiz - Seguros Automoviles	5470025	3815470025	Av. Aconquija 1832	Oficina 11	Yerba Buena	si	auto								
-430	Jugueterías	Coti Mayorista	4503673	3815618315	Thames 62		San Miguel de Tucumán	si	auto								
-431	Jugueterías	Coti Store	4843267	3815614913	24 de Setiembre 352		San Miguel de Tucumán	si	auto								
+419	Indumentaria & Zapatería	Kavak Deportes	4252000	5050399	Av. Aconquija 1460		Yerba Buena	si	auto								
+420	Servicios	D'Mayo Frenos y Embragues Auxilio Mecanico		3622338	San Lorenzo 3212		San Miguel de Tucumán	si	auto								
+421	Indumentaria & Zapatería	Monono Indumentaria para bebes	3362374	3362374	Av. Aconquija 2287		Yerba Buena	si	auto								
+422	Almacenes	Finca		6727214	Solano Vera 1035		Yerba Buena	si	auto								
+423	Librerías	Copy House 		3563267	Lobo de la Vega 100		Yerba Buena	si	auto								
+424	Verdulerías	Gonzalo Bringas		5719973	Barrio Alto Verde		Yerba Buena	si	auto								
+425	Comidas	Los Moros	4253434	6312560	Lobo de la Vega 60		Yerba Buena	si	auto								
+426	Almacenes	El Mercadito	4258334	5427510	Solano Vera 761		Yerba Buena	si	auto								
+427	Bebidas	Liquor Store 	6993777	6993777	Lobo de la Vega 650		Yerba Buena	si	auto								
+428	Indumentaria & Zapatería	3er Tiempo	5115744	5115744	San Martín 9		Yerba Buena	si	auto								
+429	Servicios	Ruiz - Seguros Automoviles	5470025	5470025	Av. Aconquija 1832	Oficina 11	Yerba Buena	si	auto								
+430	Jugueterías	Coti Mayorista	4503673	5618315	Thames 62		San Miguel de Tucumán	si	auto								
+431	Jugueterías	Coti Store	4843267	5614913	24 de Setiembre 352		San Miguel de Tucumán	si	auto								
+	Almacenes	Rincón Lácteo		4429559	Darwin 820 y Catamarca												
+	Otro rubro	Cortinas Roller		6476969	yerba buena												
+	Comidas	B&B Gastronimía		5727846	Paraguay 408												
+	Servicios	Lavado Express		3504713	yerba buena												
