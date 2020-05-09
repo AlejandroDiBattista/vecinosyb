@@ -378,7 +378,7 @@ id	rubro	nombre	telefono	whatsapp	direccion	local	localidad	enviar	estado	pago_e
 429	Servicios	Ruiz - Seguros Automoviles	5470025	5470025	Av. Aconquija 1832	Oficina 11	Yerba Buena	si	auto								
 430	Jugueterías	Coti Mayorista	4503673	5618315	Thames 62		San Miguel de Tucumán	si	auto								
 431	Jugueterías	Coti Store	4843267	5614913	24 de Setiembre 352		San Miguel de Tucumán	si	auto								
-	Almacenes	Rincón Lácteo		4429559	Darwin 820 y Catamarca												
-	Otro rubro	Cortinas Roller		6476969	yerba buena												
-	Comidas	B&B Gastronimía		5727846	Paraguay 408												
-	Servicios	Lavado Express		3504713	yerba buena												
+432	Almacenes	Rincón Lácteo		4429559	Darwin 820 y Catamarca		Yerba Buena	si	auto								
+433	Otro rubro	Cortinas Roller		6476969			sin	si	auto								
+434	Comidas	B&B Gastronimía		5727846	Paraguay 408		Yerba Buena	si	auto								
+435	Servicios	Lavado Express		3504713	yerba buena		Yerba Buena	si	auto								
