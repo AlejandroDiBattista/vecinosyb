@@ -165,7 +165,7 @@ def generar_whatsapp(comercios, modo, formato=false)
 				for sucursal in comercio.sucursales
 					salida << " 🤳 #{sucursal.whatsapp.wa}"	if sucursal.whatsapp.size  > 0 
 					salida << " ☎️ #{sucursal.telefono}" 	if sucursal.telefono.size  > 0 
-					salida << " 📍 #{sucursal.domicilio.m}" 	if sucursal.domicilio.size > 0 
+					salida << " 📍 #{sucursal.domicilio.m}"  if sucursal.domicilio.size > 0 
 					salida << ""
 				end
 			end
