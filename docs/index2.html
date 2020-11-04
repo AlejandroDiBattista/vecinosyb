@@ -68,8 +68,8 @@
 
 	<footer>
 		<a
-			href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">Creado</a>
-		por Concejal <b>Marcelo Rojas</b>
+			href="https://docs.google.com/spreadsheets/d/1pxDTInu54N0ortBnRpn8ACLfE2iNDJxBGIkd0BsAymg/edit?usp=sharing">
+			Creado</a> por Concejal <b>Marcelo Rojas</b>
 	</footer>
 
 	<script type="text/javascript">
@@ -104,7 +104,13 @@
 			created: function () {
 				fetch('lista.json').then((response) => {
 					return response.json().then((json) => {
-						this.origen = json;
+						filtrado = [];
+						json.forEach( item => {
+							if(item.nombre.includes("a")){
+								filtrado.push(item);
+							}
+						});
+						this.origen = filtrado;
 						this.rubros = agruparPorRubros(this.origen);
 
 						// const options = { 
