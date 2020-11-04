@@ -106,7 +106,7 @@
 					return response.json().then((json) => {
 						filtrado = [];
 						json.forEach( item => {
-							if(item.nombre.includes("a")){
+							if(item.comercio.includes("a")){
 								filtrado.push(item);
 							}
 						});
