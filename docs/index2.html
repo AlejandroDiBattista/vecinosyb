@@ -58,7 +58,7 @@
 				<input autocomplete="off" spellcheck="false" value="" class="" placeholder="">
 			</div>
 			<a v-for="rubro in rubros" :href="'#'+rubro.id">
-				{{rubro.rubro}}[{{rubro.comercios.length}}]
+				{{rubro.rubro}} ({{rubro.comercios.length}})
 			</a>
 			<br />
 			<a class="boton" href="/registrar.html">Registrar Comercio</a>
