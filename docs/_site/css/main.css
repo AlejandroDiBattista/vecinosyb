@@ -36,7 +36,7 @@ main section article abbr a { padding: 4px 8px; color: #009070; }
 
 main section article abbr a:hover { color: #009070; }
 
-footer { text-align: center; margin-top: 5px; background: #fff; padding: 5px; }
+footer { text-align: center; margin-top: 5px; background: red; padding: 5px; }
 
 footer a { padding: 0; }
 
