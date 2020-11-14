@@ -24,7 +24,7 @@ header > a { position: absolute; top: 90px; right: 6px; display: none; }
 
 main h2 { padding-top: 8px; font-weight: 600; }
 
-main a, main a:hover { color: #0ff; }
+main a, main a:hover { color: #fff; }
 
 main section article { border-radius: 6px; border: 0.5px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); padding: 8px 8px 16px 8px; min-height: 120px; }
 
@@ -36,7 +36,7 @@ main section article abbr a { padding: 4px 8px; color: #009070; }
 
 main section article abbr a:hover { color: #009070; }
 
-footer { text-align: center; margin-top: 5px; background: #fff; padding: 5px; }
+footer { text-align: center; margin-top: 5px; background: red; padding: 5px; }
 
 footer a { padding: 0; }
 
