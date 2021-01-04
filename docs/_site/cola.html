@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cola de espera</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand');
+
+        html,
+        body {
+            height: 100vh;
+            box-sizing: border-box;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        * {
+            margin: 0px;
+        }
+
+        .centrar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        section {
+            min-height: calc(100vh - 8px);
+            padding: 4px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cancelar {
+            text-align: right;
+            padding: 4px;
+            min-height: 16px;
+            color: darkgrey;
+            font-size: 24px;
+        }
+
+        .titulo {
+            text-align: center;
+            height: 40px;
+            font-size: 24px;
+        }
+
+        .cantidad {
+            font-size: 180px;
+            text-align: center;
+            flex: 4;
+            color: #1ea5fc;
+        }
+
+        .info {
+            text-align: center;
+            /* margin-bottom: 20px; */
+            flex: 1;
+            color: #1ea5fc;
+        }
+
+        .ajustar {
+            text-align: center;
+            margin: 20px 0;
+            color: #1e538f;
+        }
+
+        .grande {
+            font-size: 20px;
+        }
+
+        .chico {
+            font-size: 10px;
+            position: absolute;
+            right: 20px;
+        }
+
+        footer button {
+            min-width: 100%;
+            height: 50px;
+            font-size: 24px;
+            font-weight: 100;
+            border: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <section v-if="configurando">
+            <div class="cancelar" @click="reset"><i class="fas fa-times-circle"></i></div>
+
+            <div class="titulo centrar">¿Cuantas personas hay?</div>
+
+            <div class="cantidad centrar">{{cantidad}}</div>
+
+            <div class="ajustar centrar">
+                <a class="grande" @click="incrementar">
+                    <span class="fa-stack fa-2x">
+                        <i class="far fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-plus fa-stack-1x"></i>
+                    </span>
+                </a>
+                <a class="chico" @click="decrementar">
+                    <span class="fa-stack fa-2x">
+                        <i class="far fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-minus fa-stack-1x"></i>
+                    </span>
+                </a>
+            </div>
+
+            <footer>
+                <button class="accion" @click="comenzar">Comenzar</button>
+            </footer>
+        </section>
+
+        <section v-else="configurando">
+            <div class="cancelar" @click="reset"><i class="fas fa-times-circle"></i></div>
+
+            <div class="titulo centrar">¿Cuantas personas hay?</div>
+
+            <div class="cantidad centrar">{{actual}}</div>
+
+            <div class="info">
+                <div>falta {{inicio}} minutos</div>
+                <div>tiempo transcurrido 5 minutos</div>
+            </div>
+
+            <div class="ajustar centrar">
+                <a class="grande" @click="decrementar">
+                    <span class="fa-stack fa-2x">
+                        <i class="far fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-minus fa-stack-1x"></i>
+                    </span>
+                </a>
+                <a class="chico" @click="incrementar">
+                    <span class="fa-stack fa-2x">
+                        <i class="far fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-plus fa-stack-1x"></i>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <script module>
+        const app = Vue.createApp({
+            data: () => ({
+                titulo: '¿Cuantas personas hay?',
+                cantidad: 15,
+                configurando: true,
+                inicio: null,
+                actual: 0,
+            }),
+
+            methods: {
+                reset() {
+                    this.cantidad = 1;
+                    this.configurando = true
+                },
+                
+                cambiar(paso) {
+                    if(this.configurando){
+                        this.cantidad = Math.max(1, Math.min(99, this.cantidad + paso));
+                    } else {
+                        this.actual = Math.max(0, Math.min(this.cantidad - 1, this.actual + paso));
+                    }
+                },
+                
+                incrementar() {
+                    this.cambiar(+ 1);
+                },
+
+                decrementar() {
+                    this.cambiar( - 1);
+                },
+
+                comenzar(){
+                    if(this.cantidad > 1){
+                        this.configurando = false;
+                        this.actual = this.cantidad;
+                        this.inicio = new Date();
+                    }
+                }
+            }
+
+        });
+        const vm = app.mount('#app');
+        vm.incrementar();
+        // app.component('Contador', {
+        //     name: 'contador',
+        //     props: ['cantidad'],
+        //     template: `
+        //         <button class="button is-info" @click="incrementar">
+        //             +{{contador}}
+        //         </button>!
+        //     `,
+        //     setup() {
+        //         let contador = 0;
+
+        //         function incrementar() {
+        //             contador.value = contador + 1;
+        //             console.log("Incrementado");
+        //         }
+
+        //         return { contador, incrementar }
+        //     }
+        // });
+        // vm.incrementar();
+    </script>
+</body>
+
+</html>
