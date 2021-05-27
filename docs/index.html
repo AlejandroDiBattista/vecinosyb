@@ -16,7 +16,7 @@ title: RVC YB
 		  		{% assign comercios = rubro.items | group_by: 'comercio' %} 
 		  		{% for comercio in comercios %}
 		  			<article>
-			 			<h3>Comercio{{ comercio.items.first.comercio }}</h3>
+			 			<h3>{{ comercio.items.first.comercio }}</h3>
 			 			{% for sucursal in comercio.items %}
 			 				<address>{{ sucursal.domicilio }} <i>{{ sucursal.local }}</i></address>
 			 				<abbr title="Phone">
